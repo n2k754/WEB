@@ -25,7 +25,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 
 AUTH_URL = "https://www.etsy.com/oauth/connect"
 TOKEN_URL = "https://api.etsy.com/v3/public/oauth/token"
-REDIRECT_URI = "http://localhost:3003/callback"
+REDIRECT_URI = os.environ.get("ETSY_REDIRECT_URI", "https://localhost:3003/callback")
 SCOPES = "transactions_r transactions_w"
 TOKEN_FILE = "etsy_tokens.json"
 
@@ -90,10 +90,8 @@ class EtsyAuth:
         return _save(new, self.path)["access_token"]
 
 
-def authorize(client_id: str, path: str = TOKEN_FILE) -> None:
-    verifier, challenge = make_pkce()
-    state = secrets.token_urlsafe(16)
-    url = build_auth_url(client_id, state, challenge)
+def _wait_local_callback(url: str) -> dict:
+    """Variante http://localhost : un mini serveur reçoit le code."""
     got: dict = {}
 
     class Handler(BaseHTTPRequestHandler):
@@ -105,17 +103,32 @@ def authorize(client_id: str, path: str = TOKEN_FILE) -> None:
             self.end_headers()
             self.wfile.write("Autorisation reçue. Tu peux fermer cet onglet.".encode())
 
-        def log_message(self, *a):  # silence
+        def log_message(self, *a):
             pass
 
-    port = urllib.parse.urlparse(REDIRECT_URI).port
-    server = HTTPServer(("127.0.0.1", port), Handler)
-    print("Ouvre cette adresse si le navigateur ne s'ouvre pas seul :\n", url)
+    server = HTTPServer(("127.0.0.1", urllib.parse.urlparse(REDIRECT_URI).port), Handler)
     webbrowser.open(url)
     while "code" not in got and "error" not in got:
         server.handle_request()
-    if got.get("error") or got.get("state") != state:
-        raise SystemExit(f"autorisation refusée ou état invalide: {got}")
+    return got
+
+
+def authorize(client_id: str, path: str = TOKEN_FILE) -> None:
+    verifier, challenge = make_pkce()
+    state = secrets.token_urlsafe(16)
+    url = build_auth_url(client_id, state, challenge)
+    got: dict = {}
+    print("1) Ouvre cette adresse, connecte-toi à Etsy et clique sur « Autoriser » :\n", url)
+    if REDIRECT_URI.startswith("https"):
+        webbrowser.open(url)
+        print("\n2) Le navigateur affichera une erreur (normal). Copie l'adresse COMPLÈTE de la barre d'adresse.")
+        pasted = input("3) Colle-la ici puis Entrée : ").strip()
+        qs = urllib.parse.parse_qs(urllib.parse.urlparse(pasted).query)
+        got.update({k: v[0] for k, v in qs.items()})
+    else:
+        got.update(_wait_local_callback(url))
+    if got.get("error") or "code" not in got or got.get("state") != state:
+        raise SystemExit(f"autorisation refusée, adresse incomplète ou état invalide: {sorted(got)}")
     tokens = _post_token({
         "grant_type": "authorization_code",
         "client_id": client_id,

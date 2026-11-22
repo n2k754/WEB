@@ -23,7 +23,7 @@ class OAuthTest(unittest.TestCase):
         self.assertEqual(q["redirect_uri"], [REDIRECT_URI])
         self.assertEqual(q["code_challenge_method"], ["S256"])
         self.assertEqual(q["client_id"], ["KEY"])
-        self.assertEqual(REDIRECT_URI, "http://localhost:3003/callback")
+        self.assertEqual(REDIRECT_URI, "https://localhost:3003/callback")
 
 
 if __name__ == "__main__":
