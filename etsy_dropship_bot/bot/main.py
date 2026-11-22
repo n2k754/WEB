@@ -13,6 +13,7 @@ import time
 
 from .aliexpress_client import DryRunAliExpress, OfficialAliExpress, QueueAliExpress
 from .etsy_client import EtsyClient
+from .oauth import EtsyAuth
 from .processor import process_receipts
 from .store import Store
 
@@ -31,9 +32,9 @@ def main() -> None:
     args = p.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(name)s %(message)s")
 
-    etsy = EtsyClient(
-        os.environ["ETSY_API_KEY"], os.environ["ETSY_ACCESS_TOKEN"], os.environ["ETSY_SHOP_ID"]
-    )
+    api_key = os.environ["ETSY_API_KEY"]
+    token = os.environ.get("ETSY_ACCESS_TOKEN") or EtsyAuth(api_key.split(":")[0]).access_token
+    etsy = EtsyClient(api_key, token, os.environ["ETSY_SHOP_ID"])
     if args.mode == "live":
         ali = OfficialAliExpress(
             os.environ["ALI_APP_KEY"], os.environ["ALI_APP_SECRET"], os.environ["ALI_ACCESS_TOKEN"]

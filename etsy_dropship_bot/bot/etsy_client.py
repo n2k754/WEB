@@ -14,9 +14,10 @@ API = "https://openapi.etsy.com/v3/application"
 
 
 class EtsyClient:
-    def __init__(self, api_key: str, access_token: str, shop_id: str):
+    def __init__(self, api_key: str, access_token, shop_id: str):
+        """access_token : une chaîne, ou une fonction qui renvoie un jeton valide."""
         self.api_key = api_key
-        self.access_token = access_token
+        self._token = access_token if callable(access_token) else (lambda: access_token)
         self.shop_id = shop_id
 
     def _get(self, path: str, params: dict) -> dict:
@@ -25,7 +26,7 @@ class EtsyClient:
             url,
             headers={
                 "x-api-key": self.api_key,
-                "Authorization": f"Bearer {self.access_token}",
+                "Authorization": f"Bearer {self._token()}",
             },
         )
         with urllib.request.urlopen(req, timeout=30) as resp:
@@ -46,7 +47,7 @@ class EtsyClient:
             method="POST",
             headers={
                 "x-api-key": self.api_key,
-                "Authorization": f"Bearer {self.access_token}",
+                "Authorization": f"Bearer {self._token()}",
                 "Content-Type": "application/x-www-form-urlencoded",
             },
         )

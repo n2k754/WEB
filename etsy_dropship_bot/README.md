@@ -19,6 +19,9 @@ en `needs_manual` au lieu d'être deviné.
   `FALLBACK_PHONE` est utilisé. À valider avec les exigences des transporteurs.
 
 ## Utilisation
+Étape 0 (une seule fois) : déclare `http://localhost:3003/callback` comme URL de rappel dans ton app Etsy,
+puis `export ETSY_API_KEY=<keystring>` et `python -m bot.oauth` (jetons dans `etsy_tokens.json`, renouvelés
+automatiquement ; `ETSY_ACCESS_TOKEN` devient inutile). Non testé contre un vrai compte Etsy.
 ```
 cp mapping.example.json mapping.json   # remplis tes listings
 export ETSY_API_KEY=... ETSY_ACCESS_TOKEN=... ETSY_SHOP_ID=... FALLBACK_PHONE=...

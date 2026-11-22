@@ -2,3 +2,4 @@ orders.db
 mapping.json
 __pycache__/
 pending_orders.jsonl
+etsy_tokens.json
