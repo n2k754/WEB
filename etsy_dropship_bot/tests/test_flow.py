@@ -51,6 +51,20 @@ class FlowTest(unittest.TestCase):
         self.assertEqual(len(ali.sent), 1)
         self.assertEqual(stats["skipped"], 1)
 
+    def test_queue_mode_writes_file(self):
+        import json
+        import tempfile
+
+        from bot.aliexpress_client import QueueAliExpress
+
+        with tempfile.TemporaryDirectory() as d:
+            path = os.path.join(d, "pending.jsonl")
+            store = Store(":memory:")
+            process_receipts(FakeEtsyClient([receipt()]), QueueAliExpress(path), store, MAPPING, "x")
+            rows = [json.loads(l) for l in open(path, encoding="utf-8")]
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["shipping_address"]["zip"], "69003")
+
     def test_unmapped_listing_goes_manual(self):
         stats, ali, store = self.run_flow([receipt(listing=999)])
         self.assertEqual(stats["manual"], 1)

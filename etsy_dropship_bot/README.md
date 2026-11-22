@@ -22,9 +22,13 @@ en `needs_manual` au lieu d'être deviné.
 ```
 cp mapping.example.json mapping.json   # remplis tes listings
 export ETSY_API_KEY=... ETSY_ACCESS_TOKEN=... ETSY_SHOP_ID=... FALLBACK_PHONE=...
-python -m bot.main --once              # simulation (par défaut)
-python -m bot.main --live              # réel : exige OfficialAliExpress implémenté
+python -m bot.main --once                 # simulation (par défaut), rien n'est envoyé
+python -m bot.main --mode queue           # écrit pending_orders.jsonl : tu passes la commande toi-même
+python -m bot.main --mode live            # réel : exige OfficialAliExpress implémenté
+python -m bot.track RECEIPT_ID CODE CARRIER   # renvoie le suivi à Etsy (portée transactions_w)
 ```
+Note : d'après la doc Etsy consultée, `x-api-key` peut devoir contenir `keystring:secret`
+(clé et secret partagé séparés par `:`). Vérifie sur developers.etsy.com.
 
 ## Risques à garder en tête
 - La politique d'Etsy interdit la revente d'articles non fabriqués/conçus par toi :

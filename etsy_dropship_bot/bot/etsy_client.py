@@ -31,6 +31,28 @@ class EtsyClient:
         with urllib.request.urlopen(req, timeout=30) as resp:
             return json.load(resp)
 
+    def add_tracking(self, receipt_id, tracking_code: str, carrier_name: str) -> dict:
+        """POST /shops/{shop_id}/receipts/{receipt_id}/tracking (createReceiptShipment).
+
+        Marque la commande comme expédiée. Portée OAuth requise : transactions_w.
+        carrier_name : un transporteur de la liste Etsy, sinon "other".
+        """
+        body = urllib.parse.urlencode(
+            {"tracking_code": tracking_code, "carrier_name": carrier_name}
+        ).encode()
+        req = urllib.request.Request(
+            f"{API}/shops/{self.shop_id}/receipts/{receipt_id}/tracking",
+            data=body,
+            method="POST",
+            headers={
+                "x-api-key": self.api_key,
+                "Authorization": f"Bearer {self.access_token}",
+                "Content-Type": "application/x-www-form-urlencoded",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return json.load(resp)
+
     def list_paid_unshipped_receipts(self, limit: int = 25) -> list[dict]:
         data = self._get(
             f"/shops/{self.shop_id}/receipts",
