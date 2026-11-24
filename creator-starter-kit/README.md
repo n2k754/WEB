@@ -94,7 +94,7 @@ If you change *what* a package contains, also adjust the `tiers` in `scripts/bui
 ## 4b. Selling through Gumroad (alternative to Stripe)
 
 1. On Gumroad, create three products (Starter / Creator Pro / Ultimate) with the **same prices** as `src/config/pricing.ts`.
-2. Generate the files to upload: `npm run resources:build` (only if you edited content) then `npm run resources:zip` → `exports/creator-starter-kit-starter.zip`, `-pro.zip`, `-ultimate.zip`. Upload each ZIP as the product file in Gumroad.
+2. Generate the files to upload: `npm run resources:build` (only if you edited content) then `npm run resources:zip` → `gumroad-upload/creator-starter-kit-starter.zip`, `-pro.zip`, `-ultimate.zip`. Upload each ZIP as the product file in Gumroad.
 3. Paste the three product URLs (e.g. `https://yourname.gumroad.com/l/starter-kit`) into `GUMROAD_LINKS` in `src/config/pricing.ts`, or set `NEXT_PUBLIC_GUMROAD_STARTER_URL`, `_PRO_URL`, `_ULTIMATE_URL`. Rebuild.
 4. All "Get …" buttons now open Gumroad; the home page, FAQ and legal texts switch to the Gumroad wording automatically. Gumroad takes the payment and emails the files, so Stripe, the webhook and `DOWNLOAD_SIGNING_SECRET` are **not needed**.
 5. In Gumroad, add your refund policy and make the product description match the contents listed here. Check Gumroad's current fees and tax handling yourself.
