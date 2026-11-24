@@ -1,0 +1,179 @@
+#1 [Business ideas] Idea generator from your skills
+Use when you don't know what to create.
+
+Act as a practical business coach for beginners. I have these skills: [LIST YOUR SKILLS]. My interests are: [LIST INTERESTS]. I can spend about [HOURS PER WEEK] hours per week and my budget is [BUDGET]. Suggest 10 small digital product ideas I could create (templates, guides, checklists, mini-courses). For each idea give: the target audience, the problem it solves, a possible format, and the main risk. Do not promise income. Finish by recommending the two ideas that look easiest to test.
+
+Tip: Paste your own real skills for better results.
+
+------------------------------------------------------------
+
+#2 [Business ideas] Idea validation checklist
+Use before spending time creating a product.
+
+I want to create this digital product: [DESCRIBE PRODUCT]. The target audience is [AUDIENCE]. Act as a critical but supportive advisor. Identify the assumptions I am making, list 5 low-cost ways to test demand this week (without paid ads), and give me 8 questions to ask 5 potential customers. Highlight any red flags honestly.
+
+Tip: Run the tests before building the full product.
+
+------------------------------------------------------------
+
+#3 [Business ideas] Niche and angle finder
+Use when your niche feels crowded.
+
+My broad topic is [TOPIC]. Give me 10 more specific angles by combining a narrower audience, a specific problem and a unique format. For each angle write a one-sentence positioning statement in this format: 'I help [audience] to [result] through [format].' Then tell me which angle seems most differentiated and why.
+
+Tip: Pick the angle you can talk about for months.
+
+------------------------------------------------------------
+
+#4 [Branding] Brand voice builder
+Use to define how your brand sounds.
+
+I am building a brand called [BRAND NAME] for [AUDIENCE]. My values are [3 VALUES]. Describe a brand voice using 4 adjectives, with 'we are / we are not' examples. Then rewrite these three sentences in that voice: [PASTE 3 SENTENCES]. Finally create a short voice guide I can reuse (max 150 words).
+
+Tip: Keep the final guide in your Notion workspace.
+
+------------------------------------------------------------
+
+#5 [Branding] Brand name shortlist
+Use when naming a brand or product.
+
+Suggest 20 brand name ideas for [DESCRIBE BUSINESS] aimed at [AUDIENCE]. The tone should be [TONE]. Avoid names that are hard to spell, too similar to well-known companies, or that limit future growth. Group the names by style (descriptive, invented, metaphor) and add one sentence explaining each. Remind me to check trademarks and domain availability myself.
+
+Tip: Always verify availability and trademarks.
+
+------------------------------------------------------------
+
+#6 [Branding] Visual identity brief
+Use before designing logos, colours and fonts.
+
+Create a concise visual identity brief for [BRAND NAME], a brand for [AUDIENCE] with a [TONE] personality. Suggest: a colour palette with hex codes and when to use each colour, two font pairings available in Canva, image style guidelines, and 5 do/don't rules. Explain the reasoning in plain language.
+
+Tip: Test the palette on a real post before committing.
+
+------------------------------------------------------------
+
+#7 [Social media] 30-day content plan
+Use to plan a month of posts.
+
+Create a 30-day content plan for a [TYPE OF CREATOR] who helps [AUDIENCE] with [TOPIC]. Use 4 content pillars: [PILLARS]. Post [NUMBER] times per week on [PLATFORMS]. Present it as a table with columns: Day, Pillar, Format, Topic, Hook, Call to action. Make sure about 20% of posts are personal/story-based and 10% mention an offer.
+
+Tip: Move the table into your Notion content calendar.
+
+------------------------------------------------------------
+
+#8 [Social media] Hook writer
+Use when your videos lose viewers early.
+
+Write 15 opening hooks for short videos about [TOPIC] for [AUDIENCE]. Use five styles: question, bold claim, mini-story, mistake, and myth-busting (3 hooks each). Keep each under 14 words and avoid exaggeration or false promises.
+
+Tip: Film 3 versions of the same video with different hooks.
+
+------------------------------------------------------------
+
+#9 [Social media] Caption and hashtag helper
+Use after you've drafted a post.
+
+Here is my draft post: [PASTE DRAFT]. Rewrite it as an Instagram caption that opens with a strong first line, uses short paragraphs and ends with one clear call to action. Then suggest 8 relevant hashtags (mix of broad and niche) and 3 alternative first lines.
+
+Tip: Read the caption aloud to make sure it sounds like you.
+
+------------------------------------------------------------
+
+#10 [Social media] Repurposing engine
+Use to get more from one idea.
+
+Take this idea: [IDEA]. Repurpose it into: a 30-second video script, a 6-slide carousel outline, three story ideas, one caption, and a short email paragraph. Keep the same core message but adapt the format and tone for each platform.
+
+Tip: Batch-create all formats in one session.
+
+------------------------------------------------------------
+
+#11 [Product creation] Product outline builder
+Use when starting your first product.
+
+I want to create a [FORMAT] for [AUDIENCE] that helps them [RESULT]. Create a clear outline with sections, estimated length, and what the reader will be able to do after each section. Suggest what should be free preview vs. paid content. Keep the scope small enough to finish in [NUMBER] days.
+
+Tip: Cut scope until you can finish it.
+
+------------------------------------------------------------
+
+#12 [Product creation] Checklist and worksheet designer
+Use to add practical value to a guide.
+
+Turn this topic into a practical worksheet: [TOPIC]. Provide: a short intro, 8-12 checklist items in logical order, 5 reflection questions, and a 'next step' box. Use simple language suitable for beginners.
+
+Tip: Design the final version in Canva or Notion.
+
+------------------------------------------------------------
+
+#13 [Product creation] Product description writer
+Use when preparing a sales page.
+
+Write a product description for [PRODUCT NAME]: [WHAT IT IS]. Include: a headline stating the outcome, a short problem paragraph, a clear list of exactly what's included, who it is for and not for, and a plain-language note about what the product does not do. Do not exaggerate results or invent testimonials.
+
+Tip: Check every claim matches your real product.
+
+------------------------------------------------------------
+
+#14 [Marketing] Launch week plan
+Use to plan a small launch.
+
+Create a 7-day launch plan for [PRODUCT] aimed at [AUDIENCE] with no paid advertising. Include for each day: content to publish, platform, message, call to action and one task to prepare. Include a pre-launch teaser phase and a reflection day at the end.
+
+Tip: Schedule the content ahead of time.
+
+------------------------------------------------------------
+
+#15 [Marketing] Email sequence starter
+Use for a simple welcome or launch email series.
+
+Write a 3-email sequence for people who joined my list for [LEAD MAGNET]. Email 1: welcome and quick win. Email 2: share a helpful lesson and a story. Email 3: introduce [PRODUCT] honestly with who it's for. Keep each under 180 words and use a friendly, [TONE] voice. Include subject lines and preview text.
+
+Tip: Make sure you include an unsubscribe link when sending.
+
+------------------------------------------------------------
+
+#16 [Marketing] Objection handler
+Use to improve your sales page FAQ.
+
+List the 10 most likely objections a customer might have before buying [PRODUCT] at [PRICE]. For each, write an honest, respectful answer that doesn't pressure the buyer and clearly states limitations. Suggest where each answer should appear on the sales page.
+
+Tip: Use real customer questions as soon as you have them.
+
+------------------------------------------------------------
+
+#17 [Marketing] Weekly performance review
+Use every week to learn from your content.
+
+Here are my results for this week: [PASTE METRICS: views, saves, shares, clicks, sales]. Act as an analyst. Identify what worked, what didn't, and three hypotheses explaining why. Suggest three experiments for next week. Remind me not to draw conclusions from very small numbers.
+
+Tip: Record insights in your performance tracker.
+
+------------------------------------------------------------
+
+#18 [Customer support] Friendly support reply
+Use to answer customer questions quickly.
+
+Write a clear, kind customer support reply. Context: [PRODUCT DESCRIPTION]. Customer message: [PASTE MESSAGE]. Policies to respect: [PASTE RELEVANT POLICY]. The reply should acknowledge the issue, give practical steps, and invite further questions. Do not make promises I haven't authorised.
+
+Tip: Always check the reply against your real policies.
+
+------------------------------------------------------------
+
+#19 [Customer support] Refund request response
+Use for polite, policy-based replies.
+
+Draft a professional reply to a customer asking for a refund. My refund policy states: [PASTE POLICY]. Customer message: [PASTE MESSAGE]. Be empathetic, explain the policy simply, and state what I can do next. Provide two versions: one if the request is eligible and one if it's not.
+
+Tip: Never contradict your published policy.
+
+------------------------------------------------------------
+
+#20 [Customer support] Support FAQ builder
+Use when you receive repeated questions.
+
+Here are customer questions I've received: [PASTE QUESTIONS]. Group them into themes, write concise answers for each, and suggest where to publish them (FAQ page, delivery email, product guide). Highlight any questions that reveal confusion in my product or website.
+
+Tip: Update your FAQ monthly.
+
+------------------------------------------------------------

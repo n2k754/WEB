@@ -1,0 +1,482 @@
+[
+ {
+  "id": 1,
+  "category": "Finding ideas",
+  "title": "Idea to product in 60 seconds",
+  "audience": "Beginners who feel stuck choosing an idea",
+  "concept": "Show how you filter a raw idea through three quick questions before spending any time on it.",
+  "hook": "I almost wasted a month on a product nobody wanted. Here are the 3 questions that saved me.",
+  "structure": [
+   "Hook on camera (0-3s)",
+   "Question 1: Who exactly is this for? (3-20s)",
+   "Question 2: What problem does it solve? (20-38s)",
+   "Question 3: Would they pay for it today? (38-52s)",
+   "Wrap-up and invitation (52-60s)"
+  ],
+  "cta": "Comment the idea you're testing and I'll tell you which question it fails."
+ },
+ {
+  "id": 2,
+  "category": "Finding ideas",
+  "title": "The 10-minute idea sprint",
+  "audience": "Aspiring creators with no idea yet",
+  "concept": "Do a live timed brainstorm: set a 10-minute timer and write ideas from your own skills, frustrations and experience.",
+  "hook": "Set a timer. In 10 minutes you will have more product ideas than most people find in a month.",
+  "structure": [
+   "Show the timer and a blank page",
+   "Prompt 1: What do people ask you for help with?",
+   "Prompt 2: What did you have to learn the hard way?",
+   "Prompt 3: What do you wish existed?",
+   "Circle the top 2 and reveal your pick"
+  ],
+  "cta": "Save this and run your own sprint tonight."
+ },
+ {
+  "id": 3,
+  "category": "Finding ideas",
+  "title": "Stop copying, start combining",
+  "audience": "Creators who feel their niche is saturated",
+  "concept": "Explain that originality is usually a combination: audience + format + angle.",
+  "hook": "Your niche isn't too crowded. You're just using the same angle as everyone else.",
+  "structure": [
+   "Name a crowded niche (e.g. productivity)",
+   "Show the usual angle",
+   "Add a specific audience (e.g. nurses)",
+   "Add a unique format (e.g. 5-minute checklists)",
+   "Show the combined result"
+  ],
+  "cta": "Drop your niche + audience combo below."
+ },
+ {
+  "id": 4,
+  "category": "Audience",
+  "title": "Who is it actually for?",
+  "audience": "New business owners",
+  "concept": "Walk through writing a one-sentence target audience statement.",
+  "hook": "If your answer to 'who is this for?' is 'everyone', this video is for you.",
+  "structure": [
+   "Show the vague answer",
+   "Add a situation (who, when)",
+   "Add a struggle",
+   "Add a desired outcome",
+   "Read the final sentence aloud"
+  ],
+  "cta": "Write your sentence in the comments and I'll help tighten it."
+ },
+ {
+  "id": 5,
+  "category": "Audience",
+  "title": "Three places to find your first customers",
+  "audience": "Beginners with no audience",
+  "concept": "Show three free places to listen to your future audience: comments, forums and communities.",
+  "hook": "You don't need followers to learn what your customers want. You need these 3 places.",
+  "structure": [
+   "Hook",
+   "Place 1: Comment sections of bigger creators",
+   "Place 2: Forums and communities",
+   "Place 3: Search suggestions",
+   "Write down their exact words"
+  ],
+  "cta": "Follow for part 2: how to turn their words into your offer."
+ },
+ {
+  "id": 6,
+  "category": "Audience",
+  "title": "The comment goldmine",
+  "audience": "Creators who struggle to find content topics",
+  "concept": "Screen-record yourself scanning comments and turning them into video topics.",
+  "hook": "Every comment section is a free content calendar. Watch this.",
+  "structure": [
+   "Open a popular video in your niche",
+   "Highlight 3 repeated questions",
+   "Turn each into a video title",
+   "Show the finished list",
+   "Tell viewers to try it today"
+  ],
+  "cta": "Comment 'LIST' and I'll share my question-to-title formula."
+ },
+ {
+  "id": 7,
+  "category": "Research",
+  "title": "Competitor research in 15 minutes",
+  "audience": "Aspiring entrepreneurs",
+  "concept": "Demonstrate a quick competitor review: offer, price, promise and gaps.",
+  "hook": "Competitors aren't a threat. They're free market research. Here's how I study them.",
+  "structure": [
+   "Pick 3 competitors",
+   "Note what they sell and for how much",
+   "Note what customers praise",
+   "Note what customers complain about",
+   "Circle the gap you can fill"
+  ],
+  "cta": "Save this checklist before your next product idea."
+ },
+ {
+  "id": 8,
+  "category": "Research",
+  "title": "What customers complain about",
+  "audience": "Digital product beginners",
+  "concept": "Show how reading 3-star reviews reveals product opportunities.",
+  "hook": "The best product ideas are hiding in 3-star reviews.",
+  "structure": [
+   "Open a review page",
+   "Scroll to the 3-star reviews",
+   "Highlight repeated complaints",
+   "Translate each into a product feature",
+   "Show the new product promise"
+  ],
+  "cta": "Which product would you improve? Tell me below."
+ },
+ {
+  "id": 9,
+  "category": "Research",
+  "title": "Price check: how to choose a starter price",
+  "audience": "First-time sellers",
+  "concept": "Explain a simple method: compare to alternatives, time saved and perceived value.",
+  "hook": "Pricing your first product isn't guesswork. Use this 3-step check.",
+  "structure": [
+   "Hook",
+   "Step 1: What do alternatives cost?",
+   "Step 2: How much time does it save?",
+   "Step 3: What feels fair for a beginner?",
+   "Pick a price and commit to testing it"
+  ],
+  "cta": "Share your price range and I'll tell you what I'd test."
+ },
+ {
+  "id": 10,
+  "category": "Creating",
+  "title": "Build your first product in a weekend",
+  "audience": "Beginners afraid of big projects",
+  "concept": "Outline a realistic weekend plan for a small digital product.",
+  "hook": "You can make a small digital product this weekend. Not a perfect one. A useful one.",
+  "structure": [
+   "Friday: choose one problem",
+   "Saturday morning: outline in 5 sections",
+   "Saturday afternoon: write or design",
+   "Sunday: polish, test, upload",
+   "Show the finished checklist"
+  ],
+  "cta": "Start tonight and tell me what you're making."
+ },
+ {
+  "id": 11,
+  "category": "Creating",
+  "title": "The one-page PDF trick",
+  "audience": "Creators who want a lead magnet",
+  "concept": "Show how to turn one piece of advice into a useful one-page PDF.",
+  "hook": "Your first digital product can be one page long.",
+  "structure": [
+   "Hook",
+   "Pick one specific problem",
+   "List 5 steps that solve it",
+   "Design it in a free tool",
+   "Export and share"
+  ],
+  "cta": "Comment 'PAGE' for my one-page layout idea."
+ },
+ {
+  "id": 12,
+  "category": "Creating",
+  "title": "Test your product before finishing it",
+  "audience": "Beginners who procrastinate",
+  "concept": "Show how to share a draft with 3 people and collect useful feedback.",
+  "hook": "Don't finish your product. Test it first.",
+  "structure": [
+   "Hook",
+   "Share a rough draft with 3 people",
+   "Ask: what's confusing? what's missing?",
+   "Show how you apply feedback",
+   "Publish the improved version"
+  ],
+  "cta": "Want my 3 feedback questions? Follow and comment 'FEEDBACK'."
+ },
+ {
+  "id": 13,
+  "category": "Branding",
+  "title": "Brand in 3 choices",
+  "audience": "New brand owners",
+  "concept": "Explain the three decisions that make a brand feel professional: colours, fonts and tone.",
+  "hook": "You don't need a designer. You need three decisions.",
+  "structure": [
+   "Pick two colours and a neutral",
+   "Pick one heading and one body font",
+   "Write 3 words that describe your voice",
+   "Show a before and after",
+   "Apply it everywhere"
+  ],
+  "cta": "Show me your brand colours below."
+ },
+ {
+  "id": 14,
+  "category": "Branding",
+  "title": "Fix amateur-looking posts",
+  "audience": "Creators with inconsistent visuals",
+  "concept": "Show a messy post, then fix spacing, hierarchy and contrast.",
+  "hook": "This post looks amateur. Three small fixes make it look pro.",
+  "structure": [
+   "Show the messy post",
+   "Fix 1: bigger headline, fewer words",
+   "Fix 2: more space around elements",
+   "Fix 3: stronger contrast",
+   "Reveal the final version"
+  ],
+  "cta": "Send me a post you'd like me to fix."
+ },
+ {
+  "id": 15,
+  "category": "Branding",
+  "title": "Name your brand without panic",
+  "audience": "Beginners choosing a name",
+  "concept": "Give a quick naming process: keywords, feelings and a short list test.",
+  "hook": "Choosing a brand name took me hours. This method takes 10 minutes.",
+  "structure": [
+   "Write 10 keywords",
+   "Write 5 feelings you want",
+   "Combine into 10 options",
+   "Say each out loud",
+   "Check availability and keep the best two"
+  ],
+  "cta": "Which of these would you pick? Comment your favourite."
+ },
+ {
+  "id": 16,
+  "category": "Sales page",
+  "title": "Your sales page in five blocks",
+  "audience": "Creators launching a first product",
+  "concept": "Break a sales page into headline, problem, solution, proof/inclusions and call to action.",
+  "hook": "A sales page only needs five blocks. Here they are.",
+  "structure": [
+   "Headline: the outcome",
+   "Problem: what's frustrating",
+   "Solution: what you offer",
+   "What's inside: exact contents",
+   "Call to action: one next step"
+  ],
+  "cta": "Save this and use it for your own page."
+ },
+ {
+  "id": 17,
+  "category": "Sales page",
+  "title": "Words that make buyers hesitate",
+  "audience": "Copy beginners",
+  "concept": "Show common vague phrases and replace them with specific statements.",
+  "hook": "If your sales page says 'amazing quality', fix this first.",
+  "structure": [
+   "Show a vague sentence",
+   "Explain why it creates doubt",
+   "Replace with a specific benefit",
+   "Do it again with a second sentence",
+   "Give a replacement formula"
+  ],
+  "cta": "Drop a sentence and I'll rewrite it."
+ },
+ {
+  "id": 18,
+  "category": "Sales page",
+  "title": "Honest FAQs build trust",
+  "audience": "Sellers worried about objections",
+  "concept": "Explain that answering real objections increases confidence.",
+  "hook": "The most trustworthy thing on your sales page is an honest FAQ.",
+  "structure": [
+   "List common doubts",
+   "Answer clearly, including limits",
+   "Show what you include and exclude",
+   "Link to refund and delivery info",
+   "Encourage questions"
+  ],
+  "cta": "Which question would stop you from buying? Tell me."
+ },
+ {
+  "id": 19,
+  "category": "Marketing",
+  "title": "Hooks that stop the scroll",
+  "audience": "New TikTok creators",
+  "concept": "Present three hook styles: question, bold claim and mini-story.",
+  "hook": "You have two seconds. Here are three hooks that earn them.",
+  "structure": [
+   "Show a weak opening",
+   "Hook style 1: a question",
+   "Hook style 2: a bold claim",
+   "Hook style 3: a mini-story",
+   "Rewrite the weak opening with one of them"
+  ],
+  "cta": "Comment which hook you'll try first."
+ },
+ {
+  "id": 20,
+  "category": "Marketing",
+  "title": "Repurpose one idea five ways",
+  "audience": "Creators short on time",
+  "concept": "Show one idea turned into a video, carousel, story, caption and email.",
+  "hook": "One idea. Five posts. Zero burnout.",
+  "structure": [
+   "Pick one idea",
+   "Turn it into a short video",
+   "Turn it into a carousel",
+   "Turn it into stories and a caption",
+   "Add a short email or note"
+  ],
+  "cta": "Which format will you try first?"
+ },
+ {
+  "id": 21,
+  "category": "Marketing",
+  "title": "The simple weekly content plan",
+  "audience": "Overwhelmed beginners",
+  "concept": "Show a basic weekly rhythm: 3 educational, 1 personal, 1 offer post.",
+  "hook": "Posting every day isn't the plan. This is.",
+  "structure": [
+   "Show an empty calendar",
+   "Add 3 educational posts",
+   "Add 1 personal post",
+   "Add 1 offer post",
+   "Batch the creation"
+  ],
+  "cta": "Want the planner? Look at the link in my bio."
+ },
+ {
+  "id": 22,
+  "category": "Marketing",
+  "title": "Post → profile → product",
+  "audience": "Creators with views but no sales",
+  "concept": "Explain the journey from video to profile to offer and how to make each step clear.",
+  "hook": "Lots of views but no sales? Check these three steps.",
+  "structure": [
+   "Does the video promise one thing?",
+   "Does the profile explain who you help?",
+   "Is the link easy to find?",
+   "Does the page match the video?",
+   "Fix the weakest step first"
+  ],
+  "cta": "Tell me which step is weakest for you."
+ },
+ {
+  "id": 23,
+  "category": "Marketing",
+  "title": "A bio that converts",
+  "audience": "Creators with unclear profiles",
+  "concept": "Rewrite a vague bio into: who you help + result + next step.",
+  "hook": "Your bio has about 3 seconds to explain why someone should follow.",
+  "structure": [
+   "Show a vague bio",
+   "State who you help",
+   "State the result",
+   "Add one call to action",
+   "Show the final version"
+  ],
+  "cta": "Paste your bio below and I'll improve it."
+ },
+ {
+  "id": 24,
+  "category": "Marketing",
+  "title": "What I track every week",
+  "audience": "Beginners worried about analytics",
+  "concept": "Show 4 simple metrics: views, saves, shares and link clicks.",
+  "hook": "Ignore most analytics. Track these four numbers.",
+  "structure": [
+   "Hook",
+   "Metric 1: average view duration",
+   "Metric 2: saves",
+   "Metric 3: shares",
+   "Metric 4: link clicks"
+  ],
+  "cta": "Save this and check them every Sunday."
+ },
+ {
+  "id": 25,
+  "category": "Finances",
+  "title": "Money basics for creators",
+  "audience": "First-time digital sellers",
+  "concept": "Introduce revenue vs profit and why tracking costs matters.",
+  "hook": "Revenue isn't what you keep. This simple example shows why.",
+  "structure": [
+   "Show a sale of €20",
+   "Subtract payment fees",
+   "Subtract tools and software",
+   "Show profit",
+   "Explain why to track it monthly"
+  ],
+  "cta": "Want a simple money tracker? Comment 'TRACK'."
+ },
+ {
+  "id": 26,
+  "category": "Finances",
+  "title": "Set aside money for taxes",
+  "audience": "Beginner entrepreneurs",
+  "concept": "Remind viewers that income may be taxable and that they should check local rules.",
+  "hook": "Selling online? Don't forget this boring but important step.",
+  "structure": [
+   "Hook",
+   "Income is usually taxable",
+   "Rules differ by country",
+   "Set aside a portion of each sale",
+   "Talk to a qualified accountant"
+  ],
+  "cta": "Follow for more money basics. This is general information, not tax advice."
+ },
+ {
+  "id": 27,
+  "category": "Planning",
+  "title": "My first 30-day plan",
+  "audience": "Ambitious beginners",
+  "concept": "Outline a realistic 30-day plan: week 1 idea, week 2 build, week 3 launch, week 4 learn.",
+  "hook": "If I were starting from zero, here's my exact 30-day plan.",
+  "structure": [
+   "Week 1: choose and validate",
+   "Week 2: create",
+   "Week 3: launch softly",
+   "Week 4: review and improve",
+   "Set expectations honestly"
+  ],
+  "cta": "Comment 'PLAN' to get the weekly checklist."
+ },
+ {
+  "id": 28,
+  "category": "Planning",
+  "title": "Content batching Sunday",
+  "audience": "Busy creators",
+  "concept": "Show a one-hour batching session: ideas, scripts, filming and scheduling.",
+  "hook": "One hour on Sunday saves me five hours during the week.",
+  "structure": [
+   "Choose 5 topics",
+   "Write short scripts or bullet points",
+   "Film in the same location",
+   "Edit with simple tools",
+   "Schedule or save drafts"
+  ],
+  "cta": "Try this Sunday and report back."
+ },
+ {
+  "id": 29,
+  "category": "Planning",
+  "title": "Realistic expectations",
+  "audience": "Beginners comparing themselves to others",
+  "concept": "Honest video: growth takes time; focus on skills, consistency and feedback.",
+  "hook": "Nobody tells beginners this, so I will.",
+  "structure": [
+   "Share the truth: results vary",
+   "What you can control: posting, learning, improving",
+   "What you can't: algorithms and timing",
+   "What to measure instead",
+   "Encourage patience"
+  ],
+  "cta": "Share one thing you learned this week."
+ },
+ {
+  "id": 30,
+  "category": "Planning",
+  "title": "Your next 3 videos",
+  "audience": "Any creator",
+  "concept": "Close the series by helping viewers choose their next three videos from their own audience questions.",
+  "hook": "Stuck on what to post? Do this and you'll know your next three videos.",
+  "structure": [
+   "Open your last 10 comments or DMs",
+   "Pick 3 questions",
+   "Write a hook for each",
+   "Pick a format for each",
+   "Schedule them"
+  ],
+  "cta": "Comment your first hook and I'll give feedback."
+ }
+]

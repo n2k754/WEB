@@ -1,0 +1,1960 @@
+{
+  "generated": "2026-11-24T18:56:05.337Z",
+  "groups": [
+    {
+      "id": "start",
+      "label": "Start here",
+      "description": "Read me first and your licence.",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ]
+    },
+    {
+      "id": "templates",
+      "label": "Social media templates",
+      "description": "SVG designs, background layers, PNG previews, catalogue and Canva guide.",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ]
+    },
+    {
+      "id": "tiktok",
+      "label": "TikTok content ideas",
+      "description": "30 original short-form video ideas.",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ]
+    },
+    {
+      "id": "guide",
+      "label": "Digital business guide",
+      "description": "8 chapters to take you from idea to first sale.",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ]
+    },
+    {
+      "id": "notion",
+      "label": "Notion content dashboard",
+      "description": "Five importable databases and a setup guide.",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ]
+    },
+    {
+      "id": "prompts",
+      "label": "AI prompt collection",
+      "description": "20 ready-to-copy prompts.",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ]
+    },
+    {
+      "id": "brand",
+      "label": "Brand planning workbook",
+      "description": "A workbook to define and plan your brand.",
+      "tiers": [
+        "ultimate"
+      ]
+    },
+    {
+      "id": "bonus",
+      "label": "Bonus content planning guide",
+      "description": "A practical guide to planning and batching content.",
+      "tiers": [
+        "ultimate"
+      ]
+    }
+  ],
+  "folders": {
+    "start": "00-start-here",
+    "templates": "01-social-media-templates",
+    "tiktok": "02-tiktok-content-ideas",
+    "notion": "03-notion-dashboard",
+    "guide": "04-digital-business-guide",
+    "prompts": "05-ai-prompts",
+    "brand": "06-brand-planning",
+    "bonus": "07-bonus-content-planning"
+  },
+  "files": [
+    {
+      "path": "00-start-here/START-HERE.txt",
+      "title": "Start here",
+      "group": "start",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": true,
+      "bytes": 1356
+    },
+    {
+      "path": "00-start-here/LICENSE.txt",
+      "title": "Licence",
+      "group": "start",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": true,
+      "bytes": 1453
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-01.svg",
+      "title": "Bold Statement — Midnight (SVG)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1546
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-01-background.svg",
+      "title": "Bold Statement — Midnight (background)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 451
+    },
+    {
+      "path": "01-social-media-templates/png/csk-01.png",
+      "title": "Bold Statement — Midnight (PNG)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 74672
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-02.svg",
+      "title": "Bold Statement — Cream (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1530
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-02-background.svg",
+      "title": "Bold Statement — Cream (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 451
+    },
+    {
+      "path": "01-social-media-templates/png/csk-02.png",
+      "title": "Bold Statement — Cream (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 75843
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-03.svg",
+      "title": "Bold Statement — Violet (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1725
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-03-background.svg",
+      "title": "Bold Statement — Violet (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 642
+    },
+    {
+      "path": "01-social-media-templates/png/csk-03.png",
+      "title": "Bold Statement — Violet (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 544169
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-04.svg",
+      "title": "Numbered Checklist — Lilac (SVG)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 3274
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-04-background.svg",
+      "title": "Numbered Checklist — Lilac (background)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 947
+    },
+    {
+      "path": "01-social-media-templates/png/csk-04.png",
+      "title": "Numbered Checklist — Lilac (PNG)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 90268
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-05.svg",
+      "title": "Numbered Checklist — Midnight (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 2662
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-05-background.svg",
+      "title": "Numbered Checklist — Midnight (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 787
+    },
+    {
+      "path": "01-social-media-templates/png/csk-05.png",
+      "title": "Numbered Checklist — Midnight (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 71302
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-06.svg",
+      "title": "Big Number Tip — Cream (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1580
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-06-background.svg",
+      "title": "Big Number Tip — Cream (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 558
+    },
+    {
+      "path": "01-social-media-templates/png/csk-06.png",
+      "title": "Big Number Tip — Cream (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 51271
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-07.svg",
+      "title": "Big Number Tip — Forest (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1584
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-07-background.svg",
+      "title": "Big Number Tip — Forest (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 558
+    },
+    {
+      "path": "01-social-media-templates/png/csk-07.png",
+      "title": "Big Number Tip — Forest (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 62144
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-08.svg",
+      "title": "Split Panel — Blush (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 2033
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-08-background.svg",
+      "title": "Split Panel — Blush (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 707
+    },
+    {
+      "path": "01-social-media-templates/png/csk-08.png",
+      "title": "Split Panel — Blush (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 282763
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-09.svg",
+      "title": "Split Panel — Deep Ocean (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1988
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-09-background.svg",
+      "title": "Split Panel — Deep Ocean (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 707
+    },
+    {
+      "path": "01-social-media-templates/png/csk-09.png",
+      "title": "Split Panel — Deep Ocean (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 328576
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-10.svg",
+      "title": "Editorial Frame — Cream (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1643
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-10-background.svg",
+      "title": "Editorial Frame — Cream (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 728
+    },
+    {
+      "path": "01-social-media-templates/png/csk-10.png",
+      "title": "Editorial Frame — Cream (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 57911
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-11.svg",
+      "title": "Story Question — Midnight (SVG)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1952
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-11-background.svg",
+      "title": "Story Question — Midnight (background)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 671
+    },
+    {
+      "path": "01-social-media-templates/png/csk-11.png",
+      "title": "Story Question — Midnight (PNG)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 98349
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-12.svg",
+      "title": "Story Question — Violet (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 2021
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-12-background.svg",
+      "title": "Story Question — Violet (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 858
+    },
+    {
+      "path": "01-social-media-templates/png/csk-12.png",
+      "title": "Story Question — Violet (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 636517
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-13.svg",
+      "title": "Story Question — Sunset (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 2068
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-13-background.svg",
+      "title": "Story Question — Sunset (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 858
+    },
+    {
+      "path": "01-social-media-templates/png/csk-13.png",
+      "title": "Story Question — Sunset (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 450958
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-14.svg",
+      "title": "Story Statement — Cream (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1515
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-14-background.svg",
+      "title": "Story Statement — Cream (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 456
+    },
+    {
+      "path": "01-social-media-templates/png/csk-14.png",
+      "title": "Story Statement — Cream (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 71939
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-15.svg",
+      "title": "Story Statement — Deep Ocean (SVG)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1475
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-15-background.svg",
+      "title": "Story Statement — Deep Ocean (background)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 456
+    },
+    {
+      "path": "01-social-media-templates/png/csk-15.png",
+      "title": "Story Statement — Deep Ocean (PNG)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 75564
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-16.svg",
+      "title": "Story Quote — Lilac (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1384
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-16-background.svg",
+      "title": "Story Quote — Lilac (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 294
+    },
+    {
+      "path": "01-social-media-templates/png/csk-16.png",
+      "title": "Story Quote — Lilac (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 81452
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-17.svg",
+      "title": "Story Tip — Forest (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1589
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-17-background.svg",
+      "title": "Story Tip — Forest (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 558
+    },
+    {
+      "path": "01-social-media-templates/png/csk-17.png",
+      "title": "Story Tip — Forest (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 68113
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-18.svg",
+      "title": "Story Countdown — Midnight (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 2551
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-18-background.svg",
+      "title": "Story Countdown — Midnight (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 616
+    },
+    {
+      "path": "01-social-media-templates/png/csk-18.png",
+      "title": "Story Countdown — Midnight (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 73520
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-19.svg",
+      "title": "Story Checklist — Blush (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 2604
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-19-background.svg",
+      "title": "Story Checklist — Blush (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 776
+    },
+    {
+      "path": "01-social-media-templates/png/csk-19.png",
+      "title": "Story Checklist — Blush (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 71845
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-20.svg",
+      "title": "Story Split — Sunset (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 2119
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-20-background.svg",
+      "title": "Story Split — Sunset (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 885
+    },
+    {
+      "path": "01-social-media-templates/png/csk-20.png",
+      "title": "Story Split — Sunset (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 649045
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-21.svg",
+      "title": "Sale Badge — Midnight (SVG)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1819
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-21-background.svg",
+      "title": "Sale Badge — Midnight (background)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 671
+    },
+    {
+      "path": "01-social-media-templates/png/csk-21.png",
+      "title": "Sale Badge — Midnight (PNG)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 129981
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-22.svg",
+      "title": "Sale Badge — Sunset (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1988
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-22-background.svg",
+      "title": "Sale Badge — Sunset (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 849
+    },
+    {
+      "path": "01-social-media-templates/png/csk-22.png",
+      "title": "Sale Badge — Sunset (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 340231
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-23.svg",
+      "title": "Sale Badge — Violet (SVG)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 2009
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-23-background.svg",
+      "title": "Sale Badge — Violet (background)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 849
+    },
+    {
+      "path": "01-social-media-templates/png/csk-23.png",
+      "title": "Sale Badge — Violet (PNG)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 478093
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-24.svg",
+      "title": "Sale Badge — Blush (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1809
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-24-background.svg",
+      "title": "Sale Badge — Blush (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 671
+    },
+    {
+      "path": "01-social-media-templates/png/csk-24.png",
+      "title": "Sale Badge — Blush (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 119215
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-25.svg",
+      "title": "Promo Statement — Forest (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1436
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-25-background.svg",
+      "title": "Promo Statement — Forest (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 451
+    },
+    {
+      "path": "01-social-media-templates/png/csk-25.png",
+      "title": "Promo Statement — Forest (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 52827
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-26.svg",
+      "title": "Promo Statement — Monochrome (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1468
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-26-background.svg",
+      "title": "Promo Statement — Monochrome (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 453
+    },
+    {
+      "path": "01-social-media-templates/png/csk-26.png",
+      "title": "Promo Statement — Monochrome (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 57662
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-27.svg",
+      "title": "Promo Split — Lilac (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1921
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-27-background.svg",
+      "title": "Promo Split — Lilac (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 706
+    },
+    {
+      "path": "01-social-media-templates/png/csk-27.png",
+      "title": "Promo Split — Lilac (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 196368
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-28.svg",
+      "title": "Promo Reasons — Cream (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 2663
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-28-background.svg",
+      "title": "Promo Reasons — Cream (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 787
+    },
+    {
+      "path": "01-social-media-templates/png/csk-28.png",
+      "title": "Promo Reasons — Cream (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 71177
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-29.svg",
+      "title": "Launch Hero — Midnight (SVG)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 2407
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-29-background.svg",
+      "title": "Launch Hero — Midnight (background)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1150
+    },
+    {
+      "path": "01-social-media-templates/png/csk-29.png",
+      "title": "Launch Hero — Midnight (PNG)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 189670
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-30.svg",
+      "title": "Launch Hero — Violet (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 2573
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-30-background.svg",
+      "title": "Launch Hero — Violet (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1328
+    },
+    {
+      "path": "01-social-media-templates/png/csk-30.png",
+      "title": "Launch Hero — Violet (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 563541
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-31.svg",
+      "title": "Launch Hero — Cream (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 2405
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-31-background.svg",
+      "title": "Launch Hero — Cream (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1150
+    },
+    {
+      "path": "01-social-media-templates/png/csk-31.png",
+      "title": "Launch Hero — Cream (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 199898
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-32.svg",
+      "title": "Launch Hero — Deep Ocean (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 2394
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-32-background.svg",
+      "title": "Launch Hero — Deep Ocean (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1150
+    },
+    {
+      "path": "01-social-media-templates/png/csk-32.png",
+      "title": "Launch Hero — Deep Ocean (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 252123
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-33.svg",
+      "title": "Launch Countdown — Violet (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 2672
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-33-background.svg",
+      "title": "Launch Countdown — Violet (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 799
+    },
+    {
+      "path": "01-social-media-templates/png/csk-33.png",
+      "title": "Launch Countdown — Violet (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 445898
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-34.svg",
+      "title": "Launch Countdown — Forest (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 2479
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-34-background.svg",
+      "title": "Launch Countdown — Forest (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 608
+    },
+    {
+      "path": "01-social-media-templates/png/csk-34.png",
+      "title": "Launch Countdown — Forest (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 57984
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-35.svg",
+      "title": "Launch Teaser — Midnight (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1491
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-35-background.svg",
+      "title": "Launch Teaser — Midnight (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 451
+    },
+    {
+      "path": "01-social-media-templates/png/csk-35.png",
+      "title": "Launch Teaser — Midnight (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 67644
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-36.svg",
+      "title": "Launch Features — Lilac (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1932
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-36-background.svg",
+      "title": "Launch Features — Lilac (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 707
+    },
+    {
+      "path": "01-social-media-templates/png/csk-36.png",
+      "title": "Launch Features — Lilac (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 232752
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-37.svg",
+      "title": "Quote Card — Midnight (SVG)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1323
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-37-background.svg",
+      "title": "Quote Card — Midnight (background)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 293
+    },
+    {
+      "path": "01-social-media-templates/png/csk-37.png",
+      "title": "Quote Card — Midnight (PNG)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 59403
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-38.svg",
+      "title": "Quote Card — Cream (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1319
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-38-background.svg",
+      "title": "Quote Card — Cream (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 293
+    },
+    {
+      "path": "01-social-media-templates/png/csk-38.png",
+      "title": "Quote Card — Cream (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 58078
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-39.svg",
+      "title": "Quote Card — Lilac (SVG)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1321
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-39-background.svg",
+      "title": "Quote Card — Lilac (background)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 293
+    },
+    {
+      "path": "01-social-media-templates/png/csk-39.png",
+      "title": "Quote Card — Lilac (PNG)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 58979
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-40.svg",
+      "title": "Quote Card — Forest (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1357
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-40-background.svg",
+      "title": "Quote Card — Forest (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 293
+    },
+    {
+      "path": "01-social-media-templates/png/csk-40.png",
+      "title": "Quote Card — Forest (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 65167
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-41.svg",
+      "title": "Quote Card — Blush (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1366
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-41-background.svg",
+      "title": "Quote Card — Blush (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 293
+    },
+    {
+      "path": "01-social-media-templates/png/csk-41.png",
+      "title": "Quote Card — Blush (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 72454
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-42.svg",
+      "title": "Quote Editorial — Cream (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1615
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-42-background.svg",
+      "title": "Quote Editorial — Cream (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 721
+    },
+    {
+      "path": "01-social-media-templates/png/csk-42.png",
+      "title": "Quote Editorial — Cream (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 59124
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-43.svg",
+      "title": "Quote Editorial — Midnight (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1612
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-43-background.svg",
+      "title": "Quote Editorial — Midnight (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 721
+    },
+    {
+      "path": "01-social-media-templates/png/csk-43.png",
+      "title": "Quote Editorial — Midnight (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 51826
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-44.svg",
+      "title": "Quote Statement — Sunset (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1614
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-44-background.svg",
+      "title": "Quote Statement — Sunset (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 642
+    },
+    {
+      "path": "01-social-media-templates/png/csk-44.png",
+      "title": "Quote Statement — Sunset (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 291171
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-45.svg",
+      "title": "Announcement — Midnight (SVG)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 2826
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-45-background.svg",
+      "title": "Announcement — Midnight (background)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 603
+    },
+    {
+      "path": "01-social-media-templates/png/csk-45.png",
+      "title": "Announcement — Midnight (PNG)",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 88024
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-46.svg",
+      "title": "Announcement — Cream (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 2784
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-46-background.svg",
+      "title": "Announcement — Cream (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 603
+    },
+    {
+      "path": "01-social-media-templates/png/csk-46.png",
+      "title": "Announcement — Cream (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 79369
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-47.svg",
+      "title": "Announcement — Deep Ocean (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 2782
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-47-background.svg",
+      "title": "Announcement — Deep Ocean (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 603
+    },
+    {
+      "path": "01-social-media-templates/png/csk-47.png",
+      "title": "Announcement — Deep Ocean (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 84065
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-48.svg",
+      "title": "Announcement Frame — Blush (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1585
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-48-background.svg",
+      "title": "Announcement Frame — Blush (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 721
+    },
+    {
+      "path": "01-social-media-templates/png/csk-48.png",
+      "title": "Announcement Frame — Blush (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 50823
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-49.svg",
+      "title": "Announcement Statement — Forest (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 1522
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-49-background.svg",
+      "title": "Announcement Statement — Forest (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 453
+    },
+    {
+      "path": "01-social-media-templates/png/csk-49.png",
+      "title": "Announcement Statement — Forest (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 65701
+    },
+    {
+      "path": "01-social-media-templates/svg/csk-50.svg",
+      "title": "Announcement Split — Violet (SVG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 2147
+    },
+    {
+      "path": "01-social-media-templates/backgrounds/csk-50-background.svg",
+      "title": "Announcement Split — Violet (background)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 884
+    },
+    {
+      "path": "01-social-media-templates/png/csk-50.png",
+      "title": "Announcement Split — Violet (PNG)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": false,
+      "bytes": 465151
+    },
+    {
+      "path": "01-social-media-templates/Template-Catalogue-Starter.pdf",
+      "title": "Template catalogue (10 templates)",
+      "group": "templates",
+      "tiers": [
+        "starter"
+      ],
+      "listed": true,
+      "bytes": 366451
+    },
+    {
+      "path": "01-social-media-templates/Template-Catalogue.pdf",
+      "title": "Template catalogue (50 templates)",
+      "group": "templates",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": true,
+      "bytes": 877774
+    },
+    {
+      "path": "01-social-media-templates/How-to-use-the-templates-with-Canva.pdf",
+      "title": "How to use the templates with Canva",
+      "group": "templates",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": true,
+      "bytes": 142821
+    },
+    {
+      "path": "02-tiktok-content-ideas/30-TikTok-Content-Ideas.pdf",
+      "title": "30 TikTok content ideas (PDF)",
+      "group": "tiktok",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": true,
+      "bytes": 214653
+    },
+    {
+      "path": "03-notion-dashboard/Notion-Setup-Guide.pdf",
+      "title": "Notion setup guide (PDF)",
+      "group": "notion",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": true,
+      "bytes": 170003
+    },
+    {
+      "path": "03-notion-dashboard/Content-Calendar.csv",
+      "title": "Content Calendar (CSV)",
+      "group": "notion",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": true,
+      "bytes": 788
+    },
+    {
+      "path": "03-notion-dashboard/Idea-Database.csv",
+      "title": "Idea Database (CSV)",
+      "group": "notion",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": true,
+      "bytes": 509
+    },
+    {
+      "path": "03-notion-dashboard/Performance-Tracking.csv",
+      "title": "Performance Tracking (CSV)",
+      "group": "notion",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": true,
+      "bytes": 206
+    },
+    {
+      "path": "03-notion-dashboard/Published-Content-Tracker.csv",
+      "title": "Published Content Tracker (CSV)",
+      "group": "notion",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": true,
+      "bytes": 217
+    },
+    {
+      "path": "03-notion-dashboard/Weekly-Planning.csv",
+      "title": "Weekly Planning (CSV)",
+      "group": "notion",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": true,
+      "bytes": 198
+    },
+    {
+      "path": "04-digital-business-guide/Digital-Business-Guide.pdf",
+      "title": "Digital business guide (PDF)",
+      "group": "guide",
+      "tiers": [
+        "starter",
+        "pro",
+        "ultimate"
+      ],
+      "listed": true,
+      "bytes": 226623
+    },
+    {
+      "path": "05-ai-prompts/20-AI-Prompts.pdf",
+      "title": "20 AI prompts (PDF)",
+      "group": "prompts",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": true,
+      "bytes": 455452
+    },
+    {
+      "path": "05-ai-prompts/20-AI-Prompts.txt",
+      "title": "20 AI prompts (copy-paste text)",
+      "group": "prompts",
+      "tiers": [
+        "pro",
+        "ultimate"
+      ],
+      "listed": true,
+      "bytes": 9828
+    },
+    {
+      "path": "06-brand-planning/Brand-Planning-Workbook.pdf",
+      "title": "Brand planning workbook (PDF)",
+      "group": "brand",
+      "tiers": [
+        "ultimate"
+      ],
+      "listed": true,
+      "bytes": 139979
+    },
+    {
+      "path": "07-bonus-content-planning/Content-Planning-Guide.pdf",
+      "title": "Content planning guide (PDF)",
+      "group": "bonus",
+      "tiers": [
+        "ultimate"
+      ],
+      "listed": true,
+      "bytes": 149184
+    }
+  ]
+}

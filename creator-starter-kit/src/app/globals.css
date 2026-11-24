@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #09090f;
+  --violet: #8b5cf6;
+  --indigo: #6366f1;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; color-scheme: dark; }
+  body { @apply bg-ink text-white antialiased; font-feature-settings: "ss01", "cv11"; }
+  ::selection { background: rgba(139, 92, 246, 0.45); }
+  h1, h2, h3 { @apply tracking-tight; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { @apply outline-none ring-2 ring-violet-400 ring-offset-2 ring-offset-ink; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .glass { @apply rounded-3xl border border-white/10 bg-white/[0.04] shadow-card backdrop-blur-xl; }
+  .glass-hover { @apply transition duration-300 hover:-translate-y-1 hover:border-violet-400/40 hover:bg-white/[0.07]; }
+  .gradient-text { @apply bg-gradient-to-r from-violet-300 via-violet-400 to-indigo-400 bg-clip-text text-transparent; }
+  .eyebrow { @apply text-xs font-semibold uppercase tracking-[0.2em] text-violet-300; }
+  .input { @apply w-full rounded-xl border border-white/10 bg-white/[0.04] px-4 py-3 text-sm text-white placeholder:text-zinc-500 transition focus:border-violet-400/60 focus:outline-none focus:ring-2 focus:ring-violet-400/30; }
+  .prose-legal h3 { @apply mt-8 text-lg font-semibold text-white; }
+  .prose-legal p, .prose-legal li { @apply text-[15px] leading-7 text-zinc-300; }
+  .prose-legal ul { @apply my-3 list-disc space-y-1.5 pl-5; }
+  .prose-legal a { @apply text-violet-300 underline underline-offset-4 hover:text-violet-200; }
+}
+
+.grid-bg {
+  background-image: linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse 70% 55% at 50% 0%, #000 30%, transparent 75%);
+}
+.skeleton { position: relative; overflow: hidden; background: rgba(255,255,255,0.05); }
+.skeleton::after { content: ""; position: absolute; inset: 0; transform: translateX(-100%); background: linear-gradient(90deg, transparent, rgba(255,255,255,0.08), transparent); animation: shimmer 1.6s infinite; }

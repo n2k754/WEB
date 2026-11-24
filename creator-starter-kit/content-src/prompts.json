@@ -1,0 +1,162 @@
+[
+ {
+  "id": 1,
+  "category": "Business ideas",
+  "title": "Idea generator from your skills",
+  "useWhen": "Use when you don't know what to create.",
+  "prompt": "Act as a practical business coach for beginners. I have these skills: [LIST YOUR SKILLS]. My interests are: [LIST INTERESTS]. I can spend about [HOURS PER WEEK] hours per week and my budget is [BUDGET]. Suggest 10 small digital product ideas I could create (templates, guides, checklists, mini-courses). For each idea give: the target audience, the problem it solves, a possible format, and the main risk. Do not promise income. Finish by recommending the two ideas that look easiest to test.",
+  "tip": "Paste your own real skills for better results."
+ },
+ {
+  "id": 2,
+  "category": "Business ideas",
+  "title": "Idea validation checklist",
+  "useWhen": "Use before spending time creating a product.",
+  "prompt": "I want to create this digital product: [DESCRIBE PRODUCT]. The target audience is [AUDIENCE]. Act as a critical but supportive advisor. Identify the assumptions I am making, list 5 low-cost ways to test demand this week (without paid ads), and give me 8 questions to ask 5 potential customers. Highlight any red flags honestly.",
+  "tip": "Run the tests before building the full product."
+ },
+ {
+  "id": 3,
+  "category": "Business ideas",
+  "title": "Niche and angle finder",
+  "useWhen": "Use when your niche feels crowded.",
+  "prompt": "My broad topic is [TOPIC]. Give me 10 more specific angles by combining a narrower audience, a specific problem and a unique format. For each angle write a one-sentence positioning statement in this format: 'I help [audience] to [result] through [format].' Then tell me which angle seems most differentiated and why.",
+  "tip": "Pick the angle you can talk about for months."
+ },
+ {
+  "id": 4,
+  "category": "Branding",
+  "title": "Brand voice builder",
+  "useWhen": "Use to define how your brand sounds.",
+  "prompt": "I am building a brand called [BRAND NAME] for [AUDIENCE]. My values are [3 VALUES]. Describe a brand voice using 4 adjectives, with 'we are / we are not' examples. Then rewrite these three sentences in that voice: [PASTE 3 SENTENCES]. Finally create a short voice guide I can reuse (max 150 words).",
+  "tip": "Keep the final guide in your Notion workspace."
+ },
+ {
+  "id": 5,
+  "category": "Branding",
+  "title": "Brand name shortlist",
+  "useWhen": "Use when naming a brand or product.",
+  "prompt": "Suggest 20 brand name ideas for [DESCRIBE BUSINESS] aimed at [AUDIENCE]. The tone should be [TONE]. Avoid names that are hard to spell, too similar to well-known companies, or that limit future growth. Group the names by style (descriptive, invented, metaphor) and add one sentence explaining each. Remind me to check trademarks and domain availability myself.",
+  "tip": "Always verify availability and trademarks."
+ },
+ {
+  "id": 6,
+  "category": "Branding",
+  "title": "Visual identity brief",
+  "useWhen": "Use before designing logos, colours and fonts.",
+  "prompt": "Create a concise visual identity brief for [BRAND NAME], a brand for [AUDIENCE] with a [TONE] personality. Suggest: a colour palette with hex codes and when to use each colour, two font pairings available in Canva, image style guidelines, and 5 do/don't rules. Explain the reasoning in plain language.",
+  "tip": "Test the palette on a real post before committing."
+ },
+ {
+  "id": 7,
+  "category": "Social media",
+  "title": "30-day content plan",
+  "useWhen": "Use to plan a month of posts.",
+  "prompt": "Create a 30-day content plan for a [TYPE OF CREATOR] who helps [AUDIENCE] with [TOPIC]. Use 4 content pillars: [PILLARS]. Post [NUMBER] times per week on [PLATFORMS]. Present it as a table with columns: Day, Pillar, Format, Topic, Hook, Call to action. Make sure about 20% of posts are personal/story-based and 10% mention an offer.",
+  "tip": "Move the table into your Notion content calendar."
+ },
+ {
+  "id": 8,
+  "category": "Social media",
+  "title": "Hook writer",
+  "useWhen": "Use when your videos lose viewers early.",
+  "prompt": "Write 15 opening hooks for short videos about [TOPIC] for [AUDIENCE]. Use five styles: question, bold claim, mini-story, mistake, and myth-busting (3 hooks each). Keep each under 14 words and avoid exaggeration or false promises.",
+  "tip": "Film 3 versions of the same video with different hooks."
+ },
+ {
+  "id": 9,
+  "category": "Social media",
+  "title": "Caption and hashtag helper",
+  "useWhen": "Use after you've drafted a post.",
+  "prompt": "Here is my draft post: [PASTE DRAFT]. Rewrite it as an Instagram caption that opens with a strong first line, uses short paragraphs and ends with one clear call to action. Then suggest 8 relevant hashtags (mix of broad and niche) and 3 alternative first lines.",
+  "tip": "Read the caption aloud to make sure it sounds like you."
+ },
+ {
+  "id": 10,
+  "category": "Social media",
+  "title": "Repurposing engine",
+  "useWhen": "Use to get more from one idea.",
+  "prompt": "Take this idea: [IDEA]. Repurpose it into: a 30-second video script, a 6-slide carousel outline, three story ideas, one caption, and a short email paragraph. Keep the same core message but adapt the format and tone for each platform.",
+  "tip": "Batch-create all formats in one session."
+ },
+ {
+  "id": 11,
+  "category": "Product creation",
+  "title": "Product outline builder",
+  "useWhen": "Use when starting your first product.",
+  "prompt": "I want to create a [FORMAT] for [AUDIENCE] that helps them [RESULT]. Create a clear outline with sections, estimated length, and what the reader will be able to do after each section. Suggest what should be free preview vs. paid content. Keep the scope small enough to finish in [NUMBER] days.",
+  "tip": "Cut scope until you can finish it."
+ },
+ {
+  "id": 12,
+  "category": "Product creation",
+  "title": "Checklist and worksheet designer",
+  "useWhen": "Use to add practical value to a guide.",
+  "prompt": "Turn this topic into a practical worksheet: [TOPIC]. Provide: a short intro, 8-12 checklist items in logical order, 5 reflection questions, and a 'next step' box. Use simple language suitable for beginners.",
+  "tip": "Design the final version in Canva or Notion."
+ },
+ {
+  "id": 13,
+  "category": "Product creation",
+  "title": "Product description writer",
+  "useWhen": "Use when preparing a sales page.",
+  "prompt": "Write a product description for [PRODUCT NAME]: [WHAT IT IS]. Include: a headline stating the outcome, a short problem paragraph, a clear list of exactly what's included, who it is for and not for, and a plain-language note about what the product does not do. Do not exaggerate results or invent testimonials.",
+  "tip": "Check every claim matches your real product."
+ },
+ {
+  "id": 14,
+  "category": "Marketing",
+  "title": "Launch week plan",
+  "useWhen": "Use to plan a small launch.",
+  "prompt": "Create a 7-day launch plan for [PRODUCT] aimed at [AUDIENCE] with no paid advertising. Include for each day: content to publish, platform, message, call to action and one task to prepare. Include a pre-launch teaser phase and a reflection day at the end.",
+  "tip": "Schedule the content ahead of time."
+ },
+ {
+  "id": 15,
+  "category": "Marketing",
+  "title": "Email sequence starter",
+  "useWhen": "Use for a simple welcome or launch email series.",
+  "prompt": "Write a 3-email sequence for people who joined my list for [LEAD MAGNET]. Email 1: welcome and quick win. Email 2: share a helpful lesson and a story. Email 3: introduce [PRODUCT] honestly with who it's for. Keep each under 180 words and use a friendly, [TONE] voice. Include subject lines and preview text.",
+  "tip": "Make sure you include an unsubscribe link when sending."
+ },
+ {
+  "id": 16,
+  "category": "Marketing",
+  "title": "Objection handler",
+  "useWhen": "Use to improve your sales page FAQ.",
+  "prompt": "List the 10 most likely objections a customer might have before buying [PRODUCT] at [PRICE]. For each, write an honest, respectful answer that doesn't pressure the buyer and clearly states limitations. Suggest where each answer should appear on the sales page.",
+  "tip": "Use real customer questions as soon as you have them."
+ },
+ {
+  "id": 17,
+  "category": "Marketing",
+  "title": "Weekly performance review",
+  "useWhen": "Use every week to learn from your content.",
+  "prompt": "Here are my results for this week: [PASTE METRICS: views, saves, shares, clicks, sales]. Act as an analyst. Identify what worked, what didn't, and three hypotheses explaining why. Suggest three experiments for next week. Remind me not to draw conclusions from very small numbers.",
+  "tip": "Record insights in your performance tracker."
+ },
+ {
+  "id": 18,
+  "category": "Customer support",
+  "title": "Friendly support reply",
+  "useWhen": "Use to answer customer questions quickly.",
+  "prompt": "Write a clear, kind customer support reply. Context: [PRODUCT DESCRIPTION]. Customer message: [PASTE MESSAGE]. Policies to respect: [PASTE RELEVANT POLICY]. The reply should acknowledge the issue, give practical steps, and invite further questions. Do not make promises I haven't authorised.",
+  "tip": "Always check the reply against your real policies."
+ },
+ {
+  "id": 19,
+  "category": "Customer support",
+  "title": "Refund request response",
+  "useWhen": "Use for polite, policy-based replies.",
+  "prompt": "Draft a professional reply to a customer asking for a refund. My refund policy states: [PASTE POLICY]. Customer message: [PASTE MESSAGE]. Be empathetic, explain the policy simply, and state what I can do next. Provide two versions: one if the request is eligible and one if it's not.",
+  "tip": "Never contradict your published policy."
+ },
+ {
+  "id": 20,
+  "category": "Customer support",
+  "title": "Support FAQ builder",
+  "useWhen": "Use when you receive repeated questions.",
+  "prompt": "Here are customer questions I've received: [PASTE QUESTIONS]. Group them into themes, write concise answers for each, and suggest where to publish them (FAQ page, delivery email, product guide). Highlight any questions that reveal confusion in my product or website.",
+  "tip": "Update your FAQ monthly."
+ }
+]
