@@ -1,4 +1,31 @@
-# Fiches produit Gumroad (à copier-coller)
+# Lancement : UN seul produit à 14,99 €
+
+Fichier à uploader : `creator-starter-kit-ultimate.zip` (le kit complet, 166 fichiers).
+
+**Nom :** Creator Starter Kit — The Complete Creator Toolkit
+
+**Prix :** 14,99 € (EUR)
+
+**Description :**
+Everything you need to build your digital creator business.
+
+What's inside:
+• Digital business guide: 8 chapters (PDF)
+• 30 TikTok content ideas with hooks, structure and CTAs (PDF)
+• 50 original social media templates: Instagram posts, stories, promos, launches, quotes, announcements (SVG + PNG + background layers)
+• Notion content dashboard: 5 importable databases + setup guide
+• 20 AI prompts, ready to copy (PDF + TXT)
+• Brand planning workbook and bonus content planning guide (PDF)
+• Licence for use in your own business
+
+Instant download after payment. Digital product, nothing is shipped. Templates are original SVG/PNG files (not Canva share links); the Notion dashboard is CSV import files with a step-by-step guide. Results are not guaranteed.
+
+Étapes Gumroad : *Products → New product → Digital product* → nom + prix 14,99 € + description ci-dessus → onglet *Content* : uploader le ZIP → *Publish* → copiez le lien du produit.
+
+---
+
+# (Option plus tard) Les 3 packages séparés
+
 
 Pour chaque produit : Gumroad → *Products → New product → Digital product*, mettez le prix, collez la description, puis **uploadez le ZIP indiqué** dans l'onglet *Content*. Vos clients téléchargent ensuite directement depuis la page de reçu Gumroad.
 
