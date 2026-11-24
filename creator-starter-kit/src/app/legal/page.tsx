@@ -3,7 +3,7 @@ import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { AnimatedBackground } from "@/components/ui/AnimatedBackground";
 import { BUSINESS, BUSINESS_FIELDS, POLICY } from "@/config/business";
-import { TIERS, formatPrice } from "@/config/pricing";
+import { EXTERNAL_CHECKOUT, TIERS, formatPrice } from "@/config/pricing";
 import { ACCESS_DAYS, SITE } from "@/config/site";
 
 export const metadata: Metadata = {
@@ -57,6 +57,7 @@ export default function LegalPage() {
             <h3>2. Products and prices</h3>
             <p>We sell {SITE.name}, a digital toolkit available in three packages: {prices}. Prices are in euros and are shown before you pay. Applicable taxes, where due, are shown or included according to the checkout. The exact contents of each package are listed on the pricing cards and on the “What&apos;s included” page.</p>
             <h3>3. Ordering and payment</h3>
+            {EXTERNAL_CHECKOUT && <p><strong>Orders are placed and paid on Gumroad.</strong> Gumroad processes the payment and delivers the files, and its terms, privacy policy and refund rules also apply to your order. Where Gumroad acts as merchant of record, it is the seller of record for tax purposes.</p>}
             <p>You order by selecting a package and paying through our third-party payment provider. The contract is formed when payment is confirmed. We do not see or store your card details. Access is granted only after payment has been confirmed by the payment provider.</p>
             <h3>4. Licence</h3>
             <p>On purchase you receive a non-exclusive, non-transferable licence to use the files for your own personal or business purposes, including commercial use for your own content and for client work where clients only receive finished designs. You may not resell, share, redistribute or sublicense the files, in original or modified form, or share your private access link. The full licence text is included in every package.</p>
@@ -83,7 +84,7 @@ export default function LegalPage() {
               <li><strong>Technical data</strong> (such as IP address in server logs): to secure the site and prevent abuse. Legal basis: legitimate interest.</li>
             </ul>
             <h3>Processors and recipients</h3>
-            <p>Payments are processed by our payment provider (Stripe), which is responsible for card data. Contact and order emails may be sent through an email provider (Resend). The site is hosted by <Detail k="hosting" />. These providers may process data outside your country; where required, appropriate safeguards apply.</p>
+            <p>Payments are processed by our payment provider ({EXTERNAL_CHECKOUT ? "Gumroad" : "Stripe"}), which is responsible for card data and has its own privacy policy. Contact and order emails may be sent through an email provider (Resend). The site is hosted by <Detail k="hosting" />. These providers may process data outside your country; where required, appropriate safeguards apply.</p>
             <h3>Cookies</h3>
             <p>This site does not use advertising or analytics cookies. If that changes, we will ask for your consent first.</p>
             <h3>Retention</h3>
@@ -96,6 +97,7 @@ export default function LegalPage() {
             <h2 className="text-3xl font-semibold text-white">Digital product delivery</h2>
             <ul>
               <li>Delivery is digital only. Nothing is shipped.</li>
+              {EXTERNAL_CHECKOUT && <li>Files are delivered by Gumroad: right after payment you get a download page and an email with your link. Keep that email.</li>}
               <li>After your payment is confirmed you are redirected to your personal purchase page, where the files of your package become available. Access is never granted on the basis of a message shown in your browser: it is granted only when the payment provider confirms the payment.</li>
               <li>Bank-transfer or delayed payment methods, if offered, unlock your files once the payment has actually succeeded.</li>
               <li>Download links on the page are personal and expire after a short time (15 minutes by default). Reload the page to generate new ones.</li>

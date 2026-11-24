@@ -11,6 +11,7 @@
     "typecheck": "tsc --noEmit",
     "resources:build": "tsx scripts/build-resources.ts",
     "resources:check": "tsx scripts/check-resources.ts",
+    "resources:zip": "tsx scripts/export-zips.ts",
     "test": "tsx --test tests/*.test.ts",
     "check": "npm run typecheck && npm run resources:check && npm test"
   },

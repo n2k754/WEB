@@ -20,7 +20,20 @@ export interface Tier {
   features: string[];
   /** Rank used to decide which files a package unlocks */
   rank: number;
+  /** Set automatically from GUMROAD_LINKS. When present, the button opens this external checkout. */
+  checkoutUrl?: string;
 }
+
+/**
+ * PASTE YOUR GUMROAD PRODUCT LINKS HERE (e.g. "https://yourname.gumroad.com/l/starter-kit").
+ * Leave "" to keep the built-in Stripe checkout for that package.
+ * Alternative: set NEXT_PUBLIC_GUMROAD_STARTER_URL / _PRO_URL / _ULTIMATE_URL.
+ */
+export const GUMROAD_LINKS: Record<TierId, string> = {
+  starter: process.env.NEXT_PUBLIC_GUMROAD_STARTER_URL ?? "",
+  pro: process.env.NEXT_PUBLIC_GUMROAD_PRO_URL ?? "",
+  ultimate: process.env.NEXT_PUBLIC_GUMROAD_ULTIMATE_URL ?? "",
+};
 
 export const TIERS: Tier[] = [
   {
@@ -67,6 +80,14 @@ export const TIERS: Tier[] = [
     ],
   },
 ];
+
+for (const t of TIERS) {
+  const url = GUMROAD_LINKS[t.id].trim();
+  if (/^https:\/\//.test(url)) t.checkoutUrl = url;
+}
+
+/** True when every package is sold through an external checkout (Gumroad delivers the files). */
+export const EXTERNAL_CHECKOUT = TIERS.every((t) => !!t.checkoutUrl);
 
 export const CURRENCY_LOCALE = "en-IE";
 

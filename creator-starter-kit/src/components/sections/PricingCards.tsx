@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Check, Star } from "lucide-react";
 import { TIERS, formatPrice, type Tier } from "@/config/pricing";
-import { Button } from "@/components/ui/Button";
+import { Button, ButtonLink } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
 import { CheckoutDialog } from "./CheckoutDialog";
 import { cn } from "@/lib/cn";
@@ -28,9 +28,15 @@ export function PricingCards() {
                   </li>
                 ))}
               </ul>
-              <Button onClick={() => setSelected(t)} variant={t.recommended ? "primary" : "secondary"} size="lg" className="mt-9 w-full" arrow aria-label={`Get ${t.name} for ${formatPrice(t.priceCents, t.currency)}`}>
-                Get {t.name}
-              </Button>
+              {t.checkoutUrl ? (
+                <ButtonLink plain href={t.checkoutUrl} rel="noopener" variant={t.recommended ? "primary" : "secondary"} size="lg" className="mt-9 w-full" arrow aria-label={`Get ${t.name} for ${formatPrice(t.priceCents, t.currency)} (opens secure checkout)`}>
+                  Get {t.name}
+                </ButtonLink>
+              ) : (
+                <Button onClick={() => setSelected(t)} variant={t.recommended ? "primary" : "secondary"} size="lg" className="mt-9 w-full" arrow aria-label={`Get ${t.name} for ${formatPrice(t.priceCents, t.currency)}`}>
+                  Get {t.name}
+                </Button>
+              )}
             </article>
           </Reveal>
         ))}

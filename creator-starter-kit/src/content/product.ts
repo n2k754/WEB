@@ -1,4 +1,4 @@
-import type { TierId } from "@/config/pricing";
+import { EXTERNAL_CHECKOUT, type TierId } from "@/config/pricing";
 
 export interface ProductComponent {
   id: "templates" | "tiktok" | "notion" | "guide" | "prompts";
@@ -85,6 +85,6 @@ export const TRUST_ITEMS = [
 
 export const STEPS = [
   { title: "Choose your package", text: "Compare Starter, Creator Pro and Ultimate. Prices are shown in euros." },
-  { title: "Pay securely", text: "You're redirected to our payment provider's secure checkout. We never see your card details." },
-  { title: "Download your files", text: "Once payment is confirmed server-side, your personal page unlocks with expiring download links." },
+  { title: "Pay securely", text: EXTERNAL_CHECKOUT ? "You're taken to a secure Gumroad checkout. We never see your card details." : "You're redirected to our payment provider's secure checkout. We never see your card details." },
+  { title: "Download your files", text: EXTERNAL_CHECKOUT ? "Right after payment, Gumroad gives you access to your files and emails you a download link." : "Once payment is confirmed server-side, your personal page unlocks with expiring download links." },
 ];

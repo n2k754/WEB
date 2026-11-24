@@ -1,10 +1,11 @@
 import { POLICY } from "@/config/business";
+import { EXTERNAL_CHECKOUT } from "@/config/pricing";
 
 export interface FaqEntry { q: string; a: string }
 
 /** Answers are plain text so they can be reused in structured data. Keep in sync with /legal. */
 export function getFaq(accessDays: number): FaqEntry[] {
-  return [
+  const faq: FaqEntry[] = [
     {
       q: "What is Creator Starter Kit?",
       a: "Creator Starter Kit is a digital toolkit for beginners and aspiring entrepreneurs. It combines social media templates, 30 TikTok content ideas, a Notion content dashboard, an 8-chapter digital business guide and 20 AI prompts. It is available in three packages (Starter, Creator Pro and Ultimate) and everything is delivered digitally.",
@@ -38,4 +39,12 @@ export function getFaq(accessDays: number): FaqEntry[] {
       a: "We can't promise that. The kit gives you structure, ideas and templates, but results depend on your effort, audience, niche and many other factors. Nothing in the kit is a guarantee of income, followers or sales.",
     },
   ];
+  if (!EXTERNAL_CHECKOUT) return faq;
+  // Sold through Gumroad: Gumroad processes payment and delivers the files.
+  const override: Record<string, string> = {
+    "What do I receive after purchasing?": "Right after payment, Gumroad gives you access to the files of your package (PDF guides, SVG and PNG template files, CSV files for Notion and a plain-text prompt file) and emails you a download link. The exact contents of each package are listed on the pricing cards and on the “What's included” page. No physical item is shipped.",
+    "Is the product refundable?": `Purchases are processed by Gumroad and refunds follow Gumroad's refund rules shown at checkout, together with our refund policy. Because the files are digital content available immediately, we do not offer change-of-mind refunds once you have access. If a file is missing, corrupted or does not match its description, or if you were charged twice, contact us within ${POLICY.faultClaimDays} days and we will fix it or arrange a refund. This does not affect any mandatory consumer rights you may have where you live.`,
+    "How do I access my files?": "After payment, Gumroad shows a download page and sends a receipt email with a link to your files. You can reopen that link any time from the email; use the same email address if you ever need to look up your purchase on Gumroad. If you can't find it, contact us with the email used at checkout.",
+  };
+  return faq.map((f) => (override[f.q] ? { ...f, a: override[f.q] } : f));
 }
