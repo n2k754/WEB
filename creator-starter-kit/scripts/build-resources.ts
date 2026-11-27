@@ -68,7 +68,7 @@ const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replac
 
 /* ───────────────────────── PDF styling ───────────────────────── */
 
-const CSS = `
+export const CSS = `
 @page { size: A4; margin: 20mm 18mm 22mm; }
 @page cover { margin: 0; }
 * { box-sizing: border-box; }
@@ -106,14 +106,14 @@ strong { color:#111; }
 .tpl table { font-size:8pt; margin:2mm 0 0; } .tpl td, .tpl th { padding:1mm 1.6mm; }
 `;
 
-function cover(title: string, subtitle: string, badge: string) {
+export function cover(title: string, subtitle: string, badge: string) {
   return `<section class="cover"><div class="glow"></div><div class="glow2"></div>
   <div class="brand">CREATOR STARTER KIT</div><div class="badge">${esc(badge)}</div>
   <h1c>${esc(title)}</h1c><div class="sub">${esc(subtitle)}</div>
   <div class="foot">Everything you need to build your digital creator business.<br/>© Creator Starter Kit · For licensed use only — see LICENSE.txt</div></section>`;
 }
-const page = (body: string, title: string) => `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>${esc(title)}</title><style>${CSS}</style></head><body>${body}</body></html>`;
-const md = (s: string, firstH1 = false) => {
+export const page = (body: string, title: string) => `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>${esc(title)}</title><style>${CSS}</style></head><body>${body}</body></html>`;
+export const md = (s: string, firstH1 = false) => {
   let h = marked.parse(s, { async: false }) as string;
   if (firstH1) h = h.replace("<h1>", '<h1 class="first">');
   return h;
@@ -121,7 +121,7 @@ const md = (s: string, firstH1 = false) => {
 
 /* ───────────────────────── documents ───────────────────────── */
 
-function guideHtml() {
+export function guideHtml() {
   const chapters = readdirSync(join(SRC, "guide")).filter((f) => f.endsWith(".md")).sort();
   const parsed = chapters.map((f, i) => {
     const raw = readFileSync(join(SRC, "guide", f), "utf8");
@@ -134,7 +134,7 @@ function guideHtml() {
   return page(cover("The Digital Business Guide", "Eight practical chapters to take you from first idea to your first digital product.", "Digital business guide") + toc + parsed.map((c) => c.html).join(""), "Digital Business Guide");
 }
 
-function tiktokHtml(ideas: any[]) {
+export function tiktokHtml(ideas: any[]) {
   const cards = ideas
     .map(
       (i) => `<div class="card"><div class="meta">Idea ${String(i.id).padStart(2, "0")} · ${esc(i.category)}</div><h3>${esc(i.title)}</h3>
@@ -151,7 +151,7 @@ function tiktokHtml(ideas: any[]) {
   return page(cover("30 TikTok Content Ideas", "Original short-form video ideas with hooks, structures and calls to action.", "TikTok content ideas") + intro + `<h1>The 30 ideas</h1>` + cards, "30 TikTok Content Ideas");
 }
 
-function promptsHtml(prompts: any[]) {
+export function promptsHtml(prompts: any[]) {
   const cats = [...new Set(prompts.map((p) => p.category))];
   const body = cats
     .map(
@@ -171,11 +171,11 @@ function promptsHtml(prompts: any[]) {
   return page(cover("20 AI Prompts", "Ready-to-copy prompts for ideas, branding, social media, products, marketing and support.", "AI prompt collection") + intro + body, "20 AI Prompts");
 }
 
-function docHtml(file: string, title: string, subtitle: string, badge: string) {
+export function docHtml(file: string, title: string, subtitle: string, badge: string) {
   return page(cover(title, subtitle, badge) + md(readFileSync(join(SRC, "docs", file), "utf8"), true), title);
 }
 
-function catalogueHtml(starterOnly: boolean) {
+export function catalogueHtml(starterOnly: boolean) {
   const tpls = getTemplates().filter((t) => (starterOnly ? t.starter : true));
   const sections = TEMPLATE_CATEGORIES.map((cat) => {
     const list = tpls.filter((t) => t.category === cat.id);
@@ -286,7 +286,9 @@ async function main() {
   console.log(`✔ ${files.length} files, ${(total / 1e6).toFixed(1)} MB written to ${relative(ROOT, OUT)}`);
 }
 
-main().catch((e) => {
-  console.error(e);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
+}
