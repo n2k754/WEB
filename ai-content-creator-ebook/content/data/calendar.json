@@ -1,0 +1,242 @@
+[
+ {
+  "jour": 1,
+  "pilier": "Éducation",
+  "format": "Vidéo face caméra (30 s)",
+  "idee": "Présentation du compte : pour qui, pour quoi",
+  "hook": "Si tu te sens débordé par ton organisation, ce compte est pour toi.",
+  "cta": "Abonne-toi pour la série « Organisation sans stress »."
+ },
+ {
+  "jour": 2,
+  "pilier": "Éducation",
+  "format": "Voix off + b-roll",
+  "idee": "La règle des trois priorités du jour",
+  "hook": "Trois tâches, pas dix : voici comment choisir.",
+  "cta": "Dis-moi tes trois priorités en commentaire."
+ },
+ {
+  "jour": 3,
+  "pilier": "Coulisses",
+  "format": "Vidéo face caméra",
+  "idee": "Ma routine du dimanche soir pour préparer la semaine",
+  "hook": "Dix minutes le dimanche changent toute ma semaine.",
+  "cta": "Enregistre cette vidéo pour dimanche."
+ },
+ {
+  "jour": 4,
+  "pilier": "Éducation",
+  "format": "Carrousel / texte animé",
+  "idee": "Les 4 types de listes de tâches et quand les utiliser",
+  "hook": "Ta to-do list ne fonctionne pas ? Elle est peut-être du mauvais type.",
+  "cta": "Partage à quelqu'un qui note tout sur des post-it."
+ },
+ {
+  "jour": 5,
+  "pilier": "Preuve",
+  "format": "Avant/après",
+  "idee": "Un bureau désordonné rangé en cinq minutes",
+  "hook": "Cinq minutes chrono pour un bureau où tu as envie de travailler.",
+  "cta": "Montre-moi ton bureau en story, je donne un conseil."
+ },
+ {
+  "jour": 6,
+  "pilier": "Éducation",
+  "format": "Screencast",
+  "idee": "Créer un calendrier hebdomadaire simple dans un tableur",
+  "hook": "Regarde comment je planifie ma semaine sur un seul écran.",
+  "cta": "Commente « MODÈLE » si tu veux la structure."
+ },
+ {
+  "jour": 7,
+  "pilier": "Personnel",
+  "format": "Vidéo face caméra",
+  "idee": "Ce que je ferais différemment si je recommençais",
+  "hook": "Ce que j'aurais voulu savoir avant de m'organiser.",
+  "cta": "Quel conseil aurais-tu voulu recevoir plus tôt ?"
+ },
+ {
+  "jour": 8,
+  "pilier": "Éducation",
+  "format": "Voix off + b-roll",
+  "idee": "La méthode des blocs de concentration de 25 minutes",
+  "hook": "Vingt-cinq minutes sans téléphone : voici comment je m'y prends.",
+  "cta": "Essaie un bloc aujourd'hui et raconte-moi."
+ },
+ {
+  "jour": 9,
+  "pilier": "Éducation",
+  "format": "Texte animé",
+  "idee": "Trois erreurs de planning qu'on fait tous",
+  "hook": "Ces trois erreurs ruinent ton planning avant même d'avoir commencé.",
+  "cta": "Laquelle fais-tu ? Réponds 1, 2 ou 3."
+ },
+ {
+  "jour": 10,
+  "pilier": "Preuve",
+  "format": "Démonstration",
+  "idee": "Comment je transforme un gros projet en petites tâches",
+  "hook": "Ce projet te paraît énorme ? Découpons-le ensemble.",
+  "cta": "Écris ton projet, je le découpe en commentaire."
+ },
+ {
+  "jour": 11,
+  "pilier": "Coulisses",
+  "format": "Vidéo face caméra",
+  "idee": "Ma journée type, du réveil à la dernière tâche",
+  "hook": "Voici une journée réelle, avec les imprévus.",
+  "cta": "Dis-moi ce qui rend tes journées difficiles."
+ },
+ {
+  "jour": 12,
+  "pilier": "Éducation",
+  "format": "Voix off + b-roll",
+  "idee": "Pourquoi le multitâche te fatigue",
+  "hook": "Faire plusieurs choses en même temps te ralentit peut-être plus que tu ne le crois.",
+  "cta": "Sauvegarde pour ta prochaine session de travail."
+ },
+ {
+  "jour": 13,
+  "pilier": "Offre douce",
+  "format": "Vidéo face caméra",
+  "idee": "Présenter un modèle gratuit de planning (lien en bio)",
+  "hook": "J'ai transformé ma méthode en un modèle simple que tu peux copier.",
+  "cta": "Lien en bio pour récupérer le modèle."
+ },
+ {
+  "jour": 14,
+  "pilier": "Personnel",
+  "format": "Vidéo face caméra",
+  "idee": "Un échec d'organisation et ce que j'en ai appris",
+  "hook": "Cette semaine, mon planning s'est effondré. Voici pourquoi.",
+  "cta": "Raconte ton pire raté de planning."
+ },
+ {
+  "jour": 15,
+  "pilier": "Éducation",
+  "format": "Screencast",
+  "idee": "Utiliser un assistant IA pour préparer sa semaine",
+  "hook": "Je demande à l'IA de transformer mes notes en plan de semaine.",
+  "cta": "Commente « PROMPT » pour recevoir le texte du prompt."
+ },
+ {
+  "jour": 16,
+  "pilier": "Éducation",
+  "format": "Texte animé",
+  "idee": "La matrice urgent / important expliquée simplement",
+  "hook": "Urgent n'est pas toujours important. Voici comment trier.",
+  "cta": "Place une de tes tâches dans la matrice en commentaire."
+ },
+ {
+  "jour": 17,
+  "pilier": "Preuve",
+  "format": "Avant/après",
+  "idee": "Mon agenda avant et après un tri des engagements",
+  "hook": "J'ai retiré trois engagements. Voici ce qui s'est passé.",
+  "cta": "À quoi pourrais-tu dire non cette semaine ?"
+ },
+ {
+  "jour": 18,
+  "pilier": "Coulisses",
+  "format": "Vidéo face caméra",
+  "idee": "Mes outils : ce que j'utilise vraiment et pourquoi",
+  "hook": "Voici les trois outils que j'ouvre chaque jour, et ceux que j'ai arrêtés.",
+  "cta": "Quel outil ne pourrais-tu pas abandonner ?"
+ },
+ {
+  "jour": 19,
+  "pilier": "Éducation",
+  "format": "Voix off + b-roll",
+  "idee": "Comment dire non sans se justifier pendant dix minutes",
+  "hook": "Dire non poliment est une compétence. Voici trois phrases pour t'y aider.",
+  "cta": "Sauvegarde ces phrases pour la prochaine fois."
+ },
+ {
+  "jour": 20,
+  "pilier": "Éducation",
+  "format": "Démonstration",
+  "idee": "Organiser ses fichiers et dossiers en trois niveaux",
+  "hook": "Ton dossier Téléchargements est un chaos ? Voici ma structure.",
+  "cta": "Montre-moi ton pire dossier, je te conseille."
+ },
+ {
+  "jour": 21,
+  "pilier": "Personnel",
+  "format": "Vidéo face caméra",
+  "idee": "Bilan des trois premières semaines : ce qui a marché",
+  "hook": "Trois semaines de publications : voici ce que j'ai observé.",
+  "cta": "Quelle vidéo t'a le plus aidé jusqu'ici ?"
+ },
+ {
+  "jour": 22,
+  "pilier": "Éducation",
+  "format": "Carrousel / texte animé",
+  "idee": "Un rituel de fin de journée en cinq étapes",
+  "hook": "Cinq étapes pour clôturer ta journée sans ruminer.",
+  "cta": "Enregistre pour ce soir."
+ },
+ {
+  "jour": 23,
+  "pilier": "Éducation",
+  "format": "Voix off + b-roll",
+  "idee": "Comment planifier des pauses qui reposent vraiment",
+  "hook": "Une pause sur ton téléphone n'est pas toujours une pause.",
+  "cta": "Quelle est ta pause préférée ?"
+ },
+ {
+  "jour": 24,
+  "pilier": "Preuve",
+  "format": "Démonstration",
+  "idee": "Je prépare une semaine de repas en quinze minutes",
+  "hook": "Quinze minutes pour ne plus te demander quoi manger chaque soir.",
+  "cta": "Veux-tu la liste de courses type ?"
+ },
+ {
+  "jour": 25,
+  "pilier": "Coulisses",
+  "format": "Vidéo face caméra",
+  "idee": "Répondre à vos questions : organisation et motivation",
+  "hook": "Vous m'avez posé vos questions, je réponds à celles qui reviennent le plus.",
+  "cta": "Pose ta question pour la prochaine vidéo."
+ },
+ {
+  "jour": 26,
+  "pilier": "Éducation",
+  "format": "Screencast",
+  "idee": "Mettre en place des rappels utiles sans se noyer dans les notifications",
+  "hook": "Trop de notifications tuent la concentration. Voici mon réglage.",
+  "cta": "Combien de notifications reçois-tu par jour ?"
+ },
+ {
+  "jour": 27,
+  "pilier": "Offre douce",
+  "format": "Vidéo face caméra",
+  "idee": "Présenter un guide ou service payant (si pertinent)",
+  "hook": "Si tu veux aller plus loin, voici ce que j'ai préparé pour toi.",
+  "cta": "Lien en bio pour découvrir les détails."
+ },
+ {
+  "jour": 28,
+  "pilier": "Éducation",
+  "format": "Texte animé",
+  "idee": "Les cinq questions à se poser avant d'accepter un nouveau projet",
+  "hook": "Avant de dire oui, pose-toi ces cinq questions.",
+  "cta": "Sauvegarde la liste pour ta prochaine décision."
+ },
+ {
+  "jour": 29,
+  "pilier": "Personnel",
+  "format": "Vidéo face caméra",
+  "idee": "Ce que cette routine a changé pour moi, honnêtement",
+  "hook": "Voici les vrais effets de trente jours, bons et moins bons.",
+  "cta": "Raconte-moi où tu en es."
+ },
+ {
+  "jour": 30,
+  "pilier": "Éducation",
+  "format": "Voix off + b-roll",
+  "idee": "Récapitulatif : mon plan d'organisation en un seul schéma",
+  "hook": "Trente jours, un seul schéma : voici ce qu'il faut retenir.",
+  "cta": "Partage ce récap à quelqu'un qui en a besoin."
+ }
+]

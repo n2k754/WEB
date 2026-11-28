@@ -1,0 +1,1711 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>AI CONTENT CREATOR — The Ultimate Guide to Creating Viral Social Media Content with AI</title><style>
+@page { size: A4; margin: 24mm 20mm 24mm;
+  @bottom-left  { content: "AI CONTENT CREATOR"; font: 600 7.5pt Inter, Arial, sans-serif; letter-spacing: .14em; color: #7B859B; }
+  @bottom-right { content: counter(page); font: 700 9pt Inter, Arial, sans-serif; color: #0B1530; }
+}
+@page full { margin: 0; @bottom-left { content: none } @bottom-right { content: none } }
+:root { --navy:#0B1530; --blue:#1F5BFF; --soft:#EAF0FF; --line:#D5DCEB; --grey:#5B6478; --ink:#111827; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { margin:0; font-family: Inter, 'Helvetica Neue', Arial, sans-serif; font-size: 10.4pt; line-height: 1.62; color: var(--ink); }
+p { margin: 0 0 3.4mm; orphans: 3; widows: 3; }
+a { color: inherit; text-decoration: none; }
+strong { color: #000; }
+
+/* full-bleed pages */
+.full { page: full; width: 210mm; height: 297mm; position: relative; overflow: hidden; break-after: page; }
+.cover { background: var(--navy); color: #fff; }
+.cover .grid { position:absolute; inset:0; background-image: linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px); background-size: 14mm 14mm; }
+.cover .arc { position:absolute; right:-70mm; top:-50mm; width:190mm; height:190mm; border-radius:50%; border:1.2mm solid var(--blue); opacity:.9; }
+.cover .arc2 { position:absolute; right:-40mm; top:-20mm; width:130mm; height:130mm; border-radius:50%; background: radial-gradient(circle at 35% 35%, #3D74FF, var(--blue) 55%, #1244CC); box-shadow: 0 0 40mm rgba(31,91,255,.55); }
+.cover .inner { position:absolute; left:22mm; right:22mm; bottom:34mm; }
+.cover .kicker { font-size: 9pt; letter-spacing:.32em; font-weight:700; color:#8FB0FF; margin-bottom: 8mm; }
+.cover h1 { font-size: 54pt; line-height: .98; font-weight: 900; letter-spacing:-.03em; margin:0; border:0; padding:0; color:#fff; }
+.cover h1 span { color:#5C8DFF; }
+.cover .sub { font-size: 15pt; font-weight:500; color:#D7E2FF; margin-top: 9mm; line-height:1.35; max-width: 150mm; }
+.cover .rule { width: 26mm; height: 1.6mm; background: var(--blue); margin: 10mm 0 8mm; }
+.cover .tag { font-size: 10.5pt; color:#A9BBE6; max-width: 135mm; line-height:1.55; }
+.cover .ed { position:absolute; left:22mm; top:22mm; font-size:8.5pt; letter-spacing:.24em; font-weight:700; color:#8FB0FF; }
+
+/* running pages */
+.page { page: auto; }
+.title-page { break-after: page; min-height: 240mm; display:flex; flex-direction:column; justify-content:center; text-align:left; }
+.title-page .k { font-size: 9pt; letter-spacing:.3em; font-weight:700; color: var(--blue); }
+.title-page h1 { font-size: 40pt; line-height: 1; font-weight:900; letter-spacing:-.03em; margin: 6mm 0 4mm; color: var(--navy); border:0; padding:0; }
+.title-page .s { font-size: 14pt; color: var(--grey); max-width:140mm; line-height:1.4; }
+.title-page .bar { width: 22mm; height: 1.4mm; background: var(--blue); margin: 10mm 0; }
+.legal-page { break-after: page; font-size: 9pt; color: #374151; line-height:1.6; }
+.legal-page h2 { font-size: 12pt; color: var(--navy); margin: 0 0 3mm; letter-spacing:0; }
+.legal-page h2 + * { margin-top:0 }
+.legal-page .sp { height: 8mm }
+
+/* TOC */
+.toc h1 { font-size: 30pt; color: var(--navy); border:0; padding:0; margin: 0 0 3mm; font-weight:900; letter-spacing:-.02em; }
+.toc .bar { width: 22mm; height: 1.4mm; background: var(--blue); margin-bottom: 9mm; }
+.toc ol { list-style:none; margin:0; padding:0; }
+.toc li { border-bottom: .2mm solid var(--line); }
+.toc li a.row { display:flex; align-items:baseline; gap: 4mm; padding: 2.1mm 0; }
+.toc li .n { width: 9mm; font-weight:800; color: var(--blue); font-size: 10pt; }
+.toc li .t { flex:1; font-weight:600; color: var(--navy); font-size: 10.6pt; }
+.toc li .p { font-weight:700; color: var(--navy); font-variant-numeric: tabular-nums; }
+.toc .sub { font-size: 8.8pt; color: var(--grey); margin-left: 13mm; padding: 0; }
+.toc li.sec { border:0; padding-top:5mm; }
+.toc li.sec .t { font-size: 8.5pt; letter-spacing:.2em; color: var(--grey); text-transform:uppercase; }
+
+/* chapter opener */
+.opener { background: var(--navy); color:#fff; }
+.opener .grid { position:absolute; inset:0; background-image: linear-gradient(rgba(255,255,255,.045) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.045) 1px, transparent 1px); background-size: 14mm 14mm; }
+.opener .num { position:absolute; left:20mm; top:40mm; font-size: 150pt; font-weight: 900; line-height: 1; color: transparent; -webkit-text-stroke: .45mm #3D74FF; letter-spacing:-.04em; }
+.opener .circle { position:absolute; right:-40mm; bottom:-40mm; width: 120mm; height: 120mm; border-radius:50%; background: var(--blue); opacity:.9; }
+.opener .circle2 { position:absolute; right: 10mm; bottom: 10mm; width: 50mm; height: 50mm; border-radius:50%; border:.8mm solid rgba(255,255,255,.5); }
+.opener .body { position:absolute; left:20mm; right:30mm; top: 118mm; }
+.opener .lab { font-size: 9pt; letter-spacing:.3em; font-weight:700; color:#8FB0FF; margin-bottom: 5mm; }
+.opener h1 { font-size: 30pt; line-height:1.08; font-weight:900; letter-spacing:-.02em; margin:0; border:0; padding:0; color:#fff; }
+.opener .rule { width: 22mm; height: 1.4mm; background: var(--blue); margin: 9mm 0 7mm; }
+.opener ul { list-style:none; margin:0; padding:0; font-size: 10.5pt; color:#CCD9FF; line-height:1.9; }
+.opener ul li::before { content:"—  "; color:#5C8DFF; }
+.opener .in { font-size: 8.5pt; letter-spacing:.22em; font-weight:700; color:#8FB0FF; margin-bottom: 2.5mm; }
+
+/* running content */
+.chapter-body { break-before: auto; }
+.chapter-body h2 { font-size: 16pt; line-height:1.2; font-weight:800; color: var(--navy); margin: 9mm 0 3.4mm; letter-spacing:-.01em; break-after: avoid; padding-left: 4mm; border-left: 1.2mm solid var(--blue); }
+.chapter-body h3 { font-size: 12pt; font-weight:800; color: var(--blue); margin: 6mm 0 2.4mm; break-after: avoid; }
+.chapter-body ul, .chapter-body ol { margin: 0 0 4mm; padding-left: 6mm; }
+.chapter-body li { margin-bottom: 1.5mm; }
+.chapter-body li::marker { color: var(--blue); font-weight:700; }
+.chapter-body table { width:100%; border-collapse: collapse; margin: 3mm 0 6mm; font-size: 9.2pt; line-height:1.45; }
+.chapter-body th { background: var(--navy); color:#fff; text-align:left; font-weight:700; padding: 2.4mm 3mm; font-size: 8.8pt; }
+.chapter-body td { padding: 2.3mm 3mm; border-bottom: .25mm solid var(--line); vertical-align: top; }
+.chapter-body tr:nth-child(even) td { background: #F7F9FD; }
+.chapter-body tr { break-inside: avoid; }
+.chapter-body td:empty { height: 8.5mm; }
+.chapter-body hr { border:0; border-top:.3mm solid var(--line); margin: 6mm 0; }
+
+blockquote { margin: 4mm 0 5mm; padding: 3.4mm 5mm; border-radius: 2mm; background: var(--soft); border-left: 1.4mm solid var(--blue); break-inside: avoid; }
+blockquote p:last-child { margin-bottom:0 }
+blockquote.attention { background:#FFF4E5; border-left-color:#F59E0B; }
+blockquote.exercice { background: var(--navy); color:#fff; border-left-color: #5C8DFF; }
+blockquote.exercice strong { color: #8FB0FF; }
+blockquote.retenir { background:#F2F5FB; border-left-color: var(--navy); }
+
+.prompt { margin: 4mm 0 6mm; border: .35mm solid var(--blue); border-radius: 2mm; overflow:hidden; break-inside: avoid; }
+.prompt .lab { background: var(--blue); color:#fff; font-size: 7.6pt; letter-spacing:.2em; font-weight:800; padding: 1.6mm 4mm; }
+.prompt pre { margin:0; padding: 3.6mm 4.4mm; white-space: pre-wrap; word-wrap: break-word; font: 400 8.9pt/1.55 'DejaVu Sans Mono', 'Courier New', monospace; background:#F5F8FF; color:#111827; }
+.prompt.long { break-inside: auto; }
+
+figure.diagram { margin: 5mm 0 6mm; text-align:center; break-inside: avoid; }
+figure.diagram svg { width:100%; height:auto; }
+figure.diagram figcaption { font-size: 8.4pt; color: var(--grey); margin-top: 1.6mm; font-style: italic; }
+
+/* data blocks */
+.niche-h { font-size: 11pt; font-weight:800; color: var(--navy); margin: 6mm 0 1.6mm; break-after: avoid; }
+.hooks td:first-child { width: 9mm; font-weight:800; color: var(--blue); }
+.hooks td:nth-child(2) { width: 27mm; font-size: 8.4pt; text-transform: uppercase; letter-spacing:.06em; color: var(--grey); font-weight:700; }
+.hooks td:nth-child(3) { font-weight:500; }
+.script { border: .35mm solid var(--line); border-radius: 2.4mm; margin: 0 0 6mm; break-inside: avoid; overflow:hidden; }
+.script .hd { background: var(--navy); color:#fff; padding: 3mm 4.4mm; display:flex; justify-content:space-between; gap:4mm; align-items:baseline; }
+.script .hd b { font-size: 10.4pt; } .script .hd span { font-size: 8pt; letter-spacing:.1em; color:#9DB7FF; font-weight:700; text-transform:uppercase; white-space:nowrap; }
+.script .meta { padding: 2mm 4.4mm; font-size: 8.4pt; color: var(--grey); background: var(--soft); }
+.script .hook { padding: 2.6mm 4.4mm 0; font-weight:700; color: var(--navy); }
+.script .hook i { font-style: normal; color: var(--blue); font-size: 8pt; letter-spacing:.14em; margin-right: 2mm; }
+.script table { margin: 2mm 0 0 !important; font-size: 8.8pt !important; }
+.script .cta { padding: 2.2mm 4.4mm 3mm; font-weight:700; color: var(--navy); border-top: .25mm solid var(--line); }
+.script .cta i { font-style: normal; color: var(--blue); font-size: 8pt; letter-spacing:.14em; margin-right: 2mm; }
+.week { font-size: 11pt; font-weight:800; color: var(--blue); margin: 6mm 0 1.6mm; break-after: avoid; }
+.cal td:first-child { width: 34mm; } .cal .d { font-weight:900; color: var(--blue); font-size: 12pt; line-height:1; }
+.cal .p { font-size: 7.8pt; text-transform: uppercase; letter-spacing:.07em; color: var(--grey); font-weight:700; margin-top: 1mm; line-height:1.3 }
+.cal .h { font-style: italic; color: var(--navy); }
+.pcard { border: .35mm solid var(--line); border-radius: 2mm; margin: 0 0 5mm; break-inside: avoid; overflow:hidden; }
+.pcard .hd { padding: 2.4mm 4mm; background: var(--soft); display:flex; justify-content: space-between; gap: 4mm; }
+.pcard .hd b { color: var(--navy); } .pcard .hd span { font-size: 8pt; letter-spacing:.1em; text-transform:uppercase; color: var(--blue); font-weight:800; }
+.pcard pre { margin:0; padding: 3.2mm 4mm; white-space: pre-wrap; font: 400 8.8pt/1.55 'DejaVu Sans Mono', monospace; background:#fff; }
+.pcard .tip { padding: 0 4mm 2.6mm; font-size: 8.6pt; color: var(--grey); }
+.catlab { font-size: 13pt; font-weight:800; color: var(--navy); margin: 7mm 0 3mm; padding-bottom: 1.5mm; border-bottom: .5mm solid var(--blue); break-after: avoid; }
+
+/* standalone documents */
+.doc-head { padding: 0 0 6mm; border-bottom: 1.2mm solid var(--blue); margin-bottom: 6mm; }
+.doc-head .k { font-size: 8.5pt; letter-spacing:.3em; font-weight:700; color: var(--blue); }
+.doc-head h1 { font-size: 26pt; margin: 3mm 0 2mm; color: var(--navy); font-weight:900; letter-spacing:-.02em; border:0; padding:0; }
+.doc-head p { color: var(--grey); margin:0; }
+</style></head><body><section class="full cover"><div class="grid"></div><div class="arc"></div><div class="arc2"></div><div class="ed">ÉDITION 2026</div>
+<div class="inner"><div class="kicker">GUIDE PRATIQUE · TIKTOK · REELS · SHORTS</div><h1>AI CONTENT<br><span>CREATOR</span></h1><div class="sub">The Ultimate Guide to Creating Viral Social Media Content with AI</div><div class="rule"></div><div class="tag">Le guide pratique pour planifier, écrire, produire et améliorer vos contenus TikTok, Reels et Shorts avec l'intelligence artificielle.</div></div></section><section class="title-page page"><div class="k">GUIDE PRATIQUE · ÉDITION 2026</div><h1>AI CONTENT<br>CREATOR</h1><div class="s">The Ultimate Guide to Creating Viral Social Media Content with AI</div><div class="bar"></div><p style="color:#5B6478;max-width:130mm">Planifier, écrire, produire et analyser ses contenus TikTok, Instagram Reels et YouTube Shorts avec l'intelligence artificielle, sans promesse irréaliste.</p></section><section class="legal-page page"><h2>Droits d'auteur</h2>
+<p>© 2026 Tous droits réservés. Ce guide est destiné à un usage personnel. Il est interdit de le revendre, de le diffuser, de le partager publiquement ou d'en reproduire des extraits importants sans autorisation écrite de l'auteur. Les modèles, prompts et tableaux peuvent être utilisés librement pour vos propres contenus.</p>
+<div class="sp"></div><h2>Avertissement éducatif</h2>
+<p>Ce guide est un support pédagogique. Il présente des méthodes générales et des exemples. <strong>Il ne garantit aucun résultat</strong> : ni nombre de vues, ni croissance d'audience, ni revenus. Les résultats dépendent de nombreux facteurs que personne ne contrôle entièrement.</p>
+<p>Les contenus ne constituent ni un conseil juridique, ni un conseil financier, fiscal ou médical. Pour toute question de ce type, adressez-vous à un professionnel qualifié.</p>
+<div class="sp"></div><h2>Outils, marques et règles de plateforme</h2>
+<p>Les noms d'outils, de marques et de plateformes cités (par exemple ChatGPT, Claude, Canva, CapCut, TikTok, Instagram, YouTube, Notion) appartiennent à leurs propriétaires respectifs. Ce guide n'est affilié à aucune de ces sociétés et n'est ni parrainé ni approuvé par elles. Les fonctionnalités, offres, prix, licences et règles de ces services évoluent : vérifiez toujours leurs conditions actuelles avant de les utiliser, notamment pour un usage commercial.</p>
+<div class="sp"></div><h2>Contenus générés par IA et droits</h2>
+<p>Vous restez responsable de ce que vous publiez : exactitude des informations, respect du droit d'auteur, des licences, des droits des personnes et des règles des plateformes, y compris l'indication des contenus réalistes générés ou modifiés par IA lorsque cela est requis.</p>
+<div class="sp"></div><h2>Transparence</h2>
+<p>Ce guide a été conçu avec l'assistance d'outils d'intelligence artificielle, puis structuré et relu. Les exemples de scripts, de hooks et de calendriers sont originaux et illustratifs : ils ne reproduisent le contenu d'aucun autre créateur et ne s'appuient sur aucune étude de cas ni statistique réelle.</p>
+<div class="sp"></div><p style="color:#7B859B">Version 1.0 · Édition 2026</p></section><section class="toc page"><h1>Sommaire</h1><div class="bar"></div><ol><li><a class="row" href="#ch-0"><span class="n"></span><span class="t">Bienvenue et mode d'emploi</span><span class="p">5</span></a></li><li><a class="row" href="#ch-1"><span class="n">01</span><span class="t">Comprendre le contenu court et les systèmes de recommandation</span><span class="p">8</span></a></li><li><a class="row" href="#ch-2"><span class="n">02</span><span class="t">Choisir sa niche et définir son audience</span><span class="p">12</span></a></li><li><a class="row" href="#ch-3"><span class="n">03</span><span class="t">Trouver des idées avec l'IA : un workflow de recherche répétable</span><span class="p">16</span></a></li><li><a class="row" href="#ch-4"><span class="n">04</span><span class="t">Écrire des hooks puissants</span><span class="p">20</span></a></li><li><a class="row" href="#ch-5"><span class="n">05</span><span class="t">Écrire des scripts de vidéos courtes</span><span class="p">26</span></a></li><li><a class="row" href="#ch-6"><span class="n">06</span><span class="t">Créer avec ChatGPT et Claude : prompts et techniques</span><span class="p">44</span></a></li><li><a class="row" href="#ch-7"><span class="n">07</span><span class="t">Outils d'image et de vidéo : ce qu'ils permettent</span><span class="p">48</span></a></li><li><a class="row" href="#ch-8"><span class="n">08</span><span class="t">Créer du contenu faceless</span><span class="p">52</span></a></li><li><a class="row" href="#ch-9"><span class="n">09</span><span class="t">Montage vidéo et storytelling</span><span class="p">56</span></a></li><li><a class="row" href="#ch-10"><span class="n">10</span><span class="t">Calendrier de contenu : 30 jours de publications</span><span class="p">60</span></a></li><li><a class="row" href="#ch-11"><span class="n">11</span><span class="t">20 prompts réutilisables pour différentes niches</span><span class="p">66</span></a></li><li><a class="row" href="#ch-12"><span class="n">12</span><span class="t">Analytics : comprendre ses résultats pour s'améliorer</span><span class="p">72</span></a></li><li><a class="row" href="#ch-13"><span class="n">13</span><span class="t">Erreurs fréquentes et solutions pratiques</span><span class="p">76</span></a></li><li><a class="row" href="#ch-14"><span class="n">14</span><span class="t">Plan d'action de 7 jours pour publier vos premières vidéos</span><span class="p">79</span></a></li><li><a class="row" href="#ch-15"><span class="n">15</span><span class="t">Bonus : bibliothèque de prompts et modèles prêts à l'emploi</span><span class="p">83</span></a></li><li><a class="row" href="#ch-16"><span class="n"></span><span class="t">Conclusion et prochaines étapes</span><span class="p">91</span></a></li></ol></section><section class="full opener" id="ch-0"><div class="grid"></div><div class="circle"></div><div class="circle2"></div>
+<div class="body"><div class="lab">INTRODUCTION</div><h1>Bienvenue et mode d'emploi</h1><div class="rule"></div><div class="in">DANS CE CHAPITRE</div><ul><li>Ce que ce guide est, et ce qu'il n'est pas</li><li>Comment utiliser ce guide</li><li>Conventions de lecture</li><li>Outils et informations qui évoluent</li></ul></div></section><section class="chapter-body page"><p>Vous voulez créer du contenu pour TikTok, Instagram Reels ou YouTube Shorts, mais vous manquez de temps, d&#39;idées ou de méthode ? Ce guide a été écrit pour vous. Il montre comment utiliser l&#39;intelligence artificielle comme <strong>assistant de travail</strong> : pour réfléchir, structurer, écrire, préparer et analyser, pendant que vous gardez la main sur ce qui compte vraiment, c&#39;est-à-dire votre expérience, votre voix et votre jugement.</p>
+<h2>Ce que ce guide est, et ce qu&#39;il n&#39;est pas</h2>
+<p>Ce guide est une méthode pratique. Vous y trouverez des workflows pas à pas, des prompts prêts à copier, 50 hooks, 30 scripts complets, un calendrier de 30 jours et un plan d&#39;action de 7 jours pour publier vos premières vidéos.</p>
+<p>Il ne promet <strong>ni viralité, ni revenus, ni croissance garantie</strong>. Personne ne contrôle les algorithmes, et les résultats dépendent de nombreux facteurs : votre sujet, votre régularité, la qualité de vos vidéos, le moment, la concurrence et une part de hasard. Ce que vous pouvez contrôler, c&#39;est la qualité de votre processus.</p>
+<blockquote class="retenir"><p><strong>À retenir.</strong> L&#39;IA accélère votre travail, mais elle ne remplace ni votre expertise, ni votre relecture, ni votre responsabilité d&#39;auteur.</p>
+</blockquote>
+<h2>Comment utiliser ce guide</h2>
+<ol>
+<li><strong>Lisez les chapitres 1 à 3 dans l&#39;ordre.</strong> Ils posent les bases : comprendre le format, choisir un sujet, trouver des idées.</li>
+<li><strong>Passez ensuite aux chapitres de production</strong> (hooks, scripts, prompts, outils, montage) en fonction de vos besoins.</li>
+<li><strong>Utilisez les outils pratiques</strong> : le calendrier de 30 jours (chapitre 10), les 20 prompts par niche (chapitre 11) et les modèles du bonus (chapitre 15).</li>
+<li><strong>Appliquez le plan de 7 jours</strong> (chapitre 14) pour publier sans attendre d&#39;être « prêt ».</li>
+</ol>
+<h2>Conventions de lecture</h2>
+<table>
+<thead>
+<tr>
+<th>Élément</th>
+<th>Signification</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Astuce</strong></td>
+<td>Un raccourci ou une bonne pratique</td>
+</tr>
+<tr>
+<td><strong>Attention</strong></td>
+<td>Un point de vigilance (droits, exactitude, règles de plateforme)</td>
+</tr>
+<tr>
+<td><strong>Exercice</strong></td>
+<td>Une action courte à réaliser avant de continuer</td>
+</tr>
+<tr>
+<td><strong>Prompt</strong></td>
+<td>Un texte prêt à copier-coller dans ChatGPT, Claude ou un autre assistant</td>
+</tr>
+<tr>
+<td><strong>[VARIABLES]</strong></td>
+<td>Les passages en crochets et en majuscules sont à remplacer par vos propres informations</td>
+</tr>
+</tbody></table>
+<blockquote class=""><p><strong>Note sur le ton.</strong> Dans les exemples de vidéos, les textes sont rédigés au tutoiement, qui est le registre le plus courant en vidéo courte. Adaptez-les à votre style et à votre public.</p>
+</blockquote>
+<h2>Outils et informations qui évoluent</h2>
+<p>Les fonctionnalités, les offres gratuites et payantes, les conditions d&#39;utilisation et les règles des plateformes changent régulièrement. Les informations sur les outils présentées ici sont des repères généraux : <strong>vérifiez toujours sur les sites officiels</strong> avant de vous abonner ou de publier.</p>
+</section><section class="full opener" id="ch-1"><div class="grid"></div><div class="circle"></div><div class="circle2"></div><div class="num">01</div>
+<div class="body"><div class="lab">CHAPITRE 1</div><h1>Comprendre le contenu court et les systèmes de recommandation</h1><div class="rule"></div><div class="in">DANS CE CHAPITRE</div><ul><li>Ce qu'est le contenu court</li><li>Comment fonctionnent, en général, les systèmes de recommandation</li><li>Les signaux qui comptent pour vous</li><li>Les trois piliers d'une vidéo qui fonctionne</li><li>Où l'IA intervient (et où elle n'intervient pas)</li><li>Cadre général : transparence et règles de plateforme</li></ul></div></section><section class="chapter-body page"><p>Avant de produire, il faut comprendre dans quel environnement vos vidéos vont circuler. Le contenu vertical court fonctionne selon quelques principes assez stables, même si chaque plateforme a ses particularités.</p>
+<h2>Ce qu&#39;est le contenu court</h2>
+<p>TikTok, Instagram Reels et YouTube Shorts proposent des vidéos verticales (format 9:16) qui durent généralement de quelques secondes à quelques minutes. Les spectateurs y passent d&#39;une vidéo à l&#39;autre en un geste. Chaque vidéo doit donc <strong>retenir l&#39;attention très vite</strong> et <strong>apporter quelque chose</strong> : une information, une émotion, une démonstration ou un divertissement.</p>
+<h2>Comment fonctionnent, en général, les systèmes de recommandation</h2>
+<p>Les plateformes ne publient pas le détail de leurs algorithmes, et ils changent. Cependant, elles expliquent publiquement certains principes généraux. D&#39;après leurs pages d&#39;aide, les recommandations s&#39;appuient typiquement sur plusieurs familles de signaux :</p>
+<ul>
+<li><strong>Les interactions des utilisateurs</strong> : visionnages, « j&#39;aime », commentaires, partages, enregistrements, abonnements, vidéos passées rapidement.</li>
+<li><strong>Les informations de la vidéo</strong> : sous-titres, texte à l&#39;écran, sons, légende, mots-clés, langue.</li>
+<li><strong>Les paramètres de l&#39;utilisateur</strong> : langue, pays, centres d&#39;intérêt déclarés.</li>
+</ul>
+<p>Le principe commun est simple : la plateforme cherche à montrer à chaque personne des vidéos qu&#39;elle est susceptible d&#39;apprécier. Votre vidéo est généralement présentée à un petit groupe de spectateurs, puis diffusée plus largement si ce groupe y réagit bien. <strong>Personne ne peut prévoir ce mécanisme avec certitude.</strong></p>
+<figure class="diagram"><svg viewBox="0 0 640 205" xmlns="http://www.w3.org/2000/svg" font-family="Inter, Helvetica, Arial, sans-serif"><defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1F5BFF"/></marker></defs>
+    <rect x="10" y="55" width="120" height="62" rx="10" fill="#EAF0FF"/><text x="70" y="83" text-anchor="middle" font-size="13" font-weight="700" fill="#0B1530">Votre vidéo</text><text x="70" y="100" text-anchor="middle" font-size="10.5" fill="#5B6478">publiée</text>
+    <path d="M132 86 L168 86" stroke="#1F5BFF" stroke-width="2" fill="none" marker-end="url(#a)"/>
+    <rect x="170" y="55" width="130" height="62" rx="10" fill="#EAF0FF"/><text x="235" y="83" text-anchor="middle" font-size="13" font-weight="700" fill="#0B1530">Petit groupe</text><text x="235" y="100" text-anchor="middle" font-size="10.5" fill="#5B6478">de spectateurs</text>
+    <path d="M302 86 L338 86" stroke="#1F5BFF" stroke-width="2" fill="none" marker-end="url(#a)"/>
+    <rect x="340" y="55" width="130" height="62" rx="10" fill="#EAF0FF"/><text x="405" y="83" text-anchor="middle" font-size="13" font-weight="700" fill="#0B1530">Signaux</text><text x="405" y="100" text-anchor="middle" font-size="10.5" fill="#5B6478">visionnage · interactions</text>
+    <path d="M472 86 L508 86" stroke="#1F5BFF" stroke-width="2" fill="none" marker-end="url(#a)"/>
+    <rect x="510" y="55" width="120" height="62" rx="10" fill="#0B1530"/><text x="570" y="83" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Diffusion</text><text x="570" y="100" text-anchor="middle" font-size="10.5" fill="#CFE0FF">plus large… ou non</text>
+    <path d="M570 120 C570 160 70 160 70 122" stroke="#1F5BFF" stroke-width="2" fill="none" stroke-dasharray="5 4" marker-end="url(#a)"/>
+    <text x="320" y="190" text-anchor="middle" font-size="11" fill="#5B6478">Vos données : ce que vous apprenez pour la vidéo suivante</text></svg><figcaption>Principe général simplifié. Le fonctionnement réel varie selon les plateformes et évolue.</figcaption></figure>
+<blockquote class="attention"><p><strong>Attention.</strong> Méfiez-vous des promesses du type « le hack secret de l&#39;algorithme ». Elles reposent souvent sur des affirmations invérifiables. Concentrez-vous sur ce que les plateformes disent publiquement et sur vos propres données.</p>
+</blockquote>
+<h2>Les signaux qui comptent pour vous</h2>
+<p>Sans prétendre connaître la pondération exacte, voici ce qui mérite d&#39;être observé :</p>
+<table>
+<thead>
+<tr>
+<th>Signal</th>
+<th>Ce que cela vous apprend</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Durée de visionnage</strong></td>
+<td>Votre vidéo garde-t-elle l&#39;attention ?</td>
+</tr>
+<tr>
+<td><strong>Taux de visionnage complet</strong></td>
+<td>Le contenu et la durée sont-ils adaptés ?</td>
+</tr>
+<tr>
+<td><strong>Enregistrements</strong></td>
+<td>La vidéo a-t-elle une valeur à conserver ?</td>
+</tr>
+<tr>
+<td><strong>Partages</strong></td>
+<td>A-t-elle une valeur sociale ou émotionnelle ?</td>
+</tr>
+<tr>
+<td><strong>Commentaires</strong></td>
+<td>Suscite-t-elle une réaction ou une question ?</td>
+</tr>
+<tr>
+<td><strong>Visites de profil, abonnements</strong></td>
+<td>Donne-t-elle envie d&#39;en voir plus ?</td>
+</tr>
+</tbody></table>
+<h2>Les trois piliers d&#39;une vidéo qui fonctionne</h2>
+<ol>
+<li><strong>Une promesse claire dès les premières secondes</strong> (le hook).</li>
+<li><strong>Une valeur concrète</strong> : on apprend, on rit, on s&#39;inspire, on se sent compris.</li>
+<li><strong>Une conclusion nette</strong> : une idée à retenir ou une action simple à faire.</li>
+</ol>
+<h2>Où l&#39;IA intervient (et où elle n&#39;intervient pas)</h2>
+<table>
+<thead>
+<tr>
+<th>L&#39;IA aide bien pour</th>
+<th>Elle ne remplace pas</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Trouver des idées et des angles</td>
+<td>Votre expérience et votre point de vue</td>
+</tr>
+<tr>
+<td>Structurer un script</td>
+<td>Votre voix et votre personnalité</td>
+</tr>
+<tr>
+<td>Reformuler, raccourcir, adapter</td>
+<td>La vérification des faits</td>
+</tr>
+<tr>
+<td>Préparer des légendes et des calendriers</td>
+<td>La décision de publier</td>
+</tr>
+</tbody></table>
+<h2>Cadre général : transparence et règles de plateforme</h2>
+<p>La plupart des grandes plateformes demandent d&#39;indiquer clairement les contenus réalistes générés ou modifiés par IA, et certaines affichent elles-mêmes des étiquettes. Les règles évoluent : <strong>consultez les conditions d&#39;utilisation actuelles</strong> de chaque plateforme. Nous y reviendrons dans les chapitres sur les outils et le contenu faceless.</p>
+<blockquote class="exercice"><p><strong>Exercice.</strong> Regardez cinq vidéos de votre domaine, sans les copier. Pour chacune, notez : l&#39;accroche des deux premières secondes, la promesse, la structure, et ce qui vous donne envie (ou non) de la regarder jusqu&#39;au bout.</p>
+</blockquote>
+</section><section class="full opener" id="ch-2"><div class="grid"></div><div class="circle"></div><div class="circle2"></div><div class="num">02</div>
+<div class="body"><div class="lab">CHAPITRE 2</div><h1>Choisir sa niche et définir son audience</h1><div class="rule"></div><div class="in">DANS CE CHAPITRE</div><ul><li>Qu'est-ce qu'une niche ?</li><li>Les quatre questions pour choisir</li><li>Définir son audience avec l'IA</li><li>Les piliers de contenu</li><li>Exemples de niches (pour inspirer, pas pour copier)</li><li>Vérifier sa niche en trois étapes</li></ul></div></section><section class="chapter-body page"><p>Une niche claire facilite tout : trouver des idées, rester cohérent, être reconnu. Sans niche, votre contenu ressemble à une succession de vidéos sans lien, et les spectateurs ne savent pas pourquoi vous suivre.</p>
+<h2>Qu&#39;est-ce qu&#39;une niche ?</h2>
+<p>Une niche est <strong>la rencontre entre un sujet, un public et un angle</strong>. « Cuisine » est un sujet. « Repas rapides pour étudiants avec petit budget » est une niche.</p>
+<h2>Les quatre questions pour choisir</h2>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Exemple de réponse</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Qu&#39;est-ce que je connais ou que j&#39;apprends vraiment ?</strong></td>
+<td>L&#39;organisation, la cuisine, le sport, le voyage…</td>
+</tr>
+<tr>
+<td><strong>À qui puis-je être utile ?</strong></td>
+<td>Étudiants, parents, indépendants, débutants…</td>
+</tr>
+<tr>
+<td><strong>Quel problème précis puis-je aider à résoudre ?</strong></td>
+<td>Manque de temps, de budget, de méthode…</td>
+</tr>
+<tr>
+<td><strong>Ai-je envie d&#39;en parler pendant des mois ?</strong></td>
+<td>Oui, même sans résultats immédiats.</td>
+</tr>
+</tbody></table>
+<h2>Définir son audience avec l&#39;IA</h2>
+<p>L&#39;IA peut vous aider à clarifier votre public. Mais elle ne connaît pas vos futurs spectateurs : elle formule des hypothèses que vous devrez vérifier auprès de vraies personnes.</p>
+<div class="prompt"><div class="lab">PROMPT À COPIER</div><pre>Je veux créer du contenu sur [THÈME]. Je m&#39;adresse à [PUBLIC, ex. étudiants de 18 à 25 ans].
+Pose-moi 10 questions, une à la fois, pour m&#39;aider à préciser mon audience :
+sa situation, ses objectifs, ses obstacles et les mots qu&#39;elle utilise.
+Quand j&#39;aurai répondu à toutes les questions, résume le profil en 5 lignes
+et propose 3 pistes de niches. Indique pour chaque piste ce que je dois vérifier
+auprès de vraies personnes avant de me lancer.</pre></div>
+<blockquote class="attention"><p><strong>Attention.</strong> Ne considérez jamais les réponses de l&#39;IA comme des études de marché. Ce sont des hypothèses de travail.</p>
+</blockquote>
+<h2>Les piliers de contenu</h2>
+<p>Une fois la niche choisie, définissez <strong>trois à quatre piliers</strong> : des thèmes récurrents qui structurent votre contenu.</p>
+<figure class="diagram"><svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" font-family="Inter, Helvetica, Arial, sans-serif"><defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1F5BFF"/></marker></defs>
+    <circle cx="320" cy="125" r="58" fill="#0B1530"/><text x="320" y="121" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Votre niche</text><text x="320" y="139" text-anchor="middle" font-size="10.5" fill="#CFE0FF">sujet · public · angle</text>
+    <rect x="30" y="20" width="190" height="62" rx="10" fill="#EAF0FF"/><text x="125" y="48" text-anchor="middle" font-size="13" font-weight="700" fill="#0B1530">Éducation</text><text x="125" y="65" text-anchor="middle" font-size="10.5" fill="#5B6478">tutoriels · erreurs · méthodes</text>
+    <rect x="420" y="20" width="190" height="62" rx="10" fill="#EAF0FF"/><text x="515" y="48" text-anchor="middle" font-size="13" font-weight="700" fill="#0B1530">Coulisses</text><text x="515" y="65" text-anchor="middle" font-size="10.5" fill="#5B6478">journée · outils · processus</text>
+    <rect x="30" y="168" width="190" height="62" rx="10" fill="#EAF0FF"/><text x="125" y="196" text-anchor="middle" font-size="13" font-weight="700" fill="#0B1530">Preuve</text><text x="125" y="213" text-anchor="middle" font-size="10.5" fill="#5B6478">démonstrations · avant/après</text>
+    <rect x="420" y="168" width="190" height="62" rx="10" fill="#EAF0FF"/><text x="515" y="196" text-anchor="middle" font-size="13" font-weight="700" fill="#0B1530">Offre</text><text x="515" y="213" text-anchor="middle" font-size="10.5" fill="#5B6478">ce que vous proposez, honnêtement</text>
+    <path d="M222 66 L270 100" stroke="#1F5BFF" stroke-width="2" fill="none" marker-end="url(#a)"/><path d="M418 66 L372 100" stroke="#1F5BFF" stroke-width="2" fill="none" marker-end="url(#a)"/><path d="M222 186 L270 150" stroke="#1F5BFF" stroke-width="2" fill="none" marker-end="url(#a)"/><path d="M418 186 L372 150" stroke="#1F5BFF" stroke-width="2" fill="none" marker-end="url(#a)"/></svg><figcaption>Quatre piliers de contenu autour d'une niche.</figcaption></figure>
+<table>
+<thead>
+<tr>
+<th>Pilier</th>
+<th>Objectif</th>
+<th>Exemples de sujets</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Éducation</strong></td>
+<td>Apporter de la valeur</td>
+<td>Tutoriels, erreurs à éviter, méthodes</td>
+</tr>
+<tr>
+<td><strong>Coulisses</strong></td>
+<td>Créer de la proximité</td>
+<td>Votre journée, vos outils, votre processus</td>
+</tr>
+<tr>
+<td><strong>Preuve</strong></td>
+<td>Montrer par l&#39;exemple</td>
+<td>Avant/après, démonstrations, retours d&#39;expérience</td>
+</tr>
+<tr>
+<td><strong>Offre</strong></td>
+<td>Présenter honnêtement ce que vous proposez</td>
+<td>Un guide, un service, un modèle</td>
+</tr>
+</tbody></table>
+<p>Une répartition raisonnable pour démarrer : environ <strong>la moitié de contenu éducatif</strong>, le reste réparti entre coulisses, preuves et offre.</p>
+<h2>Exemples de niches (pour inspirer, pas pour copier)</h2>
+<ul>
+<li>Organisation et méthodes de travail pour étudiants</li>
+<li>Cuisine simple pour petits budgets</li>
+<li>Premiers pas en musculation pour débutants</li>
+<li>Voyages de week-end en Europe avec budget clair</li>
+<li>Initiation à l&#39;IA pour petits commerçants</li>
+<li>Coulisses d&#39;un artisanat (céramique, couture, bois)</li>
+</ul>
+<h2>Vérifier sa niche en trois étapes</h2>
+<ol>
+<li><strong>Observer</strong> : existe-t-il d&#39;autres créateurs sur ce sujet ? C&#39;est souvent bon signe : un public existe.</li>
+<li><strong>Se différencier</strong> : quel est votre angle (public, format, style, expérience) ?</li>
+<li><strong>Tester</strong> : publiez 5 à 10 vidéos avant de juger. Observez ce qui retient l&#39;attention.</li>
+</ol>
+<blockquote class="exercice"><p><strong>Exercice.</strong> Complétez cette phrase : « J&#39;aide <strong>[public]</strong> à <strong>[résultat]</strong> grâce à <strong>[format ou méthode]</strong>. » Rédigez-en trois versions et gardez celle qui vous semble la plus claire et la plus honnête.</p>
+</blockquote>
+</section><section class="full opener" id="ch-3"><div class="grid"></div><div class="circle"></div><div class="circle2"></div><div class="num">03</div>
+<div class="body"><div class="lab">CHAPITRE 3</div><h1>Trouver des idées avec l'IA : un workflow de recherche répétable</h1><div class="rule"></div><div class="in">DANS CE CHAPITRE</div><ul><li>Le workflow en 6 étapes</li><li>Prompts de recherche complémentaires</li><li>Banque d'idées : une habitude simple</li></ul></div></section><section class="chapter-body page"><p>Avoir une idée est facile. En avoir régulièrement, de bonnes, sans s&#39;épuiser, est un autre sujet. La solution est un <strong>processus répétable</strong>, pas l&#39;inspiration du moment.</p>
+<figure class="diagram"><svg viewBox="0 0 660 110" xmlns="http://www.w3.org/2000/svg" font-family="Inter, Helvetica, Arial, sans-serif"><rect x="10" y="25" width="98" height="62" rx="10" fill="#EAF0FF"/><text x="59" y="53" text-anchor="middle" font-size="13" font-weight="700" fill="#0B1530">1. Rassembler</text><text x="59" y="70" text-anchor="middle" font-size="10.5" fill="#5B6478">questions · vécu</text><rect x="118" y="25" width="98" height="62" rx="10" fill="#EAF0FF"/><text x="167" y="53" text-anchor="middle" font-size="13" font-weight="700" fill="#0B1530">2. Contexte</text><text x="167" y="70" text-anchor="middle" font-size="10.5" fill="#5B6478">prompt précis</text><rect x="226" y="25" width="98" height="62" rx="10" fill="#EAF0FF"/><text x="275" y="53" text-anchor="middle" font-size="13" font-weight="700" fill="#0B1530">3. Trier</text><text x="275" y="70" text-anchor="middle" font-size="10.5" fill="#5B6478">3 questions</text><rect x="334" y="25" width="98" height="62" rx="10" fill="#EAF0FF"/><text x="383" y="53" text-anchor="middle" font-size="13" font-weight="700" fill="#0B1530">4. Enrichir</text><text x="383" y="70" text-anchor="middle" font-size="10.5" fill="#5B6478">exemple réel</text><rect x="442" y="25" width="98" height="62" rx="10" fill="#EAF0FF"/><text x="491" y="53" text-anchor="middle" font-size="13" font-weight="700" fill="#0B1530">5. Angle</text><text x="491" y="70" text-anchor="middle" font-size="10.5" fill="#5B6478">méthode · erreur…</text><rect x="550" y="25" width="98" height="62" rx="10" fill="#0B1530"/><text x="599" y="53" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">6. Vérifier</text><text x="599" y="70" text-anchor="middle" font-size="10.5" fill="#CFE0FF">faits · sources</text></svg><figcaption>Le workflow de recherche d'idées en six étapes.</figcaption></figure>
+<h2>Le workflow en 6 étapes</h2>
+<h3>Étape 1 · Rassembler vos matières premières</h3>
+<p>L&#39;IA est bien meilleure quand vous lui fournissez de la matière réelle. Collectez dans un document :</p>
+<ul>
+<li>les <strong>questions</strong> que votre public vous pose (commentaires, messages, conversations) ;</li>
+<li>vos <strong>expériences</strong> : erreurs, réussites, anecdotes ;</li>
+<li>vos <strong>sujets d&#39;expertise</strong> et ce que vous apprenez en ce moment ;</li>
+<li>les <strong>thèmes récurrents</strong> dans les contenus de votre domaine.</li>
+</ul>
+<h3>Étape 2 · Donner un contexte précis à l&#39;assistant</h3>
+<p>Plus le contexte est précis, plus les idées seront utiles.</p>
+<div class="prompt"><div class="lab">PROMPT À COPIER</div><pre>Tu es un stratège de contenu pour TikTok et Instagram Reels.
+Mon compte : [THÈME]. Mon public : [PUBLIC]. Mon style : [STYLE, ex. pédagogique et direct].
+Mes 3 piliers de contenu : [PILIER 1], [PILIER 2], [PILIER 3].
+Mes contraintes : je filme avec un téléphone, [DURÉE DISPONIBLE] par semaine, [AVEC OU SANS VISAGE].
+Génère 30 idées de vidéos de moins d&#39;une minute. Classe-les par pilier.
+Pour chaque idée, donne : un titre de travail, l&#39;angle (conseil, erreur, démonstration, histoire)
+et un niveau de difficulté de tournage de 1 à 3.</pre></div>
+<h3>Étape 3 · Trier sans pitié</h3>
+<p>Sur 30 idées, vous n&#39;en garderez peut-être que cinq. Posez-vous trois questions pour chaque idée :</p>
+<ol>
+<li>Est-ce que je peux en parler avec <strong>crédibilité</strong> ?</li>
+<li>Est-ce que mon public <strong>en a besoin</strong> ou <strong>en a envie</strong> ?</li>
+<li>Est-ce que je peux la tourner <strong>facilement</strong> cette semaine ?</li>
+</ol>
+<h3>Étape 4 · Enrichir avec votre expérience</h3>
+<p>C&#39;est l&#39;étape qui donne de la valeur à votre contenu. Pour chaque idée gardée, ajoutez un <strong>exemple personnel</strong>, un chiffre que vous avez vous-même mesuré ou une anecdote. L&#39;IA ne peut pas inventer votre vécu.</p>
+<h3>Étape 5 · Transformer l&#39;idée en angle</h3>
+<p>Une même idée peut être traitée de plusieurs façons :</p>
+<table>
+<thead>
+<tr>
+<th>Angle</th>
+<th>Exemple pour « planifier sa semaine »</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Méthode</strong></td>
+<td>Ma méthode en trois étapes</td>
+</tr>
+<tr>
+<td><strong>Erreur</strong></td>
+<td>L&#39;erreur que je faisais chaque dimanche</td>
+</tr>
+<tr>
+<td><strong>Démonstration</strong></td>
+<td>Je planifie ma semaine en direct</td>
+</tr>
+<tr>
+<td><strong>Comparaison</strong></td>
+<td>Planning papier ou application : ce que j&#39;ai observé</td>
+</tr>
+<tr>
+<td><strong>Histoire</strong></td>
+<td>Le jour où mon planning s&#39;est effondré</td>
+</tr>
+</tbody></table>
+<h3>Étape 6 · Vérifier</h3>
+<p>Avant de produire, vérifiez les faits, les chiffres, les noms et les affirmations générées par l&#39;IA. Cette vérification est <strong>toujours</strong> nécessaire.</p>
+<blockquote class="attention"><p><strong>Attention.</strong> Un assistant peut inventer des statistiques, des études ou des citations qui semblent crédibles. N&#39;utilisez jamais un chiffre ou une source sans l&#39;avoir vérifié vous-même.</p>
+</blockquote>
+<h2>Prompts de recherche complémentaires</h2>
+<p><strong>Transformer des questions d&#39;audience en idées</strong></p>
+<div class="prompt"><div class="lab">PROMPT À COPIER</div><pre>Voici 10 questions réelles posées par mon audience :
+[QUESTION 1]
+[QUESTION 2]
+[…]
+Transforme chaque question en idée de vidéo avec : un titre, un hook de moins de 14 mots
+et un angle (conseil, erreur, démonstration ou histoire).</pre></div>
+<p><strong>Trouver des angles différents sans copier personne</strong></p>
+<div class="prompt"><div class="lab">PROMPT À COPIER</div><pre>Mon sujet est [SUJET]. Voici ce que j&#39;observe dans mon domaine : [OBSERVATIONS PERSONNELLES].
+Propose 10 angles originaux et complémentaires, qui ne reprennent aucun contenu existant.
+Pour chacun, précise ce que mon expérience personnelle pourrait apporter.</pre></div>
+<h2>Banque d&#39;idées : une habitude simple</h2>
+<p>Créez un document ou une base (Notion, tableur ou notes) avec quatre colonnes : <strong>idée, pilier, statut, date de publication</strong>. Ajoutez-y chaque idée dès qu&#39;elle surgit. Dix minutes par semaine consacrées à l&#39;alimenter évitent le syndrome de la page blanche.</p>
+<blockquote class="exercice"><p><strong>Exercice.</strong> Rédigez le prompt de l&#39;étape 2 avec vos informations. Exécutez-le, puis sélectionnez 5 idées avec les trois questions de l&#39;étape 3. Notez pour chacune une expérience personnelle à ajouter.</p>
+</blockquote>
+</section><section class="full opener" id="ch-4"><div class="grid"></div><div class="circle"></div><div class="circle2"></div><div class="num">04</div>
+<div class="body"><div class="lab">CHAPITRE 4</div><h1>Écrire des hooks puissants</h1><div class="rule"></div><div class="in">DANS CE CHAPITRE</div><ul><li>Anatomie d'un bon hook</li><li>Les techniques de hook</li><li>Les règles d'or</li><li>Demander à l'IA d'améliorer vos hooks</li><li>50 hooks originaux par niche</li></ul></div></section><section class="chapter-body page"><p>Le hook est la première phrase, le premier geste ou le premier visuel de votre vidéo. Il a un rôle simple : <strong>donner une raison de continuer à regarder</strong>. Il n&#39;a pas besoin d&#39;être spectaculaire, mais il doit être clair.</p>
+<h2>Anatomie d&#39;un bon hook</h2>
+<p>Un bon hook réunit généralement trois éléments :</p>
+<ol>
+<li><strong>Un sujet reconnaissable</strong> : le spectateur comprend de quoi on parle.</li>
+<li><strong>Une tension ou une promesse</strong> : une question, un problème, un bénéfice, une curiosité.</li>
+<li><strong>Une brièveté</strong> : quelques mots, lisibles en moins de deux secondes.</li>
+</ol>
+<h2>Les techniques de hook</h2>
+<table>
+<thead>
+<tr>
+<th>Technique</th>
+<th>Principe</th>
+<th>Exemple</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Question</strong></td>
+<td>Éveille la curiosité ou le doute</td>
+<td>Pourquoi tes bonnes résolutions s&#39;arrêtent-elles au bout de deux semaines ?</td>
+</tr>
+<tr>
+<td><strong>Erreur</strong></td>
+<td>Évite une erreur fréquente</td>
+<td>L&#39;erreur de débutant que je faisais à chaque séance.</td>
+</tr>
+<tr>
+<td><strong>Mythe</strong></td>
+<td>Corrige une idée reçue</td>
+<td>Non, tu n&#39;as pas besoin d&#39;un site parfait pour commencer.</td>
+</tr>
+<tr>
+<td><strong>Promesse mesurée</strong></td>
+<td>Annonce un bénéfice réaliste</td>
+<td>Voici comment planifier ta semaine en dix minutes.</td>
+</tr>
+<tr>
+<td><strong>Avant / après</strong></td>
+<td>Montre une transformation concrète</td>
+<td>Mon bureau avant et après cette routine.</td>
+</tr>
+<tr>
+<td><strong>Histoire</strong></td>
+<td>Raconte un moment vécu</td>
+<td>Il y a un an, je n&#39;osais pas parler devant une caméra.</td>
+</tr>
+<tr>
+<td><strong>Démonstration</strong></td>
+<td>Montre avant d&#39;expliquer</td>
+<td>Je demande à l&#39;IA de réécrire mon texte en trois tons.</td>
+</tr>
+</tbody></table>
+<h2>Les règles d&#39;or</h2>
+<ul>
+<li><strong>Restez honnête.</strong> Un hook doit être tenu par la vidéo. Le clickbait finit par décevoir.</li>
+<li><strong>Soyez concret.</strong> « Trois réglages sur ton téléphone » est plus fort que « des astuces incroyables ».</li>
+<li><strong>Parlez à une personne.</strong> Écrivez comme si vous parliez à un seul spectateur.</li>
+<li><strong>Évitez les promesses garanties</strong> (« tu vas gagner », « résultat assuré »).</li>
+<li><strong>Testez.</strong> Pour une même vidéo, essayez deux ou trois hooks différents sur plusieurs publications.</li>
+</ul>
+<h2>Demander à l&#39;IA d&#39;améliorer vos hooks</h2>
+<div class="prompt"><div class="lab">PROMPT À COPIER</div><pre>Voici mon hook : « [HOOK] ». Mon public : [PUBLIC]. Mon sujet : [SUJET].
+Propose 5 variantes plus claires, plus courtes ou plus concrètes, sans exagération ni fausse promesse.
+Maximum 14 mots chacune. Explique en une phrase ce que change chaque variante.</pre></div>
+<h2>50 hooks originaux par niche</h2>
+<p>Les hooks ci-dessous sont des modèles à adapter à votre expérience. Remplacez les détails (lieux, durées, sujets) par les vôtres.</p>
+<div class="niche-h">Entrepreneuriat et freelance</div><table class="hooks"><tbody><tr><td>01</td><td>Question</td><td>Pourquoi ton premier client ne viendra pas de ton logo ?</td></tr><tr><td>02</td><td>Erreur</td><td>L'erreur de débutant qui fait fuir les clients dès le premier message.</td></tr><tr><td>03</td><td>Promesse</td><td>Voici comment reformuler ton offre en une phrase que tout le monde comprend.</td></tr><tr><td>04</td><td>Mythe</td><td>Non, tu n'as pas besoin d'un site parfait pour vendre ton premier service.</td></tr><tr><td>05</td><td>Coulisses</td><td>Je te montre ma méthode pour répondre à un prospect en moins de cinq minutes.</td></tr></tbody></table><div class="niche-h">Productivité et études</div><table class="hooks"><tbody><tr><td>06</td><td>Chiffre</td><td>Trois réglages sur ton téléphone qui t'aident vraiment à réviser.</td></tr><tr><td>07</td><td>Question</td><td>Tu relis tes cours sans rien retenir ? Essaie ceci à la place.</td></tr><tr><td>08</td><td>Avant/après</td><td>Mon bureau avant et après cette routine de dix minutes.</td></tr><tr><td>09</td><td>Mythe</td><td>Travailler huit heures d'affilée n'est pas la preuve que tu travailles bien.</td></tr><tr><td>10</td><td>Promesse</td><td>Un système simple pour planifier ta semaine en un seul dimanche soir.</td></tr></tbody></table><div class="niche-h">Fitness et bien-être</div><table class="hooks"><tbody><tr><td>11</td><td>Erreur</td><td>Si ton échauffement ressemble à ça, change-le avant ta prochaine séance.</td></tr><tr><td>12</td><td>Débutant</td><td>Débutant en salle ? Voici l'ordre des exercices que je te conseille de suivre.</td></tr><tr><td>13</td><td>Mythe</td><td>Tu n'as pas besoin de faire des heures de sport pour bouger régulièrement.</td></tr><tr><td>14</td><td>Routine</td><td>Cinq minutes d'étirements le soir : voilà ce que ça change pour moi.</td></tr><tr><td>15</td><td>Question</td><td>Pourquoi tes bonnes résolutions s'arrêtent-elles toujours au bout de deux semaines ?</td></tr></tbody></table><div class="niche-h">Cuisine et alimentation</div><table class="hooks"><tbody><tr><td>16</td><td>Promesse</td><td>Un dîner complet en vingt minutes avec trois ingrédients du placard.</td></tr><tr><td>17</td><td>Erreur</td><td>Tu rates ton riz à chaque fois ? Voici ce que tu fais probablement de travers.</td></tr><tr><td>18</td><td>Astuce</td><td>Le geste de chef que personne ne t'a montré pour émincer un oignon.</td></tr><tr><td>19</td><td>Budget</td><td>Je prépare mes repas de la semaine avec un budget serré. Voici le plan.</td></tr><tr><td>20</td><td>Question</td><td>Et si tu arrêtais de jeter la moitié de ton frigo ?</td></tr></tbody></table><div class="niche-h">Beauté et mode</div><table class="hooks"><tbody><tr><td>21</td><td>Avant/après</td><td>Une même tenue, trois façons de la porter selon l'occasion.</td></tr><tr><td>22</td><td>Erreur</td><td>Cette erreur d'application rend n'importe quel fond de teint moins naturel.</td></tr><tr><td>23</td><td>Capsule</td><td>Dix pièces, trente tenues : voici comment composer une garde-robe capsule.</td></tr><tr><td>24</td><td>Mythe</td><td>Non, un produit cher n'est pas forcément mieux adapté à ta peau.</td></tr><tr><td>25</td><td>Tutoriel</td><td>Le soin du matin que je referais les yeux fermés, étape par étape.</td></tr></tbody></table><div class="niche-h">Voyage</div><table class="hooks"><tbody><tr><td>26</td><td>Plan</td><td>Un week-end à Lisbonne sans stress : mon itinéraire heure par heure.</td></tr><tr><td>27</td><td>Erreur</td><td>Trois erreurs de réservation que je ne referai plus jamais.</td></tr><tr><td>28</td><td>Budget</td><td>Comment j'organise un voyage de dix jours en gardant un budget clair.</td></tr><tr><td>29</td><td>Question</td><td>Pourquoi les meilleurs souvenirs de voyage viennent rarement du programme prévu ?</td></tr><tr><td>30</td><td>Astuce</td><td>Le petit geste qui m'évite de perdre mes documents en voyage.</td></tr></tbody></table><div class="niche-h">Finances personnelles</div><table class="hooks"><tbody><tr><td>31</td><td>Question</td><td>Sais-tu vraiment où part ton argent à la fin du mois ?</td></tr><tr><td>32</td><td>Méthode</td><td>La règle simple que j'utilise pour répartir mon budget sans me prendre la tête.</td></tr><tr><td>33</td><td>Erreur</td><td>Cette habitude de dépense paraît anodine, mais elle pèse sur ton budget.</td></tr><tr><td>34</td><td>Mythe</td><td>Non, tu n'as pas besoin d'être expert pour tenir un budget.</td></tr><tr><td>35</td><td>Rappel</td><td>Informations générales, pas un conseil financier : voici comment démarrer un suivi de dépenses.</td></tr></tbody></table><div class="niche-h">Tech et intelligence artificielle</div><table class="hooks"><tbody><tr><td>36</td><td>Démonstration</td><td>Je demande à l'IA de réécrire mon texte en trois tons différents. Regarde le résultat.</td></tr><tr><td>37</td><td>Erreur</td><td>Si ton prompt ressemble à ça, l'IA ne peut pas deviner ce que tu veux.</td></tr><tr><td>38</td><td>Comparaison</td><td>Même question posée à deux assistants : voici les différences que j'ai observées.</td></tr><tr><td>39</td><td>Question</td><td>Peux-tu reconnaître un texte écrit par une IA ? Teste-toi avec cet exemple.</td></tr><tr><td>40</td><td>Astuce</td><td>Un seul détail dans ton prompt suffit à rendre la réponse beaucoup plus utile.</td></tr></tbody></table><div class="niche-h">Développement personnel</div><table class="hooks"><tbody><tr><td>41</td><td>Histoire</td><td>Il y a un an, je n'osais pas parler devant une caméra. Voici ce qui m'a aidé.</td></tr><tr><td>42</td><td>Question</td><td>Qu'est-ce qui te retient vraiment de commencer ce projet ?</td></tr><tr><td>43</td><td>Méthode</td><td>Ma routine de dix minutes pour clarifier mes priorités chaque matin.</td></tr><tr><td>44</td><td>Mythe</td><td>La motivation ne vient pas avant l'action, elle vient souvent après.</td></tr><tr><td>45</td><td>Rappel</td><td>Un petit pas aujourd'hui vaut mieux qu'un grand plan jamais lancé.</td></tr></tbody></table><div class="niche-h">Maison, déco et DIY</div><table class="hooks"><tbody><tr><td>46</td><td>Avant/après</td><td>Une pièce de vingt mètres carrés transformée avec un petit budget.</td></tr><tr><td>47</td><td>Erreur</td><td>Cette erreur d'éclairage change toute l'ambiance de ton salon.</td></tr><tr><td>48</td><td>Tutoriel</td><td>Je répare cette étagère en quinze minutes avec des outils de base.</td></tr><tr><td>49</td><td>Astuce</td><td>Le rangement vertical qui m'a fait gagner une étagère entière.</td></tr><tr><td>50</td><td>Question</td><td>Ton petit espace est-il vraiment trop petit, ou juste mal organisé ?</td></tr></tbody></table>
+<blockquote class="exercice"><p><strong>Exercice.</strong> Choisissez cinq hooks, réécrivez-les pour votre niche et testez-les à voix haute. Si vous ne les comprenez pas en deux secondes, simplifiez-les.</p>
+</blockquote>
+</section><section class="full opener" id="ch-5"><div class="grid"></div><div class="circle"></div><div class="circle2"></div><div class="num">05</div>
+<div class="body"><div class="lab">CHAPITRE 5</div><h1>Écrire des scripts de vidéos courtes</h1><div class="rule"></div><div class="in">DANS CE CHAPITRE</div><ul><li>La structure d'un script court</li><li>Le format de script utilisé dans ce guide</li><li>Rédiger avec l'IA : la méthode en quatre temps</li><li>Conseils d'écriture orale</li><li>30 scripts complets</li></ul></div></section><section class="chapter-body page"><p>Un script n&#39;a pas besoin d&#39;être littéraire : il doit être <strong>clair, oral et efficace</strong>. Il sert à préparer votre tournage, à gagner du temps et à éviter les hésitations.</p>
+<h2>La structure d&#39;un script court</h2>
+<table>
+<thead>
+<tr>
+<th>Étape</th>
+<th>Durée indicative (30 à 45 s)</th>
+<th>Rôle</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Hook</strong></td>
+<td>0 à 3 s</td>
+<td>Donner une raison de regarder</td>
+</tr>
+<tr>
+<td><strong>Contexte</strong></td>
+<td>3 à 8 s</td>
+<td>Poser le problème ou la situation</td>
+</tr>
+<tr>
+<td><strong>Contenu</strong></td>
+<td>8 à 35 s</td>
+<td>Donner la méthode, la démonstration ou l&#39;histoire</td>
+</tr>
+<tr>
+<td><strong>Conclusion et CTA</strong></td>
+<td>5 à 8 s</td>
+<td>Résumer et proposer une action</td>
+</tr>
+</tbody></table>
+<h2>Le format de script utilisé dans ce guide</h2>
+<p>Chaque script contient :</p>
+<ul>
+<li><strong>le titre, la niche, le format et la durée</strong> ;</li>
+<li><strong>le hook</strong> ;</li>
+<li><strong>les scènes</strong> : indication de plan (ce qu&#39;on voit), voix off (ce qu&#39;on dit) et texte à l&#39;écran (ce qu&#39;on lit) ;</li>
+<li><strong>un appel à l&#39;action</strong> unique.</li>
+</ul>
+<h2>Rédiger avec l&#39;IA : la méthode en quatre temps</h2>
+<ol>
+<li><strong>Donnez le brief</strong> : sujet, public, durée, ton, objectif.</li>
+<li><strong>Demandez une première version</strong> sous forme de tableau.</li>
+<li><strong>Réécrivez à l&#39;oral</strong> : lisez à voix haute, supprimez ce qui accroche.</li>
+<li><strong>Ajoutez vos exemples et vérifiez les faits.</strong></li>
+</ol>
+<div class="prompt"><div class="lab">PROMPT À COPIER</div><pre>Écris un script de [DURÉE] pour une vidéo sur [SUJET], destinée à [PUBLIC].
+Ton : [TON]. Objectif : [OBJECTIF, ex. que le spectateur enregistre la vidéo].
+Format : tableau avec les colonnes « Plan », « Ce qu&#39;on voit », « Voix off », « Texte à l&#39;écran ».
+Commence par un hook de moins de 12 mots. Termine par un seul appel à l&#39;action : [CTA].
+Utilise des phrases courtes et orales. N&#39;invente ni statistique ni témoignage.</pre></div>
+<h2>Conseils d&#39;écriture orale</h2>
+<ul>
+<li>Une idée par phrase.</li>
+<li>Des mots simples, des verbes d&#39;action.</li>
+<li>Visez un débit confortable, d&#39;environ 2 à 3 mots par seconde : lisez votre script chronomètre en main.</li>
+<li>Prévoyez des respirations et des changements de plan toutes les 2 à 4 secondes.</li>
+</ul>
+<h2>30 scripts complets</h2>
+<p>Les 30 scripts suivants couvrent des niches variées et des formats différents (face caméra, voix off, screencast, texte animé, avant/après). Ils sont <strong>entièrement originaux</strong> : adaptez les exemples et les chiffres à votre propre expérience.</p>
+<div class="script"><div class="hd"><b>Script 01 · Les 3 priorités du jour</b><span>30 s</span></div>
+  <div class="meta">Niche : Productivité  ·  Format : Face caméra</div>
+  <div class="hook"><i>HOOK</i>« Trois tâches, pas dix : voici comment choisir. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Plan serré, face caméra, bureau en arrière-plan</td><td>Chaque matin, je ne garde que trois priorités.</td><td>3 priorités / jour</td></tr><tr><td>Gros plan sur un carnet, tu écris trois lignes</td><td>Une tâche importante, une tâche rapide, une tâche qui me rapproche d'un objectif.</td><td>1 importante · 1 rapide · 1 objectif</td></tr><tr><td>Retour face caméra</td><td>Le reste ? Je le note, mais je m'en occupe seulement après.</td><td>Le reste attend</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Écris tes trois priorités en commentaire.</div></div><div class="script"><div class="hd"><b>Script 02 · Le test des 5 secondes pour un bio de profil</b><span>30 s</span></div>
+  <div class="meta">Niche : Social media  ·  Format : Voix off + captures d'écran</div>
+  <div class="hook"><i>HOOK</i>« Ta bio doit répondre à une question en cinq secondes. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Capture d'un profil avec une bio floue</td><td>Si on lit ta bio et qu'on ne sait pas ce que tu proposes, on passe son chemin.</td><td>Bio floue = scroll</td></tr><tr><td>Capture de la même bio réécrite</td><td>Écris : qui tu aides, avec quoi, et ce qu'on gagne à te suivre.</td><td>Qui · quoi · bénéfice</td></tr><tr><td>Écran avec un exemple modèle</td><td>Par exemple : j'aide les étudiants à s'organiser avec des méthodes simples.</td><td>Exemple de bio claire</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Colle ta bio en commentaire, je te propose une version plus claire.</div></div><div class="script"><div class="hd"><b>Script 03 · Ton premier prompt pour un script</b><span>45 s</span></div>
+  <div class="meta">Niche : IA  ·  Format : Screencast</div>
+  <div class="hook"><i>HOOK</i>« Si ton prompt ressemble à ça, l'IA ne peut pas deviner ce que tu veux. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Écran : un prompt de cinq mots, réponse générique</td><td>Voici un prompt vague et voici la réponse : trop générale.</td><td>Prompt vague = réponse vague</td></tr><tr><td>Écran : prompt avec rôle, public, durée, ton</td><td>Ajoute le rôle, le public, la durée et le ton souhaité.</td><td>Rôle · public · durée · ton</td></tr><tr><td>Écran : la nouvelle réponse</td><td>Même sujet, résultat beaucoup plus utile. Relis toujours et corrige.</td><td>Toujours relire</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Commente « PROMPT » pour recevoir le modèle.</div></div><div class="script"><div class="hd"><b>Script 04 · Un week-end à Lisbonne sans stress</b><span>40 s</span></div>
+  <div class="meta">Niche : Voyage  ·  Format : Voix off + b-roll</div>
+  <div class="hook"><i>HOOK</i>« Un week-end à Lisbonne : mon itinéraire heure par heure. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Plans de rues et de tramways (tes propres images)</td><td>Samedi matin : quartier d'Alfama, avant l'arrivée de la foule.</td><td>Sam. 9h · Alfama</td></tr><tr><td>Plans d'un café et d'une terrasse</td><td>Midi : pause déjeuner dans un petit restaurant de quartier.</td><td>12h · Déjeuner local</td></tr><tr><td>Plans du coucher de soleil</td><td>Fin de journée : un point de vue pour regarder la ville s'éclairer.</td><td>18h · Point de vue</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Sauvegarde pour ton prochain voyage.</div></div><div class="script"><div class="hd"><b>Script 05 · Prépare tes repas de la semaine</b><span>45 s</span></div>
+  <div class="meta">Niche : Cuisine  ·  Format : Face caméra + gros plans</div>
+  <div class="hook"><i>HOOK</i>« Un dîner complet en vingt minutes avec trois ingrédients du placard. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Placard ouvert, tu sors trois ingrédients</td><td>Riz, pois chiches, une boîte de tomates : voilà la base.</td><td>3 ingrédients</td></tr><tr><td>Casserole sur le feu, cuisson en accéléré</td><td>On fait revenir, on ajoute les épices, on laisse mijoter.</td><td>20 minutes</td></tr><tr><td>Plat final dans une assiette</td><td>Un repas simple, économique et prêt rapidement.</td><td>Prêt !</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Dis-moi quel ingrédient tu ajouterais.</div></div><div class="script"><div class="hd"><b>Script 06 · Avant / après d'un bureau</b><span>25 s</span></div>
+  <div class="meta">Niche : Productivité  ·  Format : Avant/après</div>
+  <div class="hook"><i>HOOK</i>« Cinq minutes chrono pour un bureau où tu as envie de travailler. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Plan fixe : bureau en désordre</td><td>Voici mon bureau après une semaine chargée.</td><td>Avant</td></tr><tr><td>Accéléré : tu ranges</td><td>Je range par catégories : papiers, câbles, matériel.</td><td>5 minutes</td></tr><tr><td>Plan fixe : bureau rangé</td><td>Même lieu, même lumière. Ça change l'envie de s'y installer.</td><td>Après</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Montre-moi ton bureau en story.</div></div><div class="script"><div class="hd"><b>Script 07 · Le mythe de la motivation</b><span>35 s</span></div>
+  <div class="meta">Niche : Développement personnel  ·  Format : Face caméra</div>
+  <div class="hook"><i>HOOK</i>« La motivation ne vient pas avant l'action, elle vient souvent après. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Face caméra, ton posé</td><td>On attend d'être motivé pour commencer, et on attend longtemps.</td><td>Attendre la motivation ?</td></tr><tr><td>Plan large, tu te lèves et tu te mets au travail</td><td>Commence deux minutes. Seulement deux.</td><td>Deux minutes</td></tr><tr><td>Retour face caméra</td><td>Une fois lancé, continuer devient souvent plus facile.</td><td>L'action nourrit l'envie</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Quelle tâche vas-tu commencer pendant deux minutes ?</div></div><div class="script"><div class="hd"><b>Script 08 · Avant de publier : la checklist de 30 secondes</b><span>30 s</span></div>
+  <div class="meta">Niche : Social media  ·  Format : Texte animé</div>
+  <div class="hook"><i>HOOK</i>« Avant de publier, vérifie ces cinq points. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Fond uni, texte qui apparaît ligne par ligne</td><td>Un : ton hook est dans les deux premières secondes.</td><td>1. Hook clair</td></tr><tr><td>Suite du texte animé</td><td>Deux : les sous-titres sont lisibles et sans faute.</td><td>2. Sous-titres propres</td></tr><tr><td>Suite du texte animé</td><td>Trois à cinq : un appel à l'action, un son autorisé, la mention IA si besoin.</td><td>3-5. CTA · son · mention IA</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Sauvegarde cette checklist.</div></div><div class="script"><div class="hd"><b>Script 09 · Comment j'utilise l'IA pour trouver des idées</b><span>45 s</span></div>
+  <div class="meta">Niche : IA  ·  Format : Screencast</div>
+  <div class="hook"><i>HOOK</i>« Je demande à l'IA vingt idées de vidéos, puis je garde seulement trois. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Écran : prompt avec la niche et le public</td><td>Je donne ma niche, mon public et mes contraintes.</td><td>Contexte précis</td></tr><tr><td>Écran : liste de 20 idées, tu en surlignes 3</td><td>Je choisis celles qui correspondent à mon expérience réelle.</td><td>Je garde 3 idées</td></tr><tr><td>Face caméra</td><td>L'IA propose, c'est moi qui décide et qui vérifie.</td><td>Tu restes l'auteur</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Commente « IDÉES » pour recevoir le prompt.</div></div><div class="script"><div class="hd"><b>Script 10 · Les 3 erreurs de planning</b><span>30 s</span></div>
+  <div class="meta">Niche : Productivité  ·  Format : Texte animé</div>
+  <div class="hook"><i>HOOK</i>« Ces trois erreurs ruinent ton planning avant même d'avoir commencé. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Fond de couleur, texte animé</td><td>Erreur un : planifier chaque minute de ta journée.</td><td>Pas de planning minute par minute</td></tr><tr><td>Suite</td><td>Erreur deux : oublier les pauses et les imprévus.</td><td>Prévois du vide</td></tr><tr><td>Suite</td><td>Erreur trois : copier la routine de quelqu'un d'autre sans l'adapter.</td><td>Adapte à ta vie</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Laquelle fais-tu ? Réponds 1, 2 ou 3.</div></div><div class="script"><div class="hd"><b>Script 11 · Un échauffement de cinq minutes</b><span>45 s</span></div>
+  <div class="meta">Niche : Fitness  ·  Format : Face caméra</div>
+  <div class="hook"><i>HOOK</i>« Si ton échauffement ressemble à ça, change-le avant ta prochaine séance. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Tu montres un échauffement trop rapide</td><td>Beaucoup d'échauffements durent dix secondes et ne préparent pas grand-chose.</td><td>Trop court</td></tr><tr><td>Tu montres trois mouvements</td><td>Mobilité des épaules, des hanches, puis activation douce.</td><td>Épaules · hanches · activation</td></tr><tr><td>Face caméra</td><td>Écoute ton corps et adapte à ton niveau. Ceci n'est pas un avis médical.</td><td>Adapte à ton niveau</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Sauvegarde pour ta prochaine séance.</div></div><div class="script"><div class="hd"><b>Script 12 · Ma garde-robe capsule</b><span>40 s</span></div>
+  <div class="meta">Niche : Mode  ·  Format : Voix off + b-roll</div>
+  <div class="hook"><i>HOOK</i>« Dix pièces, trente tenues : voici comment composer une garde-robe capsule. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Penderie avec dix pièces visibles</td><td>Je choisis des couleurs qui vont ensemble.</td><td>10 pièces</td></tr><tr><td>Montage de trois tenues</td><td>Haut, bas, veste : on combine de plusieurs façons.</td><td>Haut · bas · veste</td></tr><tr><td>Plan final : tu fermes la penderie</td><td>Moins de choix, plus de simplicité le matin.</td><td>Moins de choix</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Quelle pièce ne manque jamais dans ta penderie ?</div></div><div class="script"><div class="hd"><b>Script 13 · Le budget en trois enveloppes</b><span>45 s</span></div>
+  <div class="meta">Niche : Finances personnelles  ·  Format : Texte animé + voix off</div>
+  <div class="hook"><i>HOOK</i>« La règle simple que j'utilise pour répartir mon budget sans me prendre la tête. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Schéma de trois cases</td><td>Une partie pour les dépenses fixes.</td><td>Fixes</td></tr><tr><td>Suite du schéma</td><td>Une partie pour les envies et le quotidien.</td><td>Envies</td></tr><tr><td>Suite du schéma</td><td>Une partie pour l'épargne ou les projets. Adapte les proportions à ta situation.</td><td>Épargne</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Informations générales, pas un conseil financier. Dis-moi ta méthode.</div></div><div class="script"><div class="hd"><b>Script 14 · Réparer une étagère en 15 minutes</b><span>45 s</span></div>
+  <div class="meta">Niche : Maison et DIY  ·  Format : Face caméra + plans rapprochés</div>
+  <div class="hook"><i>HOOK</i>« Je répare cette étagère en quinze minutes avec des outils de base. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Gros plan sur l'étagère abîmée</td><td>Voici le problème : le support a bougé.</td><td>Le problème</td></tr><tr><td>Plans rapprochés des gestes</td><td>Je démonte, je recolle, je revisse et je laisse sécher.</td><td>Outils de base</td></tr><tr><td>Plan final</td><td>Résultat : solide, et prêt à reprendre sa place.</td><td>Terminé</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Montre-moi ta prochaine réparation.</div></div><div class="script"><div class="hd"><b>Script 15 · Ta première semaine de contenu</b><span>40 s</span></div>
+  <div class="meta">Niche : Social media  ·  Format : Face caméra</div>
+  <div class="hook"><i>HOOK</i>« Un système simple pour publier une semaine entière sans panique. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Tu écris sur un tableau</td><td>Lundi, tu choisis trois idées.</td><td>Lun. · idées</td></tr><tr><td>Plan de tournage rapide</td><td>Mardi, tu filmes tout au même endroit.</td><td>Mar. · tournage</td></tr><tr><td>Plan montage</td><td>Mercredi, tu montes. Les jours suivants, tu publies.</td><td>Mer. · montage</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Abonne-toi pour la suite du système.</div></div><div class="script"><div class="hd"><b>Script 16 · Pourquoi tes sous-titres comptent</b><span>35 s</span></div>
+  <div class="meta">Niche : Montage  ·  Format : Screencast</div>
+  <div class="hook"><i>HOOK</i>« Beaucoup de gens regardent sans le son. Tes sous-titres sont-ils lisibles ? »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Écran : sous-titres mal placés</td><td>Texte trop petit, trop bas, en conflit avec l'interface.</td><td>À éviter</td></tr><tr><td>Écran : sous-titres corrigés</td><td>Texte lisible, contraste fort, quelques mots à la fois.</td><td>À faire</td></tr><tr><td>Face caméra</td><td>Relis toujours les sous-titres automatiques : ils contiennent souvent des erreurs.</td><td>Relis les erreurs</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Commente « SOUS-TITRES » pour la liste de réglages.</div></div><div class="script"><div class="hd"><b>Script 17 · Les 4 types de listes de tâches</b><span>40 s</span></div>
+  <div class="meta">Niche : Productivité  ·  Format : Texte animé</div>
+  <div class="hook"><i>HOOK</i>« Ta liste de tâches ne fonctionne pas ? Elle est peut-être du mauvais type. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Texte animé</td><td>La liste du jour pour les tâches courtes.</td><td>Liste du jour</td></tr><tr><td>Suite</td><td>La liste de projet pour les gros objectifs.</td><td>Liste de projet</td></tr><tr><td>Suite</td><td>La liste d'attente pour ce qui dépend des autres, et la liste d'idées pour tout le reste.</td><td>Attente · Idées</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Laquelle utilises-tu ?</div></div><div class="script"><div class="hd"><b>Script 18 · Raconter un échec avec honnêteté</b><span>40 s</span></div>
+  <div class="meta">Niche : Développement personnel  ·  Format : Face caméra</div>
+  <div class="hook"><i>HOOK</i>« Mon planning s'est effondré cette semaine. Voici pourquoi. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Face caméra, ton sincère</td><td>J'avais trop de tâches et aucune marge.</td><td>Trop de tâches</td></tr><tr><td>Plan de ton carnet</td><td>J'ai découpé mon planning en blocs plus courts.</td><td>Blocs plus courts</td></tr><tr><td>Retour face caméra</td><td>Résultat : moins parfait, mais plus tenable.</td><td>Moins parfait, plus tenable</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Raconte un échec qui t'a appris quelque chose.</div></div><div class="script"><div class="hd"><b>Script 19 · Comment faire un tutoriel clair</b><span>50 s</span></div>
+  <div class="meta">Niche : Pédagogie  ·  Format : Voix off + screencast</div>
+  <div class="hook"><i>HOOK</i>« Pour qu'un tutoriel soit suivi jusqu'au bout, commence par le résultat final. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Écran : résultat final</td><td>Montre d'abord ce que le spectateur va obtenir.</td><td>Résultat d'abord</td></tr><tr><td>Écran : étapes courtes</td><td>Ensuite, trois étapes maximum, une idée par étape.</td><td>3 étapes max</td></tr><tr><td>Écran : récapitulatif</td><td>Termine par un récapitulatif et une action simple.</td><td>Récap + action</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Sauvegarde ce modèle de tutoriel.</div></div><div class="script"><div class="hd"><b>Script 20 · Voyager avec un budget clair</b><span>45 s</span></div>
+  <div class="meta">Niche : Voyage  ·  Format : Texte animé + b-roll</div>
+  <div class="hook"><i>HOOK</i>« Comment j'organise un voyage de dix jours en gardant un budget clair. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Texte animé : trois postes de dépenses</td><td>Transport, logement et repas : j'estime chacun avant de partir.</td><td>Transport · logement · repas</td></tr><tr><td>Plans de voyage</td><td>Je garde une petite marge pour l'imprévu.</td><td>Marge imprévue</td></tr><tr><td>Plan final</td><td>Je note mes dépenses chaque soir, cinq minutes suffisent.</td><td>Suivi quotidien</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Partage cette vidéo avec ton partenaire de voyage.</div></div><div class="script"><div class="hd"><b>Script 21 · Un rituel de fin de journée</b><span>40 s</span></div>
+  <div class="meta">Niche : Bien-être  ·  Format : Voix off + b-roll</div>
+  <div class="hook"><i>HOOK</i>« Cinq étapes pour clôturer ta journée sans ruminer. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Plan de ton bureau qu'on range</td><td>Étape un : tu notes ce qui reste à faire demain.</td><td>1. Noter</td></tr><tr><td>Plan d'une lampe qu'on éteint</td><td>Étape deux : tu éteins les écrans.</td><td>2. Écrans éteints</td></tr><tr><td>Plan d'une tasse de thé</td><td>Étapes trois à cinq : une activité calme, de l'eau, et un moment pour toi.</td><td>3-5. Calme</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Quel est ton rituel du soir ?</div></div><div class="script"><div class="hd"><b>Script 22 · Transformer un article en trois vidéos</b><span>45 s</span></div>
+  <div class="meta">Niche : IA et stratégie  ·  Format : Screencast</div>
+  <div class="hook"><i>HOOK</i>« Un seul article peut donner trois vidéos différentes. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Écran : un article ouvert</td><td>Je prends un texte que j'ai écrit moi-même.</td><td>Contenu de départ</td></tr><tr><td>Écran : l'IA propose trois angles</td><td>Je demande trois angles : conseil, erreur à éviter, étude de cas.</td><td>3 angles</td></tr><tr><td>Face caméra</td><td>Je vérifie, j'adapte à ma voix, puis je filme.</td><td>Vérifier et adapter</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Commente « ANGLES » pour le prompt.</div></div><div class="script"><div class="hd"><b>Script 23 · Un bon éclairage avec une fenêtre</b><span>40 s</span></div>
+  <div class="meta">Niche : Production  ·  Format : Face caméra + démonstration</div>
+  <div class="hook"><i>HOOK</i>« Tu n'as pas besoin d'un équipement coûteux pour une image propre. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Comparaison de deux placements</td><td>Ne te mets pas dos à la fenêtre.</td><td>Pas à contre-jour</td></tr><tr><td>Plan : tu te places face à la fenêtre</td><td>Place-toi face à la lumière naturelle.</td><td>Face à la lumière</td></tr><tr><td>Plan : résultat</td><td>Nettoie ton objectif de téléphone avant de filmer.</td><td>Objectif propre</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Sauvegarde ces trois réglages.</div></div><div class="script"><div class="hd"><b>Script 24 · Les cinq questions avant un nouveau projet</b><span>35 s</span></div>
+  <div class="meta">Niche : Entrepreneuriat  ·  Format : Texte animé</div>
+  <div class="hook"><i>HOOK</i>« Avant de dire oui à un projet, pose-toi ces cinq questions. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Texte animé</td><td>À qui est-ce utile ? Combien de temps cela demande-t-il ?</td><td>Qui · combien de temps</td></tr><tr><td>Suite</td><td>Qu'est-ce que je ne ferai pas pendant ce temps ?</td><td>Ce que je sacrifie</td></tr><tr><td>Suite</td><td>Comment saurai-je que c'est réussi ? Et ai-je envie de le faire ?</td><td>Critère de réussite · envie</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Sauvegarde la liste pour ta prochaine décision.</div></div><div class="script"><div class="hd"><b>Script 25 · Un contenu faceless en 3 étapes</b><span>45 s</span></div>
+  <div class="meta">Niche : Faceless  ·  Format : Voix off + b-roll</div>
+  <div class="hook"><i>HOOK</i>« Tu n'as pas envie de montrer ton visage ? Tu peux quand même créer. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Texte à l'écran : l'idée</td><td>Étape un : écris un script court.</td><td>1. Script</td></tr><tr><td>Plans libres de droits ou tes propres plans</td><td>Étape deux : choisis des images dont tu as le droit de te servir.</td><td>2. Images autorisées</td></tr><tr><td>Timeline de montage</td><td>Étape trois : ajoute voix off, sous-titres et musique autorisée.</td><td>3. Voix + sous-titres</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Quel sujet traiterais-tu sans montrer ton visage ?</div></div><div class="script"><div class="hd"><b>Script 26 · Comment dire non poliment</b><span>35 s</span></div>
+  <div class="meta">Niche : Développement personnel  ·  Format : Voix off + texte animé</div>
+  <div class="hook"><i>HOOK</i>« Dire non poliment est une compétence. Voici trois phrases pour t'y aider. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Texte animé</td><td>Merci d'y avoir pensé, mais je ne peux pas m'engager.</td><td>Phrase 1</td></tr><tr><td>Suite</td><td>Je ne suis pas disponible maintenant, mais je peux t'aider d'une autre façon.</td><td>Phrase 2</td></tr><tr><td>Suite</td><td>Je préfère être honnête : ce n'est pas pour moi en ce moment.</td><td>Phrase 3</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Sauvegarde ces phrases.</div></div><div class="script"><div class="hd"><b>Script 27 · Mon outil de montage préféré, honnêtement</b><span>45 s</span></div>
+  <div class="meta">Niche : Montage  ·  Format : Screencast</div>
+  <div class="hook"><i>HOOK</i>« Voici ce que j'aime et ce que je n'aime pas dans cet outil de montage. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Écran de l'outil</td><td>Ce que j'apprécie : une interface claire et des sous-titres rapides.</td><td>Points forts</td></tr><tr><td>Écran d'une limite</td><td>Ce qui me gêne : certaines options dépendent de l'offre choisie.</td><td>Limites</td></tr><tr><td>Face caméra</td><td>Les fonctionnalités et prix peuvent changer, vérifie avant de choisir.</td><td>Vérifie les offres</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Quel outil utilises-tu pour monter ?</div></div><div class="script"><div class="hd"><b>Script 28 · Analyser sa dernière vidéo</b><span>50 s</span></div>
+  <div class="meta">Niche : Analytics  ·  Format : Screencast</div>
+  <div class="hook"><i>HOOK</i>« Ta dernière vidéo a eu peu de vues ? Regarde d'abord ces trois chiffres. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Écran : statistiques</td><td>La durée moyenne de visionnage : où les gens quittent-ils ?</td><td>Durée de visionnage</td></tr><tr><td>Écran : interactions</td><td>Les enregistrements et partages : le contenu était-il utile ?</td><td>Saves · partages</td></tr><tr><td>Face caméra</td><td>Change une seule chose à la fois pour savoir ce qui fonctionne.</td><td>Un seul changement</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Commente « ANALYSE » pour la grille.</div></div><div class="script"><div class="hd"><b>Script 29 · Réutiliser une idée sur trois plateformes</b><span>45 s</span></div>
+  <div class="meta">Niche : Stratégie  ·  Format : Voix off + montage</div>
+  <div class="hook"><i>HOOK</i>« Une idée, trois plateformes, zéro copier-coller. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Écran : trois formats</td><td>TikTok : rythme rapide et sous-titres forts.</td><td>TikTok</td></tr><tr><td>Suite</td><td>Reels : image soignée et légende utile.</td><td>Reels</td></tr><tr><td>Suite</td><td>Shorts : un titre clair et une boucle visuelle.</td><td>Shorts</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Quelle plateforme préfères-tu ?</div></div><div class="script"><div class="hd"><b>Script 30 · Ton plan pour publier cette semaine</b><span>45 s</span></div>
+  <div class="meta">Niche : Plan d'action  ·  Format : Face caméra</div>
+  <div class="hook"><i>HOOK</i>« Tu peux publier ta première vidéo cette semaine. Voici comment. »</div>
+  <table><thead><tr><th style="width:30%">Plan (ce qu'on voit)</th><th>Voix off</th><th style="width:24%">Texte à l'écran</th></tr></thead><tbody><tr><td>Face caméra</td><td>Aujourd'hui, choisis un sujet et écris un hook.</td><td>Jour 1 : sujet + hook</td></tr><tr><td>Plan tournage</td><td>Demain, filme trois prises avec la même lumière.</td><td>Jour 2 : tournage</td></tr><tr><td>Plan publication</td><td>Ensuite, monte, sous-titre et publie sans chercher la perfection.</td><td>Jour 3 : publier</td></tr></tbody></table>
+  <div class="cta"><i>CTA</i>Dis-moi quand tu publies, je viendrai voir.</div></div>
+<blockquote class="exercice"><p><strong>Exercice.</strong> Choisissez le script le plus proche de votre niche, réécrivez-le avec votre propre exemple, puis chronométrez une lecture à voix haute.</p>
+</blockquote>
+</section><section class="full opener" id="ch-6"><div class="grid"></div><div class="circle"></div><div class="circle2"></div><div class="num">06</div>
+<div class="body"><div class="lab">CHAPITRE 6</div><h1>Créer avec ChatGPT et Claude : prompts et techniques</h1><div class="rule"></div><div class="in">DANS CE CHAPITRE</div><ul><li>Un bon prompt : la formule RCTOF</li><li>Dix techniques pour de meilleurs résultats</li><li>Exemple de conversation de travail</li><li>Différences d'usage entre assistants</li><li>Prompts prêts à l'emploi</li><li>Limites et précautions</li></ul></div></section><section class="chapter-body page"><p>ChatGPT et Claude sont des <strong>assistants conversationnels</strong> : vous leur écrivez des instructions (des « prompts ») et ils produisent du texte. Les deux sont utiles pour la réflexion, la rédaction et la structuration. Leurs interfaces, leurs fonctionnalités et leurs offres évoluent : vérifiez ce qui est disponible dans votre version.</p>
+<h2>Un bon prompt : la formule RCTOF</h2>
+<p>Cinq éléments rendent un prompt efficace :</p>
+<table>
+<thead>
+<tr>
+<th>Lettre</th>
+<th>Élément</th>
+<th>Exemple</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>R</strong></td>
+<td><strong>Rôle</strong></td>
+<td>« Tu es un scénariste de vidéos pédagogiques. »</td>
+</tr>
+<tr>
+<td><strong>C</strong></td>
+<td><strong>Contexte</strong></td>
+<td>« Mon public : étudiants. Mon sujet : la gestion du temps. »</td>
+</tr>
+<tr>
+<td><strong>T</strong></td>
+<td><strong>Tâche</strong></td>
+<td>« Écris un script de 40 secondes. »</td>
+</tr>
+<tr>
+<td><strong>O</strong></td>
+<td><strong>Obligations</strong> (contraintes)</td>
+<td>« Ton simple, phrases courtes, aucune statistique inventée. »</td>
+</tr>
+<tr>
+<td><strong>F</strong></td>
+<td><strong>Format</strong> de sortie</td>
+<td>« Un tableau avec plan, voix off, texte à l&#39;écran. »</td>
+</tr>
+</tbody></table>
+<h3>Avant / après</h3>
+<p><strong>Prompt faible</strong></p>
+<div class="prompt"><div class="lab">PROMPT À COPIER</div><pre>Écris un script TikTok sur l&#39;organisation.</pre></div>
+<p><strong>Prompt amélioré</strong></p>
+<div class="prompt"><div class="lab">PROMPT À COPIER</div><pre>Tu es un scénariste de vidéos pédagogiques pour TikTok.
+Contexte : mon public est composé d&#39;étudiants de 18 à 25 ans, mon sujet est la planification de la semaine.
+Tâche : écris un script de 40 secondes avec un hook de moins de 12 mots.
+Obligations : ton direct et bienveillant, phrases courtes, aucune statistique ni source inventée.
+Format : tableau avec les colonnes « Plan », « Voix off », « Texte à l&#39;écran », puis une ligne « CTA ».</pre></div>
+<h2>Dix techniques pour de meilleurs résultats</h2>
+<ol>
+<li><strong>Donnez des exemples</strong> de ce que vous aimez (le style, la longueur, le ton).</li>
+<li><strong>Fixez des limites</strong> : nombre de mots, durée, interdits.</li>
+<li><strong>Demandez des questions</strong> : « Pose-moi les questions nécessaires avant de répondre ».</li>
+<li><strong>Procédez par étapes</strong> : plan, puis brouillon, puis version finale.</li>
+<li><strong>Itérez</strong> : « Rends l&#39;ouverture plus directe », « Supprime les redites ».</li>
+<li><strong>Demandez plusieurs versions</strong> et comparez.</li>
+<li><strong>Fournissez votre matière</strong> : notes, anecdotes, extraits que vous avez écrits.</li>
+<li><strong>Demandez les points à vérifier</strong> : « Liste les affirmations factuelles à contrôler ».</li>
+<li><strong>Gardez votre voix</strong> : « Réécris dans mon style, voici deux exemples de mes textes ».</li>
+<li><strong>Relisez toujours</strong> à voix haute avant de tourner.</li>
+</ol>
+<h2>Exemple de conversation de travail</h2>
+<blockquote class=""><p><strong>Exemple.</strong> Vous souhaitez une vidéo sur la gestion des notifications.</p>
+<ol>
+<li>Vous : prompt avec le brief et le public.</li>
+<li>L&#39;assistant : propose un script en tableau.</li>
+<li>Vous : « Raccourcis à 30 secondes et supprime les phrases abstraites. »</li>
+<li>L&#39;assistant : propose une version raccourcie.</li>
+<li>Vous : ajoutez votre expérience (« Je suis passé de 120 à 30 notifications par jour ») uniquement si c&#39;est vrai.</li>
+<li>Vous : relisez, corrigez, tournez.</li>
+</ol>
+</blockquote>
+<h2>Différences d&#39;usage entre assistants</h2>
+<p>Les assistants ont des forces différentes selon les versions et les cas d&#39;usage. Au lieu de chercher le « meilleur », <strong>testez le même prompt dans deux outils</strong> et gardez celui dont les réponses correspondent le mieux à votre ton. Ne comparez qu&#39;avec des prompts identiques.</p>
+<h2>Prompts prêts à l&#39;emploi</h2>
+<p><strong>Reformuler pour l&#39;oral</strong></p>
+<div class="prompt"><div class="lab">PROMPT À COPIER</div><pre>Réécris ce texte pour qu&#39;il sonne naturel à l&#39;oral : phrases courtes, mots simples,
+pas de tournures d&#39;article. Garde le sens et n&#39;ajoute aucune information.
+Texte : [TEXTE]</pre></div>
+<p><strong>Créer un fil conducteur de série</strong></p>
+<div class="prompt"><div class="lab">PROMPT À COPIER</div><pre>Je veux lancer une série de 5 épisodes sur [THÈME] pour [PUBLIC].
+Propose un nom de série, un format fixe en 3 parties, et le sujet de chaque épisode.
+Chaque épisode doit avoir un hook, un bénéfice clair et un appel à l&#39;action.</pre></div>
+<p><strong>Améliorer un prompt</strong></p>
+<div class="prompt"><div class="lab">PROMPT À COPIER</div><pre>Voici le prompt que j&#39;ai écrit : « [PROMPT] ». Évalue-le : qu&#39;est-ce qui manque (rôle, contexte, contraintes, format) ?
+Propose une version améliorée et explique en 3 points ce qui change.</pre></div>
+<h2>Limites et précautions</h2>
+<ul>
+<li><strong>Hallucinations</strong> : un assistant peut produire des informations fausses avec assurance.</li>
+<li><strong>Données personnelles</strong> : ne saisissez pas d&#39;informations confidentielles, de données clients ou de secrets professionnels.</li>
+<li><strong>Originalité</strong> : les textes générés peuvent ressembler à des formulations courantes. Personnalisez-les.</li>
+<li><strong>Droits et conditions</strong> : lisez les conditions d&#39;utilisation de l&#39;outil concernant l&#39;usage commercial des contenus générés.</li>
+</ul>
+<blockquote class="exercice"><p><strong>Exercice.</strong> Prenez un prompt que vous utilisez déjà. Réécrivez-le avec la formule RCTOF. Comparez les deux résultats.</p>
+</blockquote>
+</section><section class="full opener" id="ch-7"><div class="grid"></div><div class="circle"></div><div class="circle2"></div><div class="num">07</div>
+<div class="body"><div class="lab">CHAPITRE 7</div><h1>Outils d'image et de vidéo : ce qu'ils permettent</h1><div class="rule"></div><div class="in">DANS CE CHAPITRE</div><ul><li>Vue d'ensemble</li><li>Canva</li><li>CapCut</li><li>Autres catégories à connaître</li><li>Choisir sans se disperser</li><li>Questions à se poser avant d'adopter un outil</li></ul></div></section><section class="chapter-body page"><p>Vous n&#39;avez pas besoin de connaître tous les outils. Il suffit d&#39;en maîtriser <strong>deux ou trois</strong>, qui couvrent vos besoins : écrire, concevoir, monter. Ce chapitre présente des catégories d&#39;outils et des exemples connus, sans prétendre à l&#39;exhaustivité.</p>
+<blockquote class="attention"><p><strong>Attention.</strong> Les fonctionnalités, les limites des offres gratuites, les prix et les conditions de licence changent souvent. <strong>Les informations ci-dessous sont des repères généraux, pas des promesses.</strong> Consultez toujours les pages officielles des outils avant de vous abonner ou de les utiliser à titre commercial.</p>
+</blockquote>
+<h2>Vue d&#39;ensemble</h2>
+<table>
+<thead>
+<tr>
+<th>Besoin</th>
+<th>Exemples d&#39;outils</th>
+<th>À quoi ils servent</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Écriture et réflexion</strong></td>
+<td>ChatGPT, Claude</td>
+<td>Idées, scripts, légendes, plans</td>
+</tr>
+<tr>
+<td><strong>Design et visuels</strong></td>
+<td>Canva</td>
+<td>Miniatures, carrousels, textes animés, modèles</td>
+</tr>
+<tr>
+<td><strong>Montage vidéo</strong></td>
+<td>CapCut, ainsi que des éditeurs vidéo sur ordinateur</td>
+<td>Découpe, sous-titres, effets, musique</td>
+</tr>
+<tr>
+<td><strong>Images générées par IA</strong></td>
+<td>Générateurs d&#39;images intégrés à des outils de design ou autonomes</td>
+<td>Illustrations, arrière-plans, concepts visuels</td>
+</tr>
+<tr>
+<td><strong>Voix de synthèse</strong></td>
+<td>Outils de synthèse vocale</td>
+<td>Voix off pour contenus faceless</td>
+</tr>
+<tr>
+<td><strong>Vidéo générée par IA</strong></td>
+<td>Outils de génération vidéo</td>
+<td>Courts plans d&#39;ambiance ou illustratifs</td>
+</tr>
+<tr>
+<td><strong>Banques d&#39;images et de sons</strong></td>
+<td>Banques libres de droits</td>
+<td>Plans et musiques sous licence</td>
+</tr>
+<tr>
+<td><strong>Planification</strong></td>
+<td>Notion, tableurs</td>
+<td>Calendrier, suivi, idées</td>
+</tr>
+</tbody></table>
+<h2>Canva</h2>
+<p>Canva est une plateforme de design en ligne. Elle sert à créer des visuels et peut aussi produire de courtes vidéos.</p>
+<ul>
+<li><strong>Ce qu&#39;elle permet généralement</strong> : créer des carrousels, des miniatures, des textes animés, des stories, avec des modèles prêts à adapter.</li>
+<li><strong>Gratuit et payant</strong> : Canva propose une offre gratuite et des offres payantes. Certaines fonctionnalités (par exemple certains outils de marque, de redimensionnement ou d&#39;IA) peuvent être réservées à des abonnements. Vérifiez l&#39;offre actuelle.</li>
+<li><strong>Licences</strong> : les éléments (photos, vidéos, musiques, polices) ont des conditions d&#39;utilisation. Lisez-les avant un usage commercial.</li>
+</ul>
+<h2>CapCut</h2>
+<p>CapCut est un éditeur vidéo très utilisé pour les formats verticaux.</p>
+<ul>
+<li><strong>Ce qu&#39;il permet généralement</strong> : découper, assembler, ajouter des sous-titres automatiques, des transitions, des effets, des sons et des modèles.</li>
+<li><strong>Gratuit et payant</strong> : une partie des fonctions est accessible gratuitement, d&#39;autres dépendent de l&#39;abonnement ou de la région. Les fonctions d&#39;IA, les exports et les modèles évoluent. Vérifiez l&#39;offre actuelle.</li>
+<li><strong>Sous-titres automatiques</strong> : relisez toujours, des erreurs sont fréquentes.</li>
+</ul>
+<h2>Autres catégories à connaître</h2>
+<ul>
+<li><strong>Générateurs d&#39;images</strong> : utiles pour des visuels conceptuels. Vérifiez la licence commerciale, évitez d&#39;imiter un artiste identifiable, et indiquez que l&#39;image est générée si elle pourrait être prise pour réelle.</li>
+<li><strong>Synthèse vocale</strong> : pratique pour les contenus sans visage. Utilisez une voix standard fournie par l&#39;outil. <strong>Ne clonez jamais la voix d&#39;une personne sans son accord explicite.</strong></li>
+<li><strong>Génération vidéo</strong> : utile pour de courts plans d&#39;illustration. La qualité varie selon les outils, les plans sont souvent courts, et ces contenus doivent être signalés lorsqu&#39;ils sont réalistes.</li>
+<li><strong>Banques d&#39;images et de sons</strong> : de nombreuses banques proposent des contenus libres de droits. Lisez la licence de chaque fichier (usage commercial, attribution).</li>
+</ul>
+<h2>Choisir sans se disperser</h2>
+<ol>
+<li><strong>Commencez avec peu d&#39;outils</strong> : un assistant, un outil de design, un éditeur vidéo.</li>
+<li><strong>Testez les offres gratuites</strong> avant de payer quoi que ce soit.</li>
+<li><strong>Payez uniquement quand un besoin précis le justifie</strong>, pas pour tester.</li>
+<li><strong>Notez vos abonnements</strong> et leurs dates de renouvellement.</li>
+</ol>
+<h2>Questions à se poser avant d&#39;adopter un outil</h2>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Pourquoi</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Le plan gratuit répond-il à mon besoin actuel ?</td>
+<td>Éviter un abonnement inutile</td>
+</tr>
+<tr>
+<td>La licence autorise-t-elle l&#39;usage commercial ?</td>
+<td>Éviter un problème de droits</td>
+</tr>
+<tr>
+<td>Que devient mon contenu (confidentialité, entraînement) ?</td>
+<td>Protéger vos données</td>
+</tr>
+<tr>
+<td>Puis-je exporter mon travail ?</td>
+<td>Ne pas rester prisonnier d&#39;un outil</td>
+</tr>
+<tr>
+<td>Les sous-titres et la qualité conviennent-ils au français ?</td>
+<td>Gagner du temps de correction</td>
+</tr>
+</tbody></table>
+<h2>Transparence sur les contenus générés par IA</h2>
+<p>Beaucoup de plateformes demandent de signaler les contenus réalistes créés ou modifiés par IA, et certaines ajoutent des étiquettes automatiquement. Dans l&#39;Union européenne, des obligations de transparence existent aussi pour certains contenus générés. Les règles évoluent : <strong>vérifiez les règles actuelles</strong> de la plateforme et la réglementation applicable. Dans le doute, indiquez-le simplement : c&#39;est honnête et cela protège votre crédibilité.</p>
+<blockquote class="exercice"><p><strong>Exercice.</strong> Dressez la liste de vos besoins (écrire, concevoir, monter). Pour chacun, choisissez <strong>un seul outil</strong> et testez son offre gratuite cette semaine. Notez ce qui vous manque réellement.</p>
+</blockquote>
+</section><section class="full opener" id="ch-8"><div class="grid"></div><div class="circle"></div><div class="circle2"></div><div class="num">08</div>
+<div class="body"><div class="lab">CHAPITRE 8</div><h1>Créer du contenu faceless</h1><div class="rule"></div><div class="in">DANS CE CHAPITRE</div><ul><li>Les formats faceless les plus courants</li><li>Un workflow faceless en 7 étapes</li><li>Exemples d'idées faceless</li><li>Qualité : ce qui distingue un bon contenu faceless</li><li>Éthique et transparence</li><li>Les contenus de « compilation » et la réutilisation</li></ul></div></section><section class="chapter-body page"><p>Le contenu « faceless » (sans visage) est une façon de publier sans apparaître à l&#39;écran. C&#39;est une bonne option si vous êtes timide, si vous préférez rester discret ou si votre sujet s&#39;y prête.</p>
+<h2>Les formats faceless les plus courants</h2>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Description</th>
+<th>Exemple</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Voix off + images</strong></td>
+<td>Votre voix accompagne des plans, des visuels ou des captures</td>
+<td>Itinéraire de voyage commenté</td>
+</tr>
+<tr>
+<td><strong>Texte animé</strong></td>
+<td>Des phrases apparaissent à l&#39;écran, avec une musique</td>
+<td>Cinq conseils d&#39;organisation</td>
+</tr>
+<tr>
+<td><strong>Screencast</strong></td>
+<td>Vous enregistrez votre écran et commentez</td>
+<td>Démonstration d&#39;un outil</td>
+</tr>
+<tr>
+<td><strong>Mains et gestes</strong></td>
+<td>Vous filmez vos mains au travail</td>
+<td>Cuisine, bricolage, écriture</td>
+</tr>
+<tr>
+<td><strong>Avant / après</strong></td>
+<td>Deux plans de la même scène</td>
+<td>Rangement, rénovation</td>
+</tr>
+<tr>
+<td><strong>Carrousel vidéo</strong></td>
+<td>Une suite de visuels commentés</td>
+<td>Tutoriel en étapes</td>
+</tr>
+<tr>
+<td><strong>Voix de synthèse</strong></td>
+<td>Une voix générée lit le texte</td>
+<td>Contenu pédagogique répétitif</td>
+</tr>
+</tbody></table>
+<h2>Un workflow faceless en 7 étapes</h2>
+<ol>
+<li><strong>Choisir le sujet et l&#39;angle</strong> (voir chapitre 3).</li>
+<li><strong>Écrire le script</strong> avec l&#39;IA, puis le réécrire à votre manière.</li>
+<li><strong>Préparer les plans</strong> : filmer vos propres images ou choisir des images dont vous avez le droit de vous servir.</li>
+<li><strong>Enregistrer la voix off</strong> (la vôtre ou une voix de synthèse autorisée).</li>
+<li><strong>Monter</strong> : synchroniser voix, images et texte.</li>
+<li><strong>Sous-titrer</strong> : relire chaque ligne.</li>
+<li><strong>Publier</strong> avec une légende claire et, si nécessaire, la mention de contenu généré.</li>
+</ol>
+<div class="prompt"><div class="lab">PROMPT À COPIER</div><pre>Transforme ce script en version faceless : [SCRIPT].
+Pour chaque scène, propose : un type de visuel que je peux filmer moi-même (objets, mains, écran, lieu)
+ou obtenir sous licence, un texte à l&#39;écran de 6 mots maximum, et une indication sonore.
+N&#39;utilise aucune personne identifiable ni aucune marque.</pre></div>
+<h2>Exemples d&#39;idées faceless</h2>
+<ul>
+<li><strong>Cuisine</strong> : gros plans de mains, texte des étapes, son d&#39;ambiance.</li>
+<li><strong>Voyage</strong> : plans de rues et de paysages filmés par vous, voix off et itinéraire.</li>
+<li><strong>Productivité</strong> : screencast de votre calendrier ou de votre carnet.</li>
+<li><strong>Bricolage</strong> : plans fixes sur l&#39;établi, étapes numérotées.</li>
+<li><strong>IA et outils</strong> : capture d&#39;écran d&#39;un prompt, de sa réponse et de votre analyse.</li>
+</ul>
+<h2>Qualité : ce qui distingue un bon contenu faceless</h2>
+<ul>
+<li><strong>Une voix claire et un son propre</strong>, avant même la qualité de l&#39;image.</li>
+<li><strong>Du rythme</strong> : un nouveau plan ou texte toutes les 2 à 4 secondes.</li>
+<li><strong>De la cohérence visuelle</strong> : mêmes couleurs, mêmes polices, même style.</li>
+<li><strong>De la valeur réelle</strong> : une méthode, une idée ou un résultat concret.</li>
+</ul>
+<h2>Éthique et transparence</h2>
+<blockquote class="attention"><p><strong>Attention.</strong> Un contenu faceless n&#39;est pas une excuse pour tromper le public.</p>
+</blockquote>
+<ul>
+<li><strong>Ne vous faites pas passer pour quelqu&#39;un d&#39;autre</strong> (personne réelle, expert ou célébrité).</li>
+<li><strong>Signalez les contenus générés par IA</strong> quand ils sont réalistes, selon les règles de la plateforme.</li>
+<li><strong>Ne clonez aucune voix</strong> sans autorisation écrite de la personne concernée.</li>
+<li><strong>N&#39;utilisez aucun visage ou voix générés pour simuler un témoignage ou un avis client.</strong></li>
+<li><strong>Respectez les droits</strong> : images, musiques, polices, extraits d&#39;autres créateurs.</li>
+<li><strong>Ne diffusez pas d&#39;informations médicales, financières ou juridiques présentées comme des certitudes.</strong></li>
+<li><strong>Soyez transparent</strong> sur vos partenariats et contenus sponsorisés.</li>
+</ul>
+<h2>Les contenus de « compilation » et la réutilisation</h2>
+<p>Réutiliser des vidéos d&#39;autres personnes sans autorisation peut enfreindre le droit d&#39;auteur et les règles des plateformes. Produisez votre propre contenu, ou utilisez des éléments dont la licence vous le permet clairement.</p>
+<blockquote class="exercice"><p><strong>Exercice.</strong> Choisissez l&#39;un des 30 scripts du chapitre 5 et transformez-le en version faceless avec le prompt ci-dessus. Listez les plans que vous pouvez filmer aujourd&#39;hui avec votre téléphone.</p>
+</blockquote>
+</section><section class="full opener" id="ch-9"><div class="grid"></div><div class="circle"></div><div class="circle2"></div><div class="num">09</div>
+<div class="body"><div class="lab">CHAPITRE 9</div><h1>Montage vidéo et storytelling</h1><div class="rule"></div><div class="in">DANS CE CHAPITRE</div><ul><li>La structure narrative d'une vidéo courte</li><li>Le rythme</li><li>Les sous-titres</li><li>Les transitions</li><li>Le son</li><li>La rétention : les leviers concrets</li></ul></div></section><section class="chapter-body page"><p>Un bon montage ne se remarque pas : il <strong>soutient le message</strong>. L&#39;objectif est de garder l&#39;attention sans fatiguer, en respectant votre propos.</p>
+<h2>La structure narrative d&#39;une vidéo courte</h2>
+<p>La plupart des vidéos efficaces suivent un fil simple :</p>
+<ol>
+<li><strong>Accroche</strong> : promesse, question ou image forte.</li>
+<li><strong>Tension</strong> : le problème, l&#39;enjeu, ce qui rend le sujet intéressant.</li>
+<li><strong>Développement</strong> : la méthode, la démonstration ou l&#39;histoire.</li>
+<li><strong>Résolution</strong> : le résultat ou l&#39;idée à retenir.</li>
+<li><strong>Action</strong> : une seule invitation (enregistrer, commenter, suivre, cliquer).</li>
+</ol>
+<figure class="diagram"><svg viewBox="0 0 640 240" xmlns="http://www.w3.org/2000/svg" font-family="Inter, Helvetica, Arial, sans-serif">
+    <rect x="50" y="20" width="560" height="170" fill="#fff" stroke="#D5DCEB"/>
+    <rect x="50" y="20" width="70" height="170" fill="#EAF0FF"/>
+    <text x="85" y="38" text-anchor="middle" font-size="10" font-weight="700" fill="#1F5BFF">HOOK</text>
+    <path d="M50 30 C60 60 80 100 130 112 C200 126 300 128 380 140 C460 152 540 160 610 168" stroke="#1F5BFF" stroke-width="3" fill="none"/>
+    <path d="M50 30 C60 40 80 50 130 54 C230 60 340 66 420 70 C500 74 560 78 610 84" stroke="#0B1530" stroke-width="3" fill="none" stroke-dasharray="6 4"/>
+    <text x="620" y="88" font-size="10" fill="#0B1530">Cible</text><text x="620" y="172" font-size="10" fill="#1F5BFF">Risque</text>
+    <text x="50" y="208" font-size="10" fill="#5B6478">0 s</text><text x="330" y="208" text-anchor="middle" font-size="10" fill="#5B6478">Temps de lecture</text><text x="610" y="208" text-anchor="end" font-size="10" fill="#5B6478">Fin</text>
+    <text x="42" y="30" text-anchor="end" font-size="10" fill="#5B6478">100 %</text>
+    <text x="320" y="232" text-anchor="middle" font-size="10" fill="#5B6478">Courbe illustrative : elle ne repose sur aucune donnée réelle. Votre outil statistique affiche la vôtre.</text></svg><figcaption>Pourquoi les premières secondes comptent : la perte d'audience est généralement la plus forte au début.</figcaption></figure>
+<h2>Le rythme</h2>
+<ul>
+<li><strong>Changez de plan ou d&#39;élément visuel toutes les 2 à 4 secondes</strong>, sans exagérer.</li>
+<li><strong>Supprimez les silences et les hésitations</strong> qui ne servent pas le propos.</li>
+<li><strong>Gardez des respirations</strong> : un montage trop dense fatigue.</li>
+<li><strong>Variez</strong> : plan serré, plan large, gros plan, texte, capture d&#39;écran.</li>
+</ul>
+<h2>Les sous-titres</h2>
+<p>Beaucoup de personnes regardent sans le son, et les sous-titres facilitent aussi l&#39;accessibilité.</p>
+<table>
+<thead>
+<tr>
+<th>Bonne pratique</th>
+<th>Pourquoi</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>3 à 6 mots par ligne</td>
+<td>Lisibilité sur mobile</td>
+</tr>
+<tr>
+<td>Contraste fort (texte clair sur fond sombre ou contour)</td>
+<td>Visibilité</td>
+</tr>
+<tr>
+<td>Placer le texte hors des zones couvertes par l&#39;interface</td>
+<td>Éviter qu&#39;il soit masqué</td>
+</tr>
+<tr>
+<td>Relire chaque ligne</td>
+<td>Les sous-titres automatiques font des erreurs</td>
+</tr>
+<tr>
+<td>Mettre en évidence 1 ou 2 mots clés</td>
+<td>Guider le regard</td>
+</tr>
+</tbody></table>
+<h2>Les transitions</h2>
+<p>Les transitions doivent aider à comprendre, pas décorer. Une coupe franche reste souvent la plus efficace. Réservez les effets aux changements de lieu, de temps ou d&#39;idée.</p>
+<h2>Le son</h2>
+<ul>
+<li><strong>La qualité de la voix passe avant tout</strong> : enregistrez dans une pièce calme et rapprochez le micro.</li>
+<li><strong>Réglez le volume</strong> de la musique pour ne jamais couvrir la voix.</li>
+<li><strong>Utilisez uniquement des musiques dont vous avez le droit de vous servir</strong> : bibliothèque de la plateforme (en respectant ses conditions, notamment pour un usage commercial) ou musiques sous licence.</li>
+<li><strong>Faites un test sur téléphone</strong> avec écouteurs et sans écouteurs.</li>
+</ul>
+<h2>La rétention : les leviers concrets</h2>
+<ol>
+<li><strong>Un hook visible dès la première image.</strong></li>
+<li><strong>Une promesse tenue rapidement</strong> : donnez de la valeur dès les premières secondes.</li>
+<li><strong>Des relances</strong> : « Et le plus important, c&#39;est le point 3. »</li>
+<li><strong>Une durée adaptée</strong> : une vidéo plus courte mais dense vaut mieux qu&#39;une vidéo longue et diluée.</li>
+<li><strong>Une fin nette</strong> : pas de conclusion qui s&#39;éternise.</li>
+</ol>
+<h2>Raconter une histoire en 30 secondes</h2>
+<table>
+<thead>
+<tr>
+<th>Étape</th>
+<th>Exemple</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Situation</strong></td>
+<td>« Il y a six mois, mon agenda débordait. »</td>
+</tr>
+<tr>
+<td><strong>Difficulté</strong></td>
+<td>« Je ne finissais rien. »</td>
+</tr>
+<tr>
+<td><strong>Action</strong></td>
+<td>« J&#39;ai commencé à ne garder que trois priorités par jour. »</td>
+</tr>
+<tr>
+<td><strong>Résultat honnête</strong></td>
+<td>« Je suis moins stressé, même si certains jours restent compliqués. »</td>
+</tr>
+<tr>
+<td><strong>Leçon</strong></td>
+<td>« Moins de tâches, mais mieux choisies. »</td>
+</tr>
+</tbody></table>
+<h2>Checklist de montage</h2>
+<p>☐ Le hook apparaît dans les deux premières secondes ☐ Aucun temps mort ☐ Sous-titres relus ☐ Voix claire ☐ Musique sous licence ☐ Texte hors des zones masquées ☐ Une seule action finale ☐ Mention IA si nécessaire ☐ Test de lecture sur téléphone</p>
+<blockquote class="exercice"><p><strong>Exercice.</strong> Reprenez une de vos vidéos (ou un script). Marquez chaque moment où l&#39;attention pourrait baisser, puis supprimez-le ou accélérez-le.</p>
+</blockquote>
+</section><section class="full opener" id="ch-10"><div class="grid"></div><div class="circle"></div><div class="circle2"></div><div class="num">10</div>
+<div class="body"><div class="lab">CHAPITRE 10</div><h1>Calendrier de contenu : 30 jours de publications</h1><div class="rule"></div><div class="in">DANS CE CHAPITRE</div><ul><li>Comment utiliser ce calendrier</li><li>La logique du calendrier</li><li>Rythme de production conseillé</li></ul></div></section><section class="chapter-body page"><p>Un calendrier transforme une bonne intention en habitude. Il évite de se demander chaque jour « que publier ? » et permet de <strong>batcher</strong> : préparer plusieurs vidéos d&#39;un coup.</p>
+<h2>Comment utiliser ce calendrier</h2>
+<p>Le calendrier ci-dessous est rédigé pour une <strong>niche d&#39;exemple : organisation et productivité pour étudiants et jeunes actifs</strong>. Il montre la méthode : alternance des piliers, formats variés, un hook et un appel à l&#39;action pour chaque jour.</p>
+<p>Pour l&#39;adapter à votre niche, utilisez ce prompt :</p>
+<div class="prompt"><div class="lab">PROMPT À COPIER</div><pre>Voici un calendrier de contenu de 30 jours conçu pour la niche « organisation et productivité » : [COLLEZ LE CALENDRIER].
+Adapte-le à ma niche : [VOTRE NICHE], pour [VOTRE PUBLIC]. Garde la même structure (piliers, formats, rythme),
+mais remplace chaque idée, chaque hook et chaque CTA par des propositions adaptées à ma niche.
+N&#39;invente ni statistique ni témoignage. Présente le résultat sous forme de tableau.</pre></div>
+<h2>La logique du calendrier</h2>
+<table>
+<thead>
+<tr>
+<th>Élément</th>
+<th>Choix retenu</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Fréquence</strong></td>
+<td>Une publication par jour pendant 30 jours (adaptez : 3 à 5 par semaine suffit très bien)</td>
+</tr>
+<tr>
+<td><strong>Piliers</strong></td>
+<td>Éducation, Coulisses, Preuve, Personnel, Offre douce</td>
+</tr>
+<tr>
+<td><strong>Formats</strong></td>
+<td>Face caméra, voix off et b-roll, screencast, texte animé, avant/après</td>
+</tr>
+<tr>
+<td><strong>Offre</strong></td>
+<td>Limitée à 2 jours sur 30, pour ne pas transformer le compte en vitrine</td>
+</tr>
+</tbody></table>
+<blockquote class=""><p><strong>Astuce.</strong> Si le rythme quotidien est trop lourd, gardez seulement les jours de la colonne « Éducation » et ajoutez-en un jour de « Coulisses » par semaine.</p>
+</blockquote>
+<h2>Rythme de production conseillé</h2>
+<ul>
+<li><strong>Dimanche</strong> : choisir les idées de la semaine et relire les scripts.</li>
+<li><strong>Un créneau de tournage</strong> : filmer 3 à 5 vidéos dans la même tenue et au même endroit.</li>
+<li><strong>Un créneau de montage</strong> : monter et sous-titrer.</li>
+<li><strong>Publication</strong> : programmer ou publier quotidiennement.</li>
+</ul>
+<h2>Le calendrier</h2>
+<div class="week">Semaine 1</div><table class="cal"><thead><tr><th>Jour</th><th>Idée</th><th>Hook</th><th>Appel à l'action</th></tr></thead><tbody><tr><td><div class="d">J1</div><div class="p">Éducation<br>Vidéo face caméra (30 s)</div></td><td>Présentation du compte : pour qui, pour quoi</td><td class="h">« Si tu te sens débordé par ton organisation, ce compte est pour toi. »</td><td>Abonne-toi pour la série « Organisation sans stress ».</td></tr><tr><td><div class="d">J2</div><div class="p">Éducation<br>Voix off + b-roll</div></td><td>La règle des trois priorités du jour</td><td class="h">« Trois tâches, pas dix : voici comment choisir. »</td><td>Dis-moi tes trois priorités en commentaire.</td></tr><tr><td><div class="d">J3</div><div class="p">Coulisses<br>Vidéo face caméra</div></td><td>Ma routine du dimanche soir pour préparer la semaine</td><td class="h">« Dix minutes le dimanche changent toute ma semaine. »</td><td>Enregistre cette vidéo pour dimanche.</td></tr><tr><td><div class="d">J4</div><div class="p">Éducation<br>Carrousel / texte animé</div></td><td>Les 4 types de listes de tâches et quand les utiliser</td><td class="h">« Ta to-do list ne fonctionne pas ? Elle est peut-être du mauvais type. »</td><td>Partage à quelqu'un qui note tout sur des post-it.</td></tr><tr><td><div class="d">J5</div><div class="p">Preuve<br>Avant/après</div></td><td>Un bureau désordonné rangé en cinq minutes</td><td class="h">« Cinq minutes chrono pour un bureau où tu as envie de travailler. »</td><td>Montre-moi ton bureau en story, je donne un conseil.</td></tr><tr><td><div class="d">J6</div><div class="p">Éducation<br>Screencast</div></td><td>Créer un calendrier hebdomadaire simple dans un tableur</td><td class="h">« Regarde comment je planifie ma semaine sur un seul écran. »</td><td>Commente « MODÈLE » si tu veux la structure.</td></tr><tr><td><div class="d">J7</div><div class="p">Personnel<br>Vidéo face caméra</div></td><td>Ce que je ferais différemment si je recommençais</td><td class="h">« Ce que j'aurais voulu savoir avant de m'organiser. »</td><td>Quel conseil aurais-tu voulu recevoir plus tôt ?</td></tr></tbody></table><div class="week">Semaine 2</div><table class="cal"><thead><tr><th>Jour</th><th>Idée</th><th>Hook</th><th>Appel à l'action</th></tr></thead><tbody><tr><td><div class="d">J8</div><div class="p">Éducation<br>Voix off + b-roll</div></td><td>La méthode des blocs de concentration de 25 minutes</td><td class="h">« Vingt-cinq minutes sans téléphone : voici comment je m'y prends. »</td><td>Essaie un bloc aujourd'hui et raconte-moi.</td></tr><tr><td><div class="d">J9</div><div class="p">Éducation<br>Texte animé</div></td><td>Trois erreurs de planning qu'on fait tous</td><td class="h">« Ces trois erreurs ruinent ton planning avant même d'avoir commencé. »</td><td>Laquelle fais-tu ? Réponds 1, 2 ou 3.</td></tr><tr><td><div class="d">J10</div><div class="p">Preuve<br>Démonstration</div></td><td>Comment je transforme un gros projet en petites tâches</td><td class="h">« Ce projet te paraît énorme ? Découpons-le ensemble. »</td><td>Écris ton projet, je le découpe en commentaire.</td></tr><tr><td><div class="d">J11</div><div class="p">Coulisses<br>Vidéo face caméra</div></td><td>Ma journée type, du réveil à la dernière tâche</td><td class="h">« Voici une journée réelle, avec les imprévus. »</td><td>Dis-moi ce qui rend tes journées difficiles.</td></tr><tr><td><div class="d">J12</div><div class="p">Éducation<br>Voix off + b-roll</div></td><td>Pourquoi le multitâche te fatigue</td><td class="h">« Faire plusieurs choses en même temps te ralentit peut-être plus que tu ne le crois. »</td><td>Sauvegarde pour ta prochaine session de travail.</td></tr><tr><td><div class="d">J13</div><div class="p">Offre douce<br>Vidéo face caméra</div></td><td>Présenter un modèle gratuit de planning (lien en bio)</td><td class="h">« J'ai transformé ma méthode en un modèle simple que tu peux copier. »</td><td>Lien en bio pour récupérer le modèle.</td></tr><tr><td><div class="d">J14</div><div class="p">Personnel<br>Vidéo face caméra</div></td><td>Un échec d'organisation et ce que j'en ai appris</td><td class="h">« Cette semaine, mon planning s'est effondré. Voici pourquoi. »</td><td>Raconte ton pire raté de planning.</td></tr></tbody></table><div class="week">Semaine 3</div><table class="cal"><thead><tr><th>Jour</th><th>Idée</th><th>Hook</th><th>Appel à l'action</th></tr></thead><tbody><tr><td><div class="d">J15</div><div class="p">Éducation<br>Screencast</div></td><td>Utiliser un assistant IA pour préparer sa semaine</td><td class="h">« Je demande à l'IA de transformer mes notes en plan de semaine. »</td><td>Commente « PROMPT » pour recevoir le texte du prompt.</td></tr><tr><td><div class="d">J16</div><div class="p">Éducation<br>Texte animé</div></td><td>La matrice urgent / important expliquée simplement</td><td class="h">« Urgent n'est pas toujours important. Voici comment trier. »</td><td>Place une de tes tâches dans la matrice en commentaire.</td></tr><tr><td><div class="d">J17</div><div class="p">Preuve<br>Avant/après</div></td><td>Mon agenda avant et après un tri des engagements</td><td class="h">« J'ai retiré trois engagements. Voici ce qui s'est passé. »</td><td>À quoi pourrais-tu dire non cette semaine ?</td></tr><tr><td><div class="d">J18</div><div class="p">Coulisses<br>Vidéo face caméra</div></td><td>Mes outils : ce que j'utilise vraiment et pourquoi</td><td class="h">« Voici les trois outils que j'ouvre chaque jour, et ceux que j'ai arrêtés. »</td><td>Quel outil ne pourrais-tu pas abandonner ?</td></tr><tr><td><div class="d">J19</div><div class="p">Éducation<br>Voix off + b-roll</div></td><td>Comment dire non sans se justifier pendant dix minutes</td><td class="h">« Dire non poliment est une compétence. Voici trois phrases pour t'y aider. »</td><td>Sauvegarde ces phrases pour la prochaine fois.</td></tr><tr><td><div class="d">J20</div><div class="p">Éducation<br>Démonstration</div></td><td>Organiser ses fichiers et dossiers en trois niveaux</td><td class="h">« Ton dossier Téléchargements est un chaos ? Voici ma structure. »</td><td>Montre-moi ton pire dossier, je te conseille.</td></tr><tr><td><div class="d">J21</div><div class="p">Personnel<br>Vidéo face caméra</div></td><td>Bilan des trois premières semaines : ce qui a marché</td><td class="h">« Trois semaines de publications : voici ce que j'ai observé. »</td><td>Quelle vidéo t'a le plus aidé jusqu'ici ?</td></tr></tbody></table><div class="week">Semaine 4</div><table class="cal"><thead><tr><th>Jour</th><th>Idée</th><th>Hook</th><th>Appel à l'action</th></tr></thead><tbody><tr><td><div class="d">J22</div><div class="p">Éducation<br>Carrousel / texte animé</div></td><td>Un rituel de fin de journée en cinq étapes</td><td class="h">« Cinq étapes pour clôturer ta journée sans ruminer. »</td><td>Enregistre pour ce soir.</td></tr><tr><td><div class="d">J23</div><div class="p">Éducation<br>Voix off + b-roll</div></td><td>Comment planifier des pauses qui reposent vraiment</td><td class="h">« Une pause sur ton téléphone n'est pas toujours une pause. »</td><td>Quelle est ta pause préférée ?</td></tr><tr><td><div class="d">J24</div><div class="p">Preuve<br>Démonstration</div></td><td>Je prépare une semaine de repas en quinze minutes</td><td class="h">« Quinze minutes pour ne plus te demander quoi manger chaque soir. »</td><td>Veux-tu la liste de courses type ?</td></tr><tr><td><div class="d">J25</div><div class="p">Coulisses<br>Vidéo face caméra</div></td><td>Répondre à vos questions : organisation et motivation</td><td class="h">« Vous m'avez posé vos questions, je réponds à celles qui reviennent le plus. »</td><td>Pose ta question pour la prochaine vidéo.</td></tr><tr><td><div class="d">J26</div><div class="p">Éducation<br>Screencast</div></td><td>Mettre en place des rappels utiles sans se noyer dans les notifications</td><td class="h">« Trop de notifications tuent la concentration. Voici mon réglage. »</td><td>Combien de notifications reçois-tu par jour ?</td></tr><tr><td><div class="d">J27</div><div class="p">Offre douce<br>Vidéo face caméra</div></td><td>Présenter un guide ou service payant (si pertinent)</td><td class="h">« Si tu veux aller plus loin, voici ce que j'ai préparé pour toi. »</td><td>Lien en bio pour découvrir les détails.</td></tr><tr><td><div class="d">J28</div><div class="p">Éducation<br>Texte animé</div></td><td>Les cinq questions à se poser avant d'accepter un nouveau projet</td><td class="h">« Avant de dire oui, pose-toi ces cinq questions. »</td><td>Sauvegarde la liste pour ta prochaine décision.</td></tr></tbody></table><div class="week">Jours 29 et 30</div><table class="cal"><thead><tr><th>Jour</th><th>Idée</th><th>Hook</th><th>Appel à l'action</th></tr></thead><tbody><tr><td><div class="d">J29</div><div class="p">Personnel<br>Vidéo face caméra</div></td><td>Ce que cette routine a changé pour moi, honnêtement</td><td class="h">« Voici les vrais effets de trente jours, bons et moins bons. »</td><td>Raconte-moi où tu en es.</td></tr><tr><td><div class="d">J30</div><div class="p">Éducation<br>Voix off + b-roll</div></td><td>Récapitulatif : mon plan d'organisation en un seul schéma</td><td class="h">« Trente jours, un seul schéma : voici ce qu'il faut retenir. »</td><td>Partage ce récap à quelqu'un qui en a besoin.</td></tr></tbody></table>
+<blockquote class="exercice"><p><strong>Exercice.</strong> Imprimez ou copiez le calendrier. Barrez ce qui ne correspond pas à votre niche, remplacez par vos propres idées et gardez au moins 80 % des jours.</p>
+</blockquote>
+</section><section class="full opener" id="ch-11"><div class="grid"></div><div class="circle"></div><div class="circle2"></div><div class="num">11</div>
+<div class="body"><div class="lab">CHAPITRE 11</div><h1>20 prompts réutilisables pour différentes niches</h1><div class="rule"></div><div class="in">DANS CE CHAPITRE</div><ul><li>Comment bien les utiliser</li></ul></div></section><section class="chapter-body page"><p>Ces prompts sont prêts à copier-coller. Remplacez les variables <strong>[EN MAJUSCULES]</strong> par vos informations. Chacun inclut des précautions adaptées à son domaine (par exemple, pas de conseil médical ni de promesse financière).</p>
+<h2>Comment bien les utiliser</h2>
+<ol>
+<li><strong>Remplacez toutes les variables.</strong> Un prompt incomplet donne un résultat générique.</li>
+<li><strong>Fournissez de la matière réelle</strong> (expériences, extraits, observations) chaque fois que le prompt le demande.</li>
+<li><strong>Itérez</strong> : demandez de raccourcir, de préciser ou de changer le ton.</li>
+<li><strong>Vérifiez</strong> tout fait, chiffre ou affirmation avant de publier.</li>
+</ol>
+<h2>Les 20 prompts</h2>
+<div class="pcard"><div class="hd"><b>01 · Programme de contenus pour débutants</b><span>Fitness</span></div><pre>Tu es un coach sportif pédagogue qui crée du contenu pour TikTok. Mon public : [PUBLIC, ex. débutants en salle de 25-35 ans]. Mon style : [STYLE, ex. simple et encourageant]. Propose 10 idées de vidéos de 30 à 45 secondes sur [THÈME, ex. la première semaine d'entraînement]. Pour chaque idée, donne : un hook de moins de 12 mots, trois points à montrer à l'écran, un appel à l'action. Ne fais aucune promesse de résultat, ne donne aucun conseil médical, et ajoute un rappel à consulter un professionnel quand c'est pertinent.</pre></div><div class="pcard"><div class="hd"><b>02 · Recettes rapides en vidéo</b><span>Cuisine</span></div><pre>Agis comme un créateur de contenu culinaire. Public : [PUBLIC, ex. étudiants avec petit budget]. Contraintes : [CONTRAINTES, ex. 20 minutes, 4 ingrédients maximum, un seul feu]. Propose 8 recettes avec, pour chacune : titre accrocheur, liste d'ingrédients, 5 étapes de moins de 12 mots, idée de plan d'ouverture, texte à l'écran et légende de 150 caractères maximum. Signale les allergènes courants.</pre></div><div class="pcard"><div class="hd"><b>03 · Routine de soin pédagogique</b><span>Beauté et soin</span></div><pre>Tu es rédacteur pour une chaîne beauté honnête. Type de peau ou de cheveux du public : [TYPE]. Crée un script de 40 secondes sur [SUJET, ex. la routine du soir en trois étapes]. Structure : hook, trois étapes avec ce qu'il faut montrer, conclusion. Évite toute promesse de résultat garanti, les termes médicaux et les comparaisons trompeuses. Ajoute une ligne de mention « contenu non sponsorisé » ou « partenariat » selon [STATUT].</pre></div><div class="pcard"><div class="hd"><b>04 · Itinéraires courts</b><span>Voyage</span></div><pre>Tu es un créateur de contenu voyage. Destination : [DESTINATION]. Durée : [DURÉE]. Budget : [BUDGET]. Je veux 6 vidéos : 3 itinéraires, 2 conseils pratiques, 1 erreur à éviter. Pour chaque vidéo : hook, plan par plan, texte à l'écran et appel à l'action. Indique les informations à vérifier moi-même (horaires, prix, conditions d'entrée) avant de publier.</pre></div><div class="pcard"><div class="hd"><b>05 · Contenus pédagogiques prudents</b><span>Finances personnelles</span></div><pre>Tu es un créateur de contenu éducatif sur les finances personnelles. Public : [PUBLIC]. Sujet : [SUJET, ex. suivre ses dépenses]. Rédige 5 scripts de 30 secondes qui expliquent des notions générales sans donner de conseil personnalisé, sans promettre de rendement ni de gain. Ajoute à chaque script un avertissement court (« informations générales, pas un conseil financier ») et une liste des faits que je dois vérifier avant publication.</pre></div><div class="pcard"><div class="hd"><b>06 · Questions fréquentes des acheteurs</b><span>Immobilier</span></div><pre>Tu es un agent immobilier qui crée du contenu pédagogique. Zone : [ZONE]. Public : [PUBLIC, ex. primo-accédants]. Liste les 15 questions les plus fréquentes que ce public se pose, puis rédige un script de 40 secondes pour les 5 plus utiles. Mentionne que les règles, taux et démarches changent et doivent être vérifiés auprès de sources officielles. N'invente aucun chiffre.</pre></div><div class="pcard"><div class="hd"><b>07 · Méthodes d'apprentissage</b><span>Études et révisions</span></div><pre>Tu es un tuteur qui crée des vidéos courtes. Niveau : [NIVEAU]. Matière : [MATIÈRE]. Propose 8 vidéos montrant une méthode d'apprentissage concrète (fiches, répétition espacée, cartes mentales, etc.). Pour chaque vidéo : hook, démonstration en 3 étapes, exemple avec un vrai extrait de cours que je fournirai : [EXTRAIT], et une question à poser aux spectateurs.</pre></div><div class="pcard"><div class="hd"><b>08 · Contenu pour candidats en recherche d'emploi</b><span>Coaching professionnel</span></div><pre>Tu es un coach carrière. Public : [PUBLIC]. Écris 6 scripts de 35 secondes sur [THÈME, ex. répondre à « parlez-moi de vous »]. Pour chacun : hook, exemple de bonne et de mauvaise réponse, texte à l'écran. Utilise des exemples génériques et ne cite aucune entreprise réelle.</pre></div><div class="pcard"><div class="hd"><b>09 · Présenter un produit honnêtement</b><span>E-commerce</span></div><pre>Tu es spécialiste du contenu pour boutique en ligne. Produit : [PRODUIT]. Caractéristiques vérifiées : [CARACTÉRISTIQUES]. Public : [PUBLIC]. Crée 5 scripts de 30 secondes (démonstration, avant/après réaliste, question fréquente, erreur d'utilisation, coulisses). N'ajoute aucun avis client inventé ni aucune performance non indiquée dans les caractéristiques fournies.</pre></div><div class="pcard"><div class="hd"><b>10 · Contenus pour un restaurant ou un café</b><span>Restauration locale</span></div><pre>Tu es community manager pour un établissement de [TYPE DE LIEU] à [VILLE]. Spécialités : [SPÉCIALITÉS]. Crée un calendrier de 10 idées de vidéos faciles à tourner sur place (coulisses, présentation d'un plat, portrait d'un membre de l'équipe, anecdote). Pour chaque idée : durée, matériel simple, hook, légende. Prévois aussi 3 idées sans visage pour les jours chargés.</pre></div><div class="pcard"><div class="hd"><b>11 · Montrer un processus créatif</b><span>Artisanat et DIY</span></div><pre>Tu es un créateur de contenu artisanal. Objet réalisé : [OBJET]. Matériaux : [MATÉRIAUX]. Découpe le processus en 6 plans de tournage avec, pour chacun : ce qu'il faut filmer, durée, texte à l'écran, son d'ambiance à privilégier. Écris ensuite une voix off de 40 secondes et trois idées de hooks.</pre></div><div class="pcard"><div class="hd"><b>12 · Conseils de saison</b><span>Jardin et plantes</span></div><pre>Tu es un jardinier amateur qui explique simplement. Région : [RÉGION]. Saison : [SAISON]. Propose 8 vidéos de conseils pratiques avec hook, matériel nécessaire et erreur fréquente. Précise que les conseils dépendent du climat et du sol, et liste les points que je dois vérifier avant de publier.</pre></div><div class="pcard"><div class="hd"><b>13 · Routines réalistes</b><span>Bien-être et organisation de vie</span></div><pre>Tu es un créateur de contenu sur les habitudes. Public : [PUBLIC]. Thème : [THÈME]. Écris 6 scripts de 30 secondes sur des routines réalistes, sans promesse de transformation et sans conseil médical. Chaque script contient : hook, trois étapes, texte à l'écran, question finale.</pre></div><div class="pcard"><div class="hd"><b>14 · Looks et styling</b><span>Mode</span></div><pre>Tu es styliste pour réseaux sociaux. Pièces disponibles : [LISTE DE VÊTEMENTS]. Saison : [SAISON]. Propose 7 associations de tenues avec, pour chacune : occasion, ordre des plans, texte à l'écran, hook. N'utilise pas de marques non fournies et pas de jugement sur le corps.</pre></div><div class="pcard"><div class="hd"><b>15 · Tests honnêtes</b><span>Tech et gadgets</span></div><pre>Tu es un créateur de contenu tech. Produit testé : [PRODUIT]. Mes observations réelles : [OBSERVATIONS]. Rédige un script de 45 secondes équilibré (points forts, limites, pour qui c'est utile) basé uniquement sur mes observations. Ajoute une mention claire si le produit m'a été offert ou prêté : [STATUT].</pre></div><div class="pcard"><div class="hd"><b>16 · Astuces pour débutants</b><span>Gaming</span></div><pre>Tu es un créateur de contenu sur le jeu [NOM DU JEU]. Public : [PUBLIC]. Propose 8 idées de vidéos d'astuces pour débutants avec hook, séquence à montrer, texte à l'écran et question aux commentaires. N'invente pas de mécaniques de jeu : si tu n'es pas sûr, signale-le.</pre></div><div class="pcard"><div class="hd"><b>17 · Organisation familiale</b><span>Parentalité</span></div><pre>Tu es un parent créateur de contenu. Thème : [THÈME, ex. organiser les matins]. Écris 5 scripts de 30 secondes basés sur une organisation concrète, avec un ton bienveillant et sans culpabiliser. Ne montre pas de visages d'enfants identifiables dans tes idées de plans : privilégie les mains, les objets et les ambiances.</pre></div><div class="pcard"><div class="hd"><b>18 · Conseils pratiques</b><span>Animaux de compagnie</span></div><pre>Tu es un propriétaire d'animal qui partage son expérience. Animal : [ESPÈCE]. Thème : [THÈME]. Propose 6 vidéos avec hook, plans, texte à l'écran et rappel de consulter un vétérinaire pour toute question de santé. N'avance aucune information médicale précise.</pre></div><div class="pcard"><div class="hd"><b>19 · Expliquer ses services</b><span>Freelance et services</span></div><pre>Tu es un freelance qui explique son métier au grand public. Métier : [MÉTIER]. Public cible : [PUBLIC]. Crée 6 scripts de 35 secondes : un problème fréquent, une méthode de travail, une erreur de client, une réponse à une objection, un exemple de projet générique, une invitation à prendre contact. N'invente ni client ni résultat chiffré.</pre></div><div class="pcard"><div class="hd"><b>20 · Raconter son histoire</b><span>Développement de marque personnelle</span></div><pre>Tu es un coach en storytelling. Voici mon parcours réel : [PARCOURS]. Propose 5 angles de vidéos pour me présenter, avec hook, structure en trois temps (situation, difficulté, apprentissage) et appel à l'action. N'ajoute aucun détail qui ne figure pas dans mon parcours.</pre></div>
+<blockquote class="exercice"><p><strong>Exercice.</strong> Choisissez le prompt qui correspond à votre domaine, complétez-le avec vos données réelles et générez une première série d&#39;idées. Sélectionnez ensuite trois idées et lancez le chapitre 5.</p>
+</blockquote>
+</section><section class="full opener" id="ch-12"><div class="grid"></div><div class="circle"></div><div class="circle2"></div><div class="num">12</div>
+<div class="body"><div class="lab">CHAPITRE 12</div><h1>Analytics : comprendre ses résultats pour s'améliorer</h1><div class="rule"></div><div class="in">DANS CE CHAPITRE</div><ul><li>Les indicateurs à connaître</li><li>Interpréter sans se tromper</li><li>Le diagnostic en quatre cas</li><li>Les expériences : une variable à la fois</li><li>Le bilan hebdomadaire de 15 minutes</li><li>Mesurer sans s'épuiser</li></ul></div></section><section class="chapter-body page"><p>Les statistiques ne servent pas à se juger. Elles servent à <strong>apprendre</strong> ce que le public comprend, retient et partage. Sans analyse, on répète ses habitudes ; avec une analyse simple, on progresse par petites expériences.</p>
+<h2>Les indicateurs à connaître</h2>
+<table>
+<thead>
+<tr>
+<th>Indicateur</th>
+<th>Définition simple</th>
+<th>Question à se poser</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Vues</strong></td>
+<td>Nombre de lectures de la vidéo</td>
+<td>La vidéo est-elle montrée à des personnes ?</td>
+</tr>
+<tr>
+<td><strong>Durée moyenne de visionnage</strong></td>
+<td>Temps moyen passé sur la vidéo</td>
+<td>Mon hook et mon rythme retiennent-ils ?</td>
+</tr>
+<tr>
+<td><strong>Taux de visionnage complet</strong></td>
+<td>Part des spectateurs qui regardent jusqu&#39;à la fin</td>
+<td>La durée et le contenu sont-ils adaptés ?</td>
+</tr>
+<tr>
+<td><strong>Courbe de rétention</strong></td>
+<td>Évolution de l&#39;audience seconde par seconde</td>
+<td>À quel moment les gens partent-ils ?</td>
+</tr>
+<tr>
+<td><strong>« J&#39;aime »</strong></td>
+<td>Appréciation rapide</td>
+<td>Le contenu plaît-il ?</td>
+</tr>
+<tr>
+<td><strong>Commentaires</strong></td>
+<td>Réactions, questions, désaccords</td>
+<td>Le sujet suscite-t-il la conversation ?</td>
+</tr>
+<tr>
+<td><strong>Partages</strong></td>
+<td>Recommandations à d&#39;autres</td>
+<td>Le contenu est-il assez utile pour être transmis ?</td>
+</tr>
+<tr>
+<td><strong>Enregistrements</strong></td>
+<td>Vidéos mises de côté</td>
+<td>La vidéo a-t-elle une valeur durable ?</td>
+</tr>
+<tr>
+<td><strong>Visites de profil / abonnements</strong></td>
+<td>Intérêt pour votre compte</td>
+<td>Donne-t-elle envie d&#39;en voir plus ?</td>
+</tr>
+<tr>
+<td><strong>Clics sur le lien</strong></td>
+<td>Passage à l&#39;action</td>
+<td>Mon appel à l&#39;action est-il clair ?</td>
+</tr>
+</tbody></table>
+<p>Les noms et les emplacements de ces indicateurs varient selon la plateforme et le type de compte. Certaines statistiques sont réservées aux comptes professionnels ou « créateur ».</p>
+<h2>Interpréter sans se tromper</h2>
+<ul>
+<li><strong>Une vidéo ne prouve rien.</strong> Un petit échantillon est trompeur. Cherchez des tendances sur 5 à 10 vidéos.</li>
+<li><strong>Comparez ce qui est comparable</strong> : même format, même durée, même type de sujet.</li>
+<li><strong>Distinguez corrélation et cause</strong> : une vidéo performante peut l&#39;être pour d&#39;autres raisons que celles que vous imaginez (sujet, moment, hasard).</li>
+<li><strong>Regardez la rétention avant les vues</strong> : elle montre ce qu&#39;il faut corriger dans la vidéo.</li>
+</ul>
+<h2>Le diagnostic en quatre cas</h2>
+<table>
+<thead>
+<tr>
+<th>Ce que vous observez</th>
+<th>Hypothèses à tester</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Peu de vues, bonne rétention</strong></td>
+<td>Le sujet ou la mise en avant ne touche pas le bon public</td>
+<td>Tester de nouveaux sujets, hooks ou mots-clés</td>
+</tr>
+<tr>
+<td><strong>Beaucoup de vues, rétention faible</strong></td>
+<td>Hook attractif mais contenu décevant</td>
+<td>Aligner la promesse et le contenu</td>
+</tr>
+<tr>
+<td><strong>Bonne rétention, peu de partages ou d&#39;enregistrements</strong></td>
+<td>Contenu agréable mais peu utile à conserver</td>
+<td>Ajouter une valeur concrète (liste, méthode, modèle)</td>
+</tr>
+<tr>
+<td><strong>Beaucoup d&#39;interactions, peu d&#39;abonnés</strong></td>
+<td>Sujet attractif mais pas relié à votre niche</td>
+<td>Revenir à vos piliers et à votre promesse de profil</td>
+</tr>
+</tbody></table>
+<h2>Les expériences : une variable à la fois</h2>
+<ol>
+<li><strong>Choisissez une hypothèse</strong> (« Un hook avec une question retient mieux »).</li>
+<li><strong>Changez une seule chose</strong> (le hook, la durée ou le format).</li>
+<li><strong>Publiez 3 à 5 vidéos</strong> par variante, dans des conditions proches.</li>
+<li><strong>Comparez</strong> et gardez ce qui fonctionne.</li>
+</ol>
+<h2>Le bilan hebdomadaire de 15 minutes</h2>
+<p>Chaque semaine, notez :</p>
+<ul>
+<li>les 2 vidéos qui ont le mieux retenu l&#39;attention, et pourquoi à votre avis ;</li>
+<li>la vidéo qui a le moins fonctionné, et ce que vous pourriez changer ;</li>
+<li>une expérience à tester la semaine suivante.</li>
+</ul>
+<div class="prompt"><div class="lab">PROMPT À COPIER</div><pre>Voici mes résultats de la semaine : [VIDÉO, DURÉE, VUES, DURÉE MOYENNE, SAVES, PARTAGES, COMMENTAIRES].
+Analyse-les avec prudence : propose 3 hypothèses, une expérience à tester la semaine prochaine
+et les limites de ces données (petit échantillon, hasard). Ne conclus rien de définitif.</pre></div>
+<blockquote class="attention"><p><strong>Attention.</strong> Ne copiez pas aveuglément les conseils d&#39;analyse d&#39;un outil ou d&#39;une IA. Les données doivent rester interprétées avec bon sens.</p>
+</blockquote>
+<h2>Mesurer sans s&#39;épuiser</h2>
+<p>Suivre trois indicateurs suffit pour démarrer : <strong>durée moyenne de visionnage, enregistrements, partages</strong>. Les autres chiffres peuvent attendre.</p>
+<blockquote class="exercice"><p><strong>Exercice.</strong> Créez un tableau avec ces trois colonnes et notez les résultats de vos cinq dernières vidéos (ou de vos cinq prochaines).</p>
+</blockquote>
+</section><section class="full opener" id="ch-13"><div class="grid"></div><div class="circle"></div><div class="circle2"></div><div class="num">13</div>
+<div class="body"><div class="lab">CHAPITRE 13</div><h1>Erreurs fréquentes et solutions pratiques</h1><div class="rule"></div><div class="in">DANS CE CHAPITRE</div><ul><li>Quand quelque chose ne fonctionne pas</li><li>Les limites à connaître</li></ul></div></section><section class="chapter-body page"><p>La plupart des débutants butent sur les mêmes obstacles. Les repérer à l&#39;avance fait gagner beaucoup de temps.</p>
+<table>
+<thead>
+<tr>
+<th>Erreur</th>
+<th>Pourquoi c&#39;est un problème</th>
+<th>Solution pratique</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Publier sans niche claire</strong></td>
+<td>Le public ne comprend pas pourquoi vous suivre</td>
+<td>Rédigez votre phrase de positionnement (chapitre 2)</td>
+</tr>
+<tr>
+<td><strong>Attendre d&#39;être prêt</strong></td>
+<td>Vous n&#39;apprenez que par la publication</td>
+<td>Publiez 5 vidéos imparfaites avant de juger</td>
+</tr>
+<tr>
+<td><strong>Copier les contenus des autres</strong></td>
+<td>Risque de droits et de ressemblance, aucune différenciation</td>
+<td>Utilisez l&#39;IA pour trouver des angles, pas pour dupliquer</td>
+</tr>
+<tr>
+<td><strong>Utiliser l&#39;IA sans relire</strong></td>
+<td>Erreurs, tournures génériques, faits inventés</td>
+<td>Relisez à voix haute et vérifiez chaque affirmation</td>
+</tr>
+<tr>
+<td><strong>Un hook qui promet trop</strong></td>
+<td>La vidéo déçoit, les spectateurs quittent</td>
+<td>Alignez toujours promesse et contenu</td>
+</tr>
+<tr>
+<td><strong>Des vidéos trop longues pour leur contenu</strong></td>
+<td>La rétention chute</td>
+<td>Supprimez tout ce qui ne sert pas l&#39;idée</td>
+</tr>
+<tr>
+<td><strong>Des sous-titres non relus</strong></td>
+<td>Fautes visibles, perte de crédibilité</td>
+<td>Relisez chaque ligne</td>
+</tr>
+<tr>
+<td><strong>Plusieurs appels à l&#39;action</strong></td>
+<td>Le spectateur ne sait pas quoi faire</td>
+<td>Un seul CTA par vidéo</td>
+</tr>
+<tr>
+<td><strong>Changer de thème tous les jours</strong></td>
+<td>Algorithme et public perdus</td>
+<td>Restez sur vos piliers pendant au moins 30 jours</td>
+</tr>
+<tr>
+<td><strong>Se juger sur une seule vidéo</strong></td>
+<td>Un petit échantillon n&#39;est pas fiable</td>
+<td>Analysez par groupes de 5 à 10 vidéos</td>
+</tr>
+<tr>
+<td><strong>Négliger le son</strong></td>
+<td>Les spectateurs quittent une vidéo difficile à entendre</td>
+<td>Priorité à une voix claire</td>
+</tr>
+<tr>
+<td><strong>Ne pas mentionner l&#39;IA quand c&#39;est nécessaire</strong></td>
+<td>Perte de confiance, risque de sanction de la plateforme</td>
+<td>Indiquez les contenus réalistes générés par IA</td>
+</tr>
+<tr>
+<td><strong>Utiliser une musique ou une image sans droits</strong></td>
+<td>Suppression, blocage, litige</td>
+<td>Utilisez des éléments sous licence adaptée</td>
+</tr>
+<tr>
+<td><strong>Promettre des résultats</strong></td>
+<td>Affirmations trompeuses, risques légaux</td>
+<td>Parlez de votre expérience, sans garantie</td>
+</tr>
+<tr>
+<td><strong>Abandonner trop tôt</strong></td>
+<td>La progression prend du temps</td>
+<td>Fixez un cycle de 30 jours avant de décider</td>
+</tr>
+<tr>
+<td><strong>Comparer son début au milieu des autres</strong></td>
+<td>Découragement</td>
+<td>Comparez-vous à vous-même d&#39;il y a un mois</td>
+</tr>
+</tbody></table>
+<h2>Quand quelque chose ne fonctionne pas</h2>
+<ol>
+<li><strong>Identifiez le problème</strong> : hook, contenu, durée, format, sujet, régularité ?</li>
+<li><strong>Changez une seule variable</strong> à la fois.</li>
+<li><strong>Testez sur plusieurs vidéos</strong>.</li>
+<li><strong>Documentez</strong> : notez ce que vous avez changé et ce qui s&#39;est passé.</li>
+</ol>
+<h2>Les limites à connaître</h2>
+<ul>
+<li><strong>L&#39;IA n&#39;est pas une garantie de qualité.</strong> Elle produit un brouillon, pas un contenu fini.</li>
+<li><strong>Aucun guide ne peut garantir un résultat.</strong> Le succès dépend de nombreux facteurs.</li>
+<li><strong>Les règles des plateformes changent.</strong> Consultez-les régulièrement.</li>
+</ul>
+<blockquote class="exercice"><p><strong>Exercice.</strong> Relisez le tableau et entourez trois erreurs que vous êtes susceptible de commettre. Notez une solution concrète pour chacune.</p>
+</blockquote>
+</section><section class="full opener" id="ch-14"><div class="grid"></div><div class="circle"></div><div class="circle2"></div><div class="num">14</div>
+<div class="body"><div class="lab">CHAPITRE 14</div><h1>Plan d'action de 7 jours pour publier vos premières vidéos</h1><div class="rule"></div><div class="in">DANS CE CHAPITRE</div><ul><li>Avant de commencer</li><li>Jour 1 · Clarifier</li><li>Jour 2 · Trouver des idées</li><li>Jour 3 · Écrire</li><li>Jour 4 · Préparer et tourner</li><li>Jour 5 · Monter</li></ul></div></section><section class="chapter-body page"><p>Ce plan est conçu pour vous faire passer de l&#39;idée à la publication en une semaine, avec une charge de travail réaliste : environ <strong>30 à 60 minutes par jour</strong>. Le but n&#39;est pas la perfection : c&#39;est de <strong>publier, observer et apprendre</strong>.</p>
+<h2>Avant de commencer</h2>
+<ul>
+<li>Choisissez <strong>une seule plateforme</strong> pour démarrer (TikTok, Reels ou Shorts).</li>
+<li>Préparez un téléphone, un endroit lumineux et un document de notes.</li>
+<li>Décidez de <strong>trois vidéos</strong> à publier cette semaine.</li>
+</ul>
+<h2>Jour 1 · Clarifier</h2>
+<p><strong>Objectif :</strong> définir votre niche et votre public.</p>
+<ol>
+<li>Rédigez votre phrase : « J&#39;aide [public] à [résultat] grâce à [format] ».</li>
+<li>Définissez trois piliers de contenu.</li>
+<li>Utilisez le prompt du chapitre 2 pour approfondir votre public.</li>
+</ol>
+<p><strong>Résultat attendu :</strong> une phrase de positionnement et trois piliers.</p>
+<h2>Jour 2 · Trouver des idées</h2>
+<p><strong>Objectif :</strong> disposer d&#39;une banque d&#39;idées.</p>
+<ol>
+<li>Lancez le prompt de génération d&#39;idées (chapitre 3).</li>
+<li>Gardez 10 idées avec les trois questions de tri.</li>
+<li>Choisissez <strong>les 3 premières vidéos</strong>.</li>
+</ol>
+<p><strong>Résultat attendu :</strong> 10 idées, 3 sélectionnées.</p>
+<h2>Jour 3 · Écrire</h2>
+<p><strong>Objectif :</strong> rédiger trois scripts.</p>
+<ol>
+<li>Choisissez un hook pour chaque vidéo (chapitre 4).</li>
+<li>Utilisez le prompt de script (chapitre 5), puis réécrivez à votre manière.</li>
+<li>Lisez chaque script à voix haute et chronométrez.</li>
+</ol>
+<p><strong>Résultat attendu :</strong> trois scripts de 30 à 45 secondes.</p>
+<h2>Jour 4 · Préparer et tourner</h2>
+<p><strong>Objectif :</strong> filmer les trois vidéos.</p>
+<ol>
+<li>Choisissez un lieu lumineux et calme.</li>
+<li>Filmez plusieurs prises, en gardant la lumière et le cadrage identiques.</li>
+<li>Enregistrez quelques plans de coupe (mains, objets, écran).</li>
+</ol>
+<p><strong>Résultat attendu :</strong> les rushes des trois vidéos.</p>
+<h2>Jour 5 · Monter</h2>
+<p><strong>Objectif :</strong> monter et sous-titrer.</p>
+<ol>
+<li>Montez la première vidéo (rythme, sous-titres, musique autorisée).</li>
+<li>Appliquez le même style aux deux suivantes.</li>
+<li>Relisez les sous-titres, testez sur téléphone.</li>
+</ol>
+<p><strong>Résultat attendu :</strong> trois vidéos prêtes.</p>
+<h2>Jour 6 · Publier la première vidéo</h2>
+<p><strong>Objectif :</strong> publier.</p>
+<ol>
+<li>Rédigez la légende (avec un prompt de légende, chapitre 15).</li>
+<li>Vérifiez la checklist de publication (chapitre 15).</li>
+<li>Publiez la vidéo 1. Répondez aux premiers commentaires.</li>
+</ol>
+<p><strong>Résultat attendu :</strong> une vidéo en ligne.</p>
+<h2>Jour 7 · Publier, observer, apprendre</h2>
+<p><strong>Objectif :</strong> terminer la semaine avec un bilan.</p>
+<ol>
+<li>Publiez la vidéo 2 (et la vidéo 3 si vous le souhaitez).</li>
+<li>Notez vos premiers chiffres : durée moyenne de visionnage, enregistrements, partages.</li>
+<li>Rédigez trois lignes : ce qui a bien marché, ce que vous changerez, la prochaine expérience.</li>
+</ol>
+<p><strong>Résultat attendu :</strong> deux ou trois vidéos publiées et un premier bilan.</p>
+<h2>Après la semaine 1</h2>
+<ul>
+<li>Poursuivez avec le calendrier du chapitre 10.</li>
+<li>Continuez à publier pendant <strong>30 jours</strong> avant de tirer des conclusions.</li>
+<li>Chaque semaine, faites un bilan de 15 minutes.</li>
+</ul>
+<blockquote class="retenir"><p><strong>À retenir.</strong> Ne vous jugez pas sur les premiers chiffres. Mesurez surtout votre régularité et vos apprentissages.</p>
+</blockquote>
+</section><section class="full opener" id="ch-15"><div class="grid"></div><div class="circle"></div><div class="circle2"></div><div class="num">15</div>
+<div class="body"><div class="lab">CHAPITRE 15</div><h1>Bonus : bibliothèque de prompts et modèles prêts à l'emploi</h1><div class="rule"></div><div class="in">DANS CE CHAPITRE</div><ul><li>Bibliothèque de prompts</li><li>Fiche de planification de contenu (à copier)</li><li>Modèle de script</li><li>Checklist de publication</li></ul></div></section><section class="chapter-body page"><p>Ce chapitre rassemble les outils à garder sous la main : <strong>27 prompts généraux</strong> classés par étape, une fiche de planification, un modèle de script et une checklist de publication. Les modèles sont aussi disponibles en fichiers séparés avec le livre.</p>
+<h2>1. Bibliothèque de prompts</h2>
+<div class="catlab">Recherche et stratégie</div><div class="pcard"><div class="hd"><b>Définir mon public</b><span></span></div><pre>Je veux créer du contenu sur [THÈME]. Pose-moi 10 questions, une à la fois, pour définir mon public (situation, objectifs, obstacles, vocabulaire). Quand j'ai répondu, résume le profil en 5 lignes.</pre></div><div class="pcard"><div class="hd"><b>Piliers de contenu</b><span></span></div><pre>Propose 4 piliers de contenu pour un compte sur [THÈME] destiné à [PUBLIC]. Pour chaque pilier : objectif, 5 sujets, format conseillé et un exemple de hook. Dis-moi aussi quels sujets éviter si je veux rester crédible.</pre></div><div class="pcard"><div class="hd"><b>Analyse d'un concurrent (observation éthique)</b><span></span></div><pre>Voici trois profils publics de mon domaine : [NOMS]. À partir de mes observations suivantes : [OBSERVATIONS], aide-moi à identifier des angles que je peux traiter différemment. Ne reproduis aucun contenu : propose uniquement des idées originales et des angles complémentaires.</pre></div><div class="pcard"><div class="hd"><b>Positionnement en une phrase</b><span></span></div><pre>Je veux m'adresser à [PUBLIC] pour l'aider à [RÉSULTAT]. Écris 8 formulations de positionnement en une phrase, dans un style [STYLE]. Classe-les de la plus claire à la plus originale.</pre></div><div class="catlab">Idées</div><div class="pcard"><div class="hd"><b>Banque d'idées</b><span></span></div><pre>Génère 30 idées de vidéos de moins d'une minute pour [THÈME] et [PUBLIC]. Classe-les par pilier : [PILIERS]. Pour chaque idée, ajoute un niveau de difficulté de tournage (1 à 3).</pre></div><div class="pcard"><div class="hd"><b>Idées à partir d'une question d'audience</b><span></span></div><pre>Voici 10 questions réelles de mon audience : [QUESTIONS]. Transforme chacune en idée de vidéo avec un titre, un hook et un angle (conseil, erreur, démonstration).</pre></div><div class="pcard"><div class="hd"><b>Idées de séries</b><span></span></div><pre>Propose 5 idées de séries récurrentes pour [THÈME], chacune avec un nom, un format fixe de 3 parties, une durée et 5 premiers épisodes.</pre></div><div class="pcard"><div class="hd"><b>Idées pour jours de faible énergie</b><span></span></div><pre>J'ai peu de temps et peu d'énergie. Propose 10 idées de vidéos faciles (moins de 10 minutes au total) pour [THÈME], utilisables en story ou en short.</pre></div><div class="catlab">Hooks</div><div class="pcard"><div class="hd"><b>Hooks par technique</b><span></span></div><pre>Écris 3 hooks pour chacune de ces techniques : question, erreur à éviter, mythe, chiffre vérifiable, mini-histoire. Sujet : [SUJET]. Public : [PUBLIC]. Maximum 14 mots, aucune exagération.</pre></div><div class="pcard"><div class="hd"><b>Améliorer un hook</b><span></span></div><pre>Voici mon hook : « [HOOK] ». Propose 5 variantes plus claires, plus courtes ou plus concrètes. Explique en une phrase ce que chaque variante change.</pre></div><div class="pcard"><div class="hd"><b>Test A/B de hooks</b><span></span></div><pre>Pour la même vidéo sur [SUJET], crée 3 hooks très différents que je pourrai tester sur trois publications. Précise l'hypothèse de chacun.</pre></div><div class="catlab">Scripts</div><div class="pcard"><div class="hd"><b>Script complet</b><span></span></div><pre>Écris un script de [DURÉE] pour une vidéo sur [SUJET], destinée à [PUBLIC]. Format : tableau avec les colonnes : plan, ce qu'on voit, voix off, texte à l'écran. Ajoute un hook dans les 2 premières secondes et un appel à l'action unique : [CTA].</pre></div><div class="pcard"><div class="hd"><b>Raccourcir un script</b><span></span></div><pre>Voici mon script : [SCRIPT]. Réduis-le à [DURÉE] en gardant l'idée centrale. Supprime les redites et garde mon ton. Montre ce que tu as retiré.</pre></div><div class="pcard"><div class="hd"><b>Rendre un script plus oral</b><span></span></div><pre>Réécris ce texte pour qu'il sonne naturel à l'oral : phrases courtes, mots simples, pas de formulations d'article : [TEXTE]. Garde le sens et ne rajoute aucune information.</pre></div><div class="pcard"><div class="hd"><b>Transformer un article en script</b><span></span></div><pre>Voici un texte que j'ai écrit : [TEXTE]. Extrais l'idée principale et rédige un script vidéo de [DURÉE] fidèle à mon contenu, avec hook et appel à l'action.</pre></div><div class="catlab">Légendes et publication</div><div class="pcard"><div class="hd"><b>Légendes optimisées</b><span></span></div><pre>Écris 3 légendes pour cette vidéo : [RÉSUMÉ]. Chaque légende contient une première ligne claire, un contexte en une phrase, un appel à l'action et 5 mots-clés pertinents (sans hashtags excessifs).</pre></div><div class="pcard"><div class="hd"><b>Réponses aux commentaires</b><span></span></div><pre>Voici des commentaires reçus : [COMMENTAIRES]. Propose pour chacun une réponse brève, chaleureuse et utile, et signale ceux qui pourraient devenir une vidéo.</pre></div><div class="pcard"><div class="hd"><b>Mentions de transparence</b><span></span></div><pre>Je publie une vidéo qui contient [ÉLÉMENTS GÉNÉRÉS PAR IA]. Propose trois formulations courtes et claires pour l'indiquer à mon audience, et rappelle-moi de vérifier les règles actuelles de la plateforme.</pre></div><div class="catlab">Réutilisation de contenu</div><div class="pcard"><div class="hd"><b>Une idée, trois formats</b><span></span></div><pre>Prends ce contenu : [CONTENU]. Adapte-le en : un short vidéo de 30 secondes, un carrousel de 7 slides et une légende texte. Garde l'idée centrale mais change la structure pour chaque format.</pre></div><div class="pcard"><div class="hd"><b>Version faceless</b><span></span></div><pre>Transforme ce script en version faceless : [SCRIPT]. Propose pour chaque scène un type de visuel que je peux filmer moi-même ou obtenir sous licence, un texte à l'écran et une indication sonore.</pre></div><div class="pcard"><div class="hd"><b>Traduire en gardant le ton</b><span></span></div><pre>Traduis ce script en [LANGUE] en gardant un ton naturel et des phrases courtes : [SCRIPT]. Indique les expressions qui ne se traduisent pas littéralement.</pre></div><div class="catlab">Analyse</div><div class="pcard"><div class="hd"><b>Lecture de statistiques</b><span></span></div><pre>Voici mes résultats sur 5 vidéos : [DONNÉES]. Analyse les différences sans tirer de conclusion hâtive : propose 3 hypothèses, comment les tester, et ce que je dois mesurer ensuite. Rappelle les limites d'un petit échantillon.</pre></div><div class="pcard"><div class="hd"><b>Diagnostic de rétention</b><span></span></div><pre>Ma vidéo perd beaucoup de spectateurs à [MOMENT]. Voici le script : [SCRIPT]. Propose 5 modifications possibles pour la prochaine version (rythme, ordre, hook, coupes).</pre></div><div class="pcard"><div class="hd"><b>Bilan hebdomadaire</b><span></span></div><pre>Voici mes publications de la semaine et mes chiffres : [DONNÉES]. Aide-moi à rédiger un bilan en 5 lignes : ce qui a marché, ce qui a moins marché, une expérience à tester la semaine prochaine.</pre></div><div class="catlab">Qualité et vérification</div><div class="pcard"><div class="hd"><b>Relecture factuelle</b><span></span></div><pre>Relis ce script : [SCRIPT]. Liste toutes les affirmations factuelles que je dois vérifier avant publication et indique le type de source fiable à consulter. N'invente aucune source.</pre></div><div class="pcard"><div class="hd"><b>Détection de promesses excessives</b><span></span></div><pre>Relis ce texte : [TEXTE]. Repère toute promesse de résultat, d'argent ou de transformation, et propose une reformulation honnête et prudente.</pre></div><div class="pcard"><div class="hd"><b>Respect des droits</b><span></span></div><pre>Voici le contenu que je prévois de publier : [DESCRIPTION : images, musique, extraits]. Liste les points de vigilance sur le droit d'auteur et les licences, et rappelle-moi de vérifier les conditions de chaque source.</pre></div>
+<h2>2. Fiche de planification de contenu (à copier)</h2>
+<table>
+<thead>
+<tr>
+<th>Champ</th>
+<th>À remplir</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Semaine du</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Objectif de la semaine</strong></td>
+<td>(régularité, test d&#39;un format, un hook à tester…)</td>
+</tr>
+<tr>
+<td><strong>Pilier 1 · Idée</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Pilier 2 · Idée</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Pilier 3 · Idée</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Jour de tournage</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Jour de montage</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Jours de publication</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Hook à tester</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vidéos publiées</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Ce qui a bien fonctionné</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Ce que je change</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Expérience de la semaine suivante</strong></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2>3. Modèle de script</h2>
+<table>
+<thead>
+<tr>
+<th>Rubrique</th>
+<th>Contenu</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Titre de travail</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Plateforme et format</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Durée visée</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Public</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Objectif</strong> (apprendre, enregistrer, partager, cliquer)</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Hook (0 à 3 s)</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Contexte (3 à 8 s)</strong></td>
+<td></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>Plan</th>
+<th>Ce qu&#39;on voit</th>
+<th>Voix off</th>
+<th>Texte à l&#39;écran</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>Rubrique</th>
+<th>Contenu</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Appel à l&#39;action unique</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Légende</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Mots-clés</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Musique / sons utilisés et source</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Mention IA nécessaire ?</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Faits à vérifier</strong></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2>4. Checklist de publication</h2>
+<p><strong>Avant de publier</strong></p>
+<p>☐ Le hook est dans les deux premières secondes
+☐ La promesse du hook est tenue dans la vidéo
+☐ Les sous-titres sont relus et lisibles
+☐ La voix est claire, la musique ne la couvre pas
+☐ Les images, musiques et polices sont utilisables (licences vérifiées)
+☐ Les informations et chiffres sont vérifiés
+☐ Aucune promesse de résultat garanti
+☐ Un seul appel à l&#39;action
+☐ La mention « généré ou modifié par IA » est ajoutée si nécessaire
+☐ Les partenariats ou produits offerts sont indiqués
+☐ La légende contient des mots-clés utiles
+☐ La couverture ou la miniature est lisible</p>
+<p><strong>Après la publication</strong></p>
+<p>☐ Répondre aux premiers commentaires
+☐ Noter les chiffres au bout de 24 à 48 heures
+☐ Noter ce que j&#39;ai appris
+☐ Ajouter une idée à la banque d&#39;idées</p>
+</section><section class="full opener" id="ch-16"><div class="grid"></div><div class="circle"></div><div class="circle2"></div>
+<div class="body"><div class="lab">CONCLUSION</div><h1>Conclusion et prochaines étapes</h1><div class="rule"></div><div class="in">DANS CE CHAPITRE</div><ul><li>Ce qu'il faut retenir</li><li>Vos prochaines étapes</li><li>Un dernier conseil</li></ul></div></section><section class="chapter-body page"><p>Vous disposez maintenant d&#39;une méthode complète : comprendre le format, choisir une niche, trouver des idées, écrire des hooks et des scripts, travailler avec l&#39;IA, produire, analyser et recommencer. Aucun outil ne remplacera votre régularité ni votre regard.</p>
+<h2>Ce qu&#39;il faut retenir</h2>
+<ol>
+<li><strong>L&#39;IA est un assistant, pas l&#39;auteur.</strong> Votre expérience et votre relecture font la différence.</li>
+<li><strong>La clarté bat l&#39;effet.</strong> Un hook honnête, une idée utile, une fin nette.</li>
+<li><strong>La régularité se construit.</strong> Un système simple, appliqué sur 30 jours, vaut mieux qu&#39;un effort intense et sporadique.</li>
+<li><strong>Les données guident.</strong> Changez une variable à la fois.</li>
+<li><strong>L&#39;éthique protège votre crédibilité.</strong> Transparence, respect des droits, aucune fausse promesse.</li>
+</ol>
+<h2>Vos prochaines étapes</h2>
+<table>
+<thead>
+<tr>
+<th>Quand</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Aujourd&#39;hui</strong></td>
+<td>Écrire votre phrase de positionnement</td>
+</tr>
+<tr>
+<td><strong>Cette semaine</strong></td>
+<td>Suivre le plan de 7 jours et publier vos premières vidéos</td>
+</tr>
+<tr>
+<td><strong>Ce mois-ci</strong></td>
+<td>Suivre le calendrier de 30 jours (adapté à votre niche)</td>
+</tr>
+<tr>
+<td><strong>Chaque semaine</strong></td>
+<td>Faire un bilan de 15 minutes</td>
+</tr>
+<tr>
+<td><strong>Chaque trimestre</strong></td>
+<td>Revoir votre niche, vos piliers et vos outils</td>
+</tr>
+</tbody></table>
+<h2>Un dernier conseil</h2>
+<p>Commencez avant d&#39;être prêt, mais commencez proprement : une seule plateforme, un seul sujet, trois vidéos. Vous apprendrez davantage en publiant qu&#39;en préparant indéfiniment.</p>
+<p>Merci d&#39;avoir lu ce guide. Bonne création !</p>
+</section></body></html>

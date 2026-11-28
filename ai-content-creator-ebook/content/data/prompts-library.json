@@ -1,0 +1,126 @@
+{
+ "Recherche et stratégie": [
+  {
+   "titre": "Définir mon public",
+   "prompt": "Je veux créer du contenu sur [THÈME]. Pose-moi 10 questions, une à la fois, pour définir mon public (situation, objectifs, obstacles, vocabulaire). Quand j'ai répondu, résume le profil en 5 lignes."
+  },
+  {
+   "titre": "Piliers de contenu",
+   "prompt": "Propose 4 piliers de contenu pour un compte sur [THÈME] destiné à [PUBLIC]. Pour chaque pilier : objectif, 5 sujets, format conseillé et un exemple de hook. Dis-moi aussi quels sujets éviter si je veux rester crédible."
+  },
+  {
+   "titre": "Analyse d'un concurrent (observation éthique)",
+   "prompt": "Voici trois profils publics de mon domaine : [NOMS]. À partir de mes observations suivantes : [OBSERVATIONS], aide-moi à identifier des angles que je peux traiter différemment. Ne reproduis aucun contenu : propose uniquement des idées originales et des angles complémentaires."
+  },
+  {
+   "titre": "Positionnement en une phrase",
+   "prompt": "Je veux m'adresser à [PUBLIC] pour l'aider à [RÉSULTAT]. Écris 8 formulations de positionnement en une phrase, dans un style [STYLE]. Classe-les de la plus claire à la plus originale."
+  }
+ ],
+ "Idées": [
+  {
+   "titre": "Banque d'idées",
+   "prompt": "Génère 30 idées de vidéos de moins d'une minute pour [THÈME] et [PUBLIC]. Classe-les par pilier : [PILIERS]. Pour chaque idée, ajoute un niveau de difficulté de tournage (1 à 3)."
+  },
+  {
+   "titre": "Idées à partir d'une question d'audience",
+   "prompt": "Voici 10 questions réelles de mon audience : [QUESTIONS]. Transforme chacune en idée de vidéo avec un titre, un hook et un angle (conseil, erreur, démonstration)."
+  },
+  {
+   "titre": "Idées de séries",
+   "prompt": "Propose 5 idées de séries récurrentes pour [THÈME], chacune avec un nom, un format fixe de 3 parties, une durée et 5 premiers épisodes."
+  },
+  {
+   "titre": "Idées pour jours de faible énergie",
+   "prompt": "J'ai peu de temps et peu d'énergie. Propose 10 idées de vidéos faciles (moins de 10 minutes au total) pour [THÈME], utilisables en story ou en short."
+  }
+ ],
+ "Hooks": [
+  {
+   "titre": "Hooks par technique",
+   "prompt": "Écris 3 hooks pour chacune de ces techniques : question, erreur à éviter, mythe, chiffre vérifiable, mini-histoire. Sujet : [SUJET]. Public : [PUBLIC]. Maximum 14 mots, aucune exagération."
+  },
+  {
+   "titre": "Améliorer un hook",
+   "prompt": "Voici mon hook : « [HOOK] ». Propose 5 variantes plus claires, plus courtes ou plus concrètes. Explique en une phrase ce que chaque variante change."
+  },
+  {
+   "titre": "Test A/B de hooks",
+   "prompt": "Pour la même vidéo sur [SUJET], crée 3 hooks très différents que je pourrai tester sur trois publications. Précise l'hypothèse de chacun."
+  }
+ ],
+ "Scripts": [
+  {
+   "titre": "Script complet",
+   "prompt": "Écris un script de [DURÉE] pour une vidéo sur [SUJET], destinée à [PUBLIC]. Format : tableau avec les colonnes : plan, ce qu'on voit, voix off, texte à l'écran. Ajoute un hook dans les 2 premières secondes et un appel à l'action unique : [CTA]."
+  },
+  {
+   "titre": "Raccourcir un script",
+   "prompt": "Voici mon script : [SCRIPT]. Réduis-le à [DURÉE] en gardant l'idée centrale. Supprime les redites et garde mon ton. Montre ce que tu as retiré."
+  },
+  {
+   "titre": "Rendre un script plus oral",
+   "prompt": "Réécris ce texte pour qu'il sonne naturel à l'oral : phrases courtes, mots simples, pas de formulations d'article : [TEXTE]. Garde le sens et ne rajoute aucune information."
+  },
+  {
+   "titre": "Transformer un article en script",
+   "prompt": "Voici un texte que j'ai écrit : [TEXTE]. Extrais l'idée principale et rédige un script vidéo de [DURÉE] fidèle à mon contenu, avec hook et appel à l'action."
+  }
+ ],
+ "Légendes et publication": [
+  {
+   "titre": "Légendes optimisées",
+   "prompt": "Écris 3 légendes pour cette vidéo : [RÉSUMÉ]. Chaque légende contient une première ligne claire, un contexte en une phrase, un appel à l'action et 5 mots-clés pertinents (sans hashtags excessifs)."
+  },
+  {
+   "titre": "Réponses aux commentaires",
+   "prompt": "Voici des commentaires reçus : [COMMENTAIRES]. Propose pour chacun une réponse brève, chaleureuse et utile, et signale ceux qui pourraient devenir une vidéo."
+  },
+  {
+   "titre": "Mentions de transparence",
+   "prompt": "Je publie une vidéo qui contient [ÉLÉMENTS GÉNÉRÉS PAR IA]. Propose trois formulations courtes et claires pour l'indiquer à mon audience, et rappelle-moi de vérifier les règles actuelles de la plateforme."
+  }
+ ],
+ "Réutilisation de contenu": [
+  {
+   "titre": "Une idée, trois formats",
+   "prompt": "Prends ce contenu : [CONTENU]. Adapte-le en : un short vidéo de 30 secondes, un carrousel de 7 slides et une légende texte. Garde l'idée centrale mais change la structure pour chaque format."
+  },
+  {
+   "titre": "Version faceless",
+   "prompt": "Transforme ce script en version faceless : [SCRIPT]. Propose pour chaque scène un type de visuel que je peux filmer moi-même ou obtenir sous licence, un texte à l'écran et une indication sonore."
+  },
+  {
+   "titre": "Traduire en gardant le ton",
+   "prompt": "Traduis ce script en [LANGUE] en gardant un ton naturel et des phrases courtes : [SCRIPT]. Indique les expressions qui ne se traduisent pas littéralement."
+  }
+ ],
+ "Analyse": [
+  {
+   "titre": "Lecture de statistiques",
+   "prompt": "Voici mes résultats sur 5 vidéos : [DONNÉES]. Analyse les différences sans tirer de conclusion hâtive : propose 3 hypothèses, comment les tester, et ce que je dois mesurer ensuite. Rappelle les limites d'un petit échantillon."
+  },
+  {
+   "titre": "Diagnostic de rétention",
+   "prompt": "Ma vidéo perd beaucoup de spectateurs à [MOMENT]. Voici le script : [SCRIPT]. Propose 5 modifications possibles pour la prochaine version (rythme, ordre, hook, coupes)."
+  },
+  {
+   "titre": "Bilan hebdomadaire",
+   "prompt": "Voici mes publications de la semaine et mes chiffres : [DONNÉES]. Aide-moi à rédiger un bilan en 5 lignes : ce qui a marché, ce qui a moins marché, une expérience à tester la semaine prochaine."
+  }
+ ],
+ "Qualité et vérification": [
+  {
+   "titre": "Relecture factuelle",
+   "prompt": "Relis ce script : [SCRIPT]. Liste toutes les affirmations factuelles que je dois vérifier avant publication et indique le type de source fiable à consulter. N'invente aucune source."
+  },
+  {
+   "titre": "Détection de promesses excessives",
+   "prompt": "Relis ce texte : [TEXTE]. Repère toute promesse de résultat, d'argent ou de transformation, et propose une reformulation honnête et prudente."
+  },
+  {
+   "titre": "Respect des droits",
+   "prompt": "Voici le contenu que je prévois de publier : [DESCRIPTION : images, musique, extraits]. Liste les points de vigilance sur le droit d'auteur et les licences, et rappelle-moi de vérifier les conditions de chaque source."
+  }
+ ]
+}

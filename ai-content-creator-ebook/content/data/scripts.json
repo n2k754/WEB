@@ -1,0 +1,782 @@
+[
+ {
+  "id": 1,
+  "titre": "Les 3 priorités du jour",
+  "niche": "Productivité",
+  "format": "Face caméra",
+  "duree": "30 s",
+  "hook": "Trois tâches, pas dix : voici comment choisir.",
+  "scenes": [
+   {
+    "plan": "Plan serré, face caméra, bureau en arrière-plan",
+    "voix": "Chaque matin, je ne garde que trois priorités.",
+    "texte": "3 priorités / jour"
+   },
+   {
+    "plan": "Gros plan sur un carnet, tu écris trois lignes",
+    "voix": "Une tâche importante, une tâche rapide, une tâche qui me rapproche d'un objectif.",
+    "texte": "1 importante · 1 rapide · 1 objectif"
+   },
+   {
+    "plan": "Retour face caméra",
+    "voix": "Le reste ? Je le note, mais je m'en occupe seulement après.",
+    "texte": "Le reste attend"
+   }
+  ],
+  "cta": "Écris tes trois priorités en commentaire."
+ },
+ {
+  "id": 2,
+  "titre": "Le test des 5 secondes pour un bio de profil",
+  "niche": "Social media",
+  "format": "Voix off + captures d'écran",
+  "duree": "30 s",
+  "hook": "Ta bio doit répondre à une question en cinq secondes.",
+  "scenes": [
+   {
+    "plan": "Capture d'un profil avec une bio floue",
+    "voix": "Si on lit ta bio et qu'on ne sait pas ce que tu proposes, on passe son chemin.",
+    "texte": "Bio floue = scroll"
+   },
+   {
+    "plan": "Capture de la même bio réécrite",
+    "voix": "Écris : qui tu aides, avec quoi, et ce qu'on gagne à te suivre.",
+    "texte": "Qui · quoi · bénéfice"
+   },
+   {
+    "plan": "Écran avec un exemple modèle",
+    "voix": "Par exemple : j'aide les étudiants à s'organiser avec des méthodes simples.",
+    "texte": "Exemple de bio claire"
+   }
+  ],
+  "cta": "Colle ta bio en commentaire, je te propose une version plus claire."
+ },
+ {
+  "id": 3,
+  "titre": "Ton premier prompt pour un script",
+  "niche": "IA",
+  "format": "Screencast",
+  "duree": "45 s",
+  "hook": "Si ton prompt ressemble à ça, l'IA ne peut pas deviner ce que tu veux.",
+  "scenes": [
+   {
+    "plan": "Écran : un prompt de cinq mots, réponse générique",
+    "voix": "Voici un prompt vague et voici la réponse : trop générale.",
+    "texte": "Prompt vague = réponse vague"
+   },
+   {
+    "plan": "Écran : prompt avec rôle, public, durée, ton",
+    "voix": "Ajoute le rôle, le public, la durée et le ton souhaité.",
+    "texte": "Rôle · public · durée · ton"
+   },
+   {
+    "plan": "Écran : la nouvelle réponse",
+    "voix": "Même sujet, résultat beaucoup plus utile. Relis toujours et corrige.",
+    "texte": "Toujours relire"
+   }
+  ],
+  "cta": "Commente « PROMPT » pour recevoir le modèle."
+ },
+ {
+  "id": 4,
+  "titre": "Un week-end à Lisbonne sans stress",
+  "niche": "Voyage",
+  "format": "Voix off + b-roll",
+  "duree": "40 s",
+  "hook": "Un week-end à Lisbonne : mon itinéraire heure par heure.",
+  "scenes": [
+   {
+    "plan": "Plans de rues et de tramways (tes propres images)",
+    "voix": "Samedi matin : quartier d'Alfama, avant l'arrivée de la foule.",
+    "texte": "Sam. 9h · Alfama"
+   },
+   {
+    "plan": "Plans d'un café et d'une terrasse",
+    "voix": "Midi : pause déjeuner dans un petit restaurant de quartier.",
+    "texte": "12h · Déjeuner local"
+   },
+   {
+    "plan": "Plans du coucher de soleil",
+    "voix": "Fin de journée : un point de vue pour regarder la ville s'éclairer.",
+    "texte": "18h · Point de vue"
+   }
+  ],
+  "cta": "Sauvegarde pour ton prochain voyage."
+ },
+ {
+  "id": 5,
+  "titre": "Prépare tes repas de la semaine",
+  "niche": "Cuisine",
+  "format": "Face caméra + gros plans",
+  "duree": "45 s",
+  "hook": "Un dîner complet en vingt minutes avec trois ingrédients du placard.",
+  "scenes": [
+   {
+    "plan": "Placard ouvert, tu sors trois ingrédients",
+    "voix": "Riz, pois chiches, une boîte de tomates : voilà la base.",
+    "texte": "3 ingrédients"
+   },
+   {
+    "plan": "Casserole sur le feu, cuisson en accéléré",
+    "voix": "On fait revenir, on ajoute les épices, on laisse mijoter.",
+    "texte": "20 minutes"
+   },
+   {
+    "plan": "Plat final dans une assiette",
+    "voix": "Un repas simple, économique et prêt rapidement.",
+    "texte": "Prêt !"
+   }
+  ],
+  "cta": "Dis-moi quel ingrédient tu ajouterais."
+ },
+ {
+  "id": 6,
+  "titre": "Avant / après d'un bureau",
+  "niche": "Productivité",
+  "format": "Avant/après",
+  "duree": "25 s",
+  "hook": "Cinq minutes chrono pour un bureau où tu as envie de travailler.",
+  "scenes": [
+   {
+    "plan": "Plan fixe : bureau en désordre",
+    "voix": "Voici mon bureau après une semaine chargée.",
+    "texte": "Avant"
+   },
+   {
+    "plan": "Accéléré : tu ranges",
+    "voix": "Je range par catégories : papiers, câbles, matériel.",
+    "texte": "5 minutes"
+   },
+   {
+    "plan": "Plan fixe : bureau rangé",
+    "voix": "Même lieu, même lumière. Ça change l'envie de s'y installer.",
+    "texte": "Après"
+   }
+  ],
+  "cta": "Montre-moi ton bureau en story."
+ },
+ {
+  "id": 7,
+  "titre": "Le mythe de la motivation",
+  "niche": "Développement personnel",
+  "format": "Face caméra",
+  "duree": "35 s",
+  "hook": "La motivation ne vient pas avant l'action, elle vient souvent après.",
+  "scenes": [
+   {
+    "plan": "Face caméra, ton posé",
+    "voix": "On attend d'être motivé pour commencer, et on attend longtemps.",
+    "texte": "Attendre la motivation ?"
+   },
+   {
+    "plan": "Plan large, tu te lèves et tu te mets au travail",
+    "voix": "Commence deux minutes. Seulement deux.",
+    "texte": "Deux minutes"
+   },
+   {
+    "plan": "Retour face caméra",
+    "voix": "Une fois lancé, continuer devient souvent plus facile.",
+    "texte": "L'action nourrit l'envie"
+   }
+  ],
+  "cta": "Quelle tâche vas-tu commencer pendant deux minutes ?"
+ },
+ {
+  "id": 8,
+  "titre": "Avant de publier : la checklist de 30 secondes",
+  "niche": "Social media",
+  "format": "Texte animé",
+  "duree": "30 s",
+  "hook": "Avant de publier, vérifie ces cinq points.",
+  "scenes": [
+   {
+    "plan": "Fond uni, texte qui apparaît ligne par ligne",
+    "voix": "Un : ton hook est dans les deux premières secondes.",
+    "texte": "1. Hook clair"
+   },
+   {
+    "plan": "Suite du texte animé",
+    "voix": "Deux : les sous-titres sont lisibles et sans faute.",
+    "texte": "2. Sous-titres propres"
+   },
+   {
+    "plan": "Suite du texte animé",
+    "voix": "Trois à cinq : un appel à l'action, un son autorisé, la mention IA si besoin.",
+    "texte": "3-5. CTA · son · mention IA"
+   }
+  ],
+  "cta": "Sauvegarde cette checklist."
+ },
+ {
+  "id": 9,
+  "titre": "Comment j'utilise l'IA pour trouver des idées",
+  "niche": "IA",
+  "format": "Screencast",
+  "duree": "45 s",
+  "hook": "Je demande à l'IA vingt idées de vidéos, puis je garde seulement trois.",
+  "scenes": [
+   {
+    "plan": "Écran : prompt avec la niche et le public",
+    "voix": "Je donne ma niche, mon public et mes contraintes.",
+    "texte": "Contexte précis"
+   },
+   {
+    "plan": "Écran : liste de 20 idées, tu en surlignes 3",
+    "voix": "Je choisis celles qui correspondent à mon expérience réelle.",
+    "texte": "Je garde 3 idées"
+   },
+   {
+    "plan": "Face caméra",
+    "voix": "L'IA propose, c'est moi qui décide et qui vérifie.",
+    "texte": "Tu restes l'auteur"
+   }
+  ],
+  "cta": "Commente « IDÉES » pour recevoir le prompt."
+ },
+ {
+  "id": 10,
+  "titre": "Les 3 erreurs de planning",
+  "niche": "Productivité",
+  "format": "Texte animé",
+  "duree": "30 s",
+  "hook": "Ces trois erreurs ruinent ton planning avant même d'avoir commencé.",
+  "scenes": [
+   {
+    "plan": "Fond de couleur, texte animé",
+    "voix": "Erreur un : planifier chaque minute de ta journée.",
+    "texte": "Pas de planning minute par minute"
+   },
+   {
+    "plan": "Suite",
+    "voix": "Erreur deux : oublier les pauses et les imprévus.",
+    "texte": "Prévois du vide"
+   },
+   {
+    "plan": "Suite",
+    "voix": "Erreur trois : copier la routine de quelqu'un d'autre sans l'adapter.",
+    "texte": "Adapte à ta vie"
+   }
+  ],
+  "cta": "Laquelle fais-tu ? Réponds 1, 2 ou 3."
+ },
+ {
+  "id": 11,
+  "titre": "Un échauffement de cinq minutes",
+  "niche": "Fitness",
+  "format": "Face caméra",
+  "duree": "45 s",
+  "hook": "Si ton échauffement ressemble à ça, change-le avant ta prochaine séance.",
+  "scenes": [
+   {
+    "plan": "Tu montres un échauffement trop rapide",
+    "voix": "Beaucoup d'échauffements durent dix secondes et ne préparent pas grand-chose.",
+    "texte": "Trop court"
+   },
+   {
+    "plan": "Tu montres trois mouvements",
+    "voix": "Mobilité des épaules, des hanches, puis activation douce.",
+    "texte": "Épaules · hanches · activation"
+   },
+   {
+    "plan": "Face caméra",
+    "voix": "Écoute ton corps et adapte à ton niveau. Ceci n'est pas un avis médical.",
+    "texte": "Adapte à ton niveau"
+   }
+  ],
+  "cta": "Sauvegarde pour ta prochaine séance."
+ },
+ {
+  "id": 12,
+  "titre": "Ma garde-robe capsule",
+  "niche": "Mode",
+  "format": "Voix off + b-roll",
+  "duree": "40 s",
+  "hook": "Dix pièces, trente tenues : voici comment composer une garde-robe capsule.",
+  "scenes": [
+   {
+    "plan": "Penderie avec dix pièces visibles",
+    "voix": "Je choisis des couleurs qui vont ensemble.",
+    "texte": "10 pièces"
+   },
+   {
+    "plan": "Montage de trois tenues",
+    "voix": "Haut, bas, veste : on combine de plusieurs façons.",
+    "texte": "Haut · bas · veste"
+   },
+   {
+    "plan": "Plan final : tu fermes la penderie",
+    "voix": "Moins de choix, plus de simplicité le matin.",
+    "texte": "Moins de choix"
+   }
+  ],
+  "cta": "Quelle pièce ne manque jamais dans ta penderie ?"
+ },
+ {
+  "id": 13,
+  "titre": "Le budget en trois enveloppes",
+  "niche": "Finances personnelles",
+  "format": "Texte animé + voix off",
+  "duree": "45 s",
+  "hook": "La règle simple que j'utilise pour répartir mon budget sans me prendre la tête.",
+  "scenes": [
+   {
+    "plan": "Schéma de trois cases",
+    "voix": "Une partie pour les dépenses fixes.",
+    "texte": "Fixes"
+   },
+   {
+    "plan": "Suite du schéma",
+    "voix": "Une partie pour les envies et le quotidien.",
+    "texte": "Envies"
+   },
+   {
+    "plan": "Suite du schéma",
+    "voix": "Une partie pour l'épargne ou les projets. Adapte les proportions à ta situation.",
+    "texte": "Épargne"
+   }
+  ],
+  "cta": "Informations générales, pas un conseil financier. Dis-moi ta méthode."
+ },
+ {
+  "id": 14,
+  "titre": "Réparer une étagère en 15 minutes",
+  "niche": "Maison et DIY",
+  "format": "Face caméra + plans rapprochés",
+  "duree": "45 s",
+  "hook": "Je répare cette étagère en quinze minutes avec des outils de base.",
+  "scenes": [
+   {
+    "plan": "Gros plan sur l'étagère abîmée",
+    "voix": "Voici le problème : le support a bougé.",
+    "texte": "Le problème"
+   },
+   {
+    "plan": "Plans rapprochés des gestes",
+    "voix": "Je démonte, je recolle, je revisse et je laisse sécher.",
+    "texte": "Outils de base"
+   },
+   {
+    "plan": "Plan final",
+    "voix": "Résultat : solide, et prêt à reprendre sa place.",
+    "texte": "Terminé"
+   }
+  ],
+  "cta": "Montre-moi ta prochaine réparation."
+ },
+ {
+  "id": 15,
+  "titre": "Ta première semaine de contenu",
+  "niche": "Social media",
+  "format": "Face caméra",
+  "duree": "40 s",
+  "hook": "Un système simple pour publier une semaine entière sans panique.",
+  "scenes": [
+   {
+    "plan": "Tu écris sur un tableau",
+    "voix": "Lundi, tu choisis trois idées.",
+    "texte": "Lun. · idées"
+   },
+   {
+    "plan": "Plan de tournage rapide",
+    "voix": "Mardi, tu filmes tout au même endroit.",
+    "texte": "Mar. · tournage"
+   },
+   {
+    "plan": "Plan montage",
+    "voix": "Mercredi, tu montes. Les jours suivants, tu publies.",
+    "texte": "Mer. · montage"
+   }
+  ],
+  "cta": "Abonne-toi pour la suite du système."
+ },
+ {
+  "id": 16,
+  "titre": "Pourquoi tes sous-titres comptent",
+  "niche": "Montage",
+  "format": "Screencast",
+  "duree": "35 s",
+  "hook": "Beaucoup de gens regardent sans le son. Tes sous-titres sont-ils lisibles ?",
+  "scenes": [
+   {
+    "plan": "Écran : sous-titres mal placés",
+    "voix": "Texte trop petit, trop bas, en conflit avec l'interface.",
+    "texte": "À éviter"
+   },
+   {
+    "plan": "Écran : sous-titres corrigés",
+    "voix": "Texte lisible, contraste fort, quelques mots à la fois.",
+    "texte": "À faire"
+   },
+   {
+    "plan": "Face caméra",
+    "voix": "Relis toujours les sous-titres automatiques : ils contiennent souvent des erreurs.",
+    "texte": "Relis les erreurs"
+   }
+  ],
+  "cta": "Commente « SOUS-TITRES » pour la liste de réglages."
+ },
+ {
+  "id": 17,
+  "titre": "Les 4 types de listes de tâches",
+  "niche": "Productivité",
+  "format": "Texte animé",
+  "duree": "40 s",
+  "hook": "Ta liste de tâches ne fonctionne pas ? Elle est peut-être du mauvais type.",
+  "scenes": [
+   {
+    "plan": "Texte animé",
+    "voix": "La liste du jour pour les tâches courtes.",
+    "texte": "Liste du jour"
+   },
+   {
+    "plan": "Suite",
+    "voix": "La liste de projet pour les gros objectifs.",
+    "texte": "Liste de projet"
+   },
+   {
+    "plan": "Suite",
+    "voix": "La liste d'attente pour ce qui dépend des autres, et la liste d'idées pour tout le reste.",
+    "texte": "Attente · Idées"
+   }
+  ],
+  "cta": "Laquelle utilises-tu ?"
+ },
+ {
+  "id": 18,
+  "titre": "Raconter un échec avec honnêteté",
+  "niche": "Développement personnel",
+  "format": "Face caméra",
+  "duree": "40 s",
+  "hook": "Mon planning s'est effondré cette semaine. Voici pourquoi.",
+  "scenes": [
+   {
+    "plan": "Face caméra, ton sincère",
+    "voix": "J'avais trop de tâches et aucune marge.",
+    "texte": "Trop de tâches"
+   },
+   {
+    "plan": "Plan de ton carnet",
+    "voix": "J'ai découpé mon planning en blocs plus courts.",
+    "texte": "Blocs plus courts"
+   },
+   {
+    "plan": "Retour face caméra",
+    "voix": "Résultat : moins parfait, mais plus tenable.",
+    "texte": "Moins parfait, plus tenable"
+   }
+  ],
+  "cta": "Raconte un échec qui t'a appris quelque chose."
+ },
+ {
+  "id": 19,
+  "titre": "Comment faire un tutoriel clair",
+  "niche": "Pédagogie",
+  "format": "Voix off + screencast",
+  "duree": "50 s",
+  "hook": "Pour qu'un tutoriel soit suivi jusqu'au bout, commence par le résultat final.",
+  "scenes": [
+   {
+    "plan": "Écran : résultat final",
+    "voix": "Montre d'abord ce que le spectateur va obtenir.",
+    "texte": "Résultat d'abord"
+   },
+   {
+    "plan": "Écran : étapes courtes",
+    "voix": "Ensuite, trois étapes maximum, une idée par étape.",
+    "texte": "3 étapes max"
+   },
+   {
+    "plan": "Écran : récapitulatif",
+    "voix": "Termine par un récapitulatif et une action simple.",
+    "texte": "Récap + action"
+   }
+  ],
+  "cta": "Sauvegarde ce modèle de tutoriel."
+ },
+ {
+  "id": 20,
+  "titre": "Voyager avec un budget clair",
+  "niche": "Voyage",
+  "format": "Texte animé + b-roll",
+  "duree": "45 s",
+  "hook": "Comment j'organise un voyage de dix jours en gardant un budget clair.",
+  "scenes": [
+   {
+    "plan": "Texte animé : trois postes de dépenses",
+    "voix": "Transport, logement et repas : j'estime chacun avant de partir.",
+    "texte": "Transport · logement · repas"
+   },
+   {
+    "plan": "Plans de voyage",
+    "voix": "Je garde une petite marge pour l'imprévu.",
+    "texte": "Marge imprévue"
+   },
+   {
+    "plan": "Plan final",
+    "voix": "Je note mes dépenses chaque soir, cinq minutes suffisent.",
+    "texte": "Suivi quotidien"
+   }
+  ],
+  "cta": "Partage cette vidéo avec ton partenaire de voyage."
+ },
+ {
+  "id": 21,
+  "titre": "Un rituel de fin de journée",
+  "niche": "Bien-être",
+  "format": "Voix off + b-roll",
+  "duree": "40 s",
+  "hook": "Cinq étapes pour clôturer ta journée sans ruminer.",
+  "scenes": [
+   {
+    "plan": "Plan de ton bureau qu'on range",
+    "voix": "Étape un : tu notes ce qui reste à faire demain.",
+    "texte": "1. Noter"
+   },
+   {
+    "plan": "Plan d'une lampe qu'on éteint",
+    "voix": "Étape deux : tu éteins les écrans.",
+    "texte": "2. Écrans éteints"
+   },
+   {
+    "plan": "Plan d'une tasse de thé",
+    "voix": "Étapes trois à cinq : une activité calme, de l'eau, et un moment pour toi.",
+    "texte": "3-5. Calme"
+   }
+  ],
+  "cta": "Quel est ton rituel du soir ?"
+ },
+ {
+  "id": 22,
+  "titre": "Transformer un article en trois vidéos",
+  "niche": "IA et stratégie",
+  "format": "Screencast",
+  "duree": "45 s",
+  "hook": "Un seul article peut donner trois vidéos différentes.",
+  "scenes": [
+   {
+    "plan": "Écran : un article ouvert",
+    "voix": "Je prends un texte que j'ai écrit moi-même.",
+    "texte": "Contenu de départ"
+   },
+   {
+    "plan": "Écran : l'IA propose trois angles",
+    "voix": "Je demande trois angles : conseil, erreur à éviter, étude de cas.",
+    "texte": "3 angles"
+   },
+   {
+    "plan": "Face caméra",
+    "voix": "Je vérifie, j'adapte à ma voix, puis je filme.",
+    "texte": "Vérifier et adapter"
+   }
+  ],
+  "cta": "Commente « ANGLES » pour le prompt."
+ },
+ {
+  "id": 23,
+  "titre": "Un bon éclairage avec une fenêtre",
+  "niche": "Production",
+  "format": "Face caméra + démonstration",
+  "duree": "40 s",
+  "hook": "Tu n'as pas besoin d'un équipement coûteux pour une image propre.",
+  "scenes": [
+   {
+    "plan": "Comparaison de deux placements",
+    "voix": "Ne te mets pas dos à la fenêtre.",
+    "texte": "Pas à contre-jour"
+   },
+   {
+    "plan": "Plan : tu te places face à la fenêtre",
+    "voix": "Place-toi face à la lumière naturelle.",
+    "texte": "Face à la lumière"
+   },
+   {
+    "plan": "Plan : résultat",
+    "voix": "Nettoie ton objectif de téléphone avant de filmer.",
+    "texte": "Objectif propre"
+   }
+  ],
+  "cta": "Sauvegarde ces trois réglages."
+ },
+ {
+  "id": 24,
+  "titre": "Les cinq questions avant un nouveau projet",
+  "niche": "Entrepreneuriat",
+  "format": "Texte animé",
+  "duree": "35 s",
+  "hook": "Avant de dire oui à un projet, pose-toi ces cinq questions.",
+  "scenes": [
+   {
+    "plan": "Texte animé",
+    "voix": "À qui est-ce utile ? Combien de temps cela demande-t-il ?",
+    "texte": "Qui · combien de temps"
+   },
+   {
+    "plan": "Suite",
+    "voix": "Qu'est-ce que je ne ferai pas pendant ce temps ?",
+    "texte": "Ce que je sacrifie"
+   },
+   {
+    "plan": "Suite",
+    "voix": "Comment saurai-je que c'est réussi ? Et ai-je envie de le faire ?",
+    "texte": "Critère de réussite · envie"
+   }
+  ],
+  "cta": "Sauvegarde la liste pour ta prochaine décision."
+ },
+ {
+  "id": 25,
+  "titre": "Un contenu faceless en 3 étapes",
+  "niche": "Faceless",
+  "format": "Voix off + b-roll",
+  "duree": "45 s",
+  "hook": "Tu n'as pas envie de montrer ton visage ? Tu peux quand même créer.",
+  "scenes": [
+   {
+    "plan": "Texte à l'écran : l'idée",
+    "voix": "Étape un : écris un script court.",
+    "texte": "1. Script"
+   },
+   {
+    "plan": "Plans libres de droits ou tes propres plans",
+    "voix": "Étape deux : choisis des images dont tu as le droit de te servir.",
+    "texte": "2. Images autorisées"
+   },
+   {
+    "plan": "Timeline de montage",
+    "voix": "Étape trois : ajoute voix off, sous-titres et musique autorisée.",
+    "texte": "3. Voix + sous-titres"
+   }
+  ],
+  "cta": "Quel sujet traiterais-tu sans montrer ton visage ?"
+ },
+ {
+  "id": 26,
+  "titre": "Comment dire non poliment",
+  "niche": "Développement personnel",
+  "format": "Voix off + texte animé",
+  "duree": "35 s",
+  "hook": "Dire non poliment est une compétence. Voici trois phrases pour t'y aider.",
+  "scenes": [
+   {
+    "plan": "Texte animé",
+    "voix": "Merci d'y avoir pensé, mais je ne peux pas m'engager.",
+    "texte": "Phrase 1"
+   },
+   {
+    "plan": "Suite",
+    "voix": "Je ne suis pas disponible maintenant, mais je peux t'aider d'une autre façon.",
+    "texte": "Phrase 2"
+   },
+   {
+    "plan": "Suite",
+    "voix": "Je préfère être honnête : ce n'est pas pour moi en ce moment.",
+    "texte": "Phrase 3"
+   }
+  ],
+  "cta": "Sauvegarde ces phrases."
+ },
+ {
+  "id": 27,
+  "titre": "Mon outil de montage préféré, honnêtement",
+  "niche": "Montage",
+  "format": "Screencast",
+  "duree": "45 s",
+  "hook": "Voici ce que j'aime et ce que je n'aime pas dans cet outil de montage.",
+  "scenes": [
+   {
+    "plan": "Écran de l'outil",
+    "voix": "Ce que j'apprécie : une interface claire et des sous-titres rapides.",
+    "texte": "Points forts"
+   },
+   {
+    "plan": "Écran d'une limite",
+    "voix": "Ce qui me gêne : certaines options dépendent de l'offre choisie.",
+    "texte": "Limites"
+   },
+   {
+    "plan": "Face caméra",
+    "voix": "Les fonctionnalités et prix peuvent changer, vérifie avant de choisir.",
+    "texte": "Vérifie les offres"
+   }
+  ],
+  "cta": "Quel outil utilises-tu pour monter ?"
+ },
+ {
+  "id": 28,
+  "titre": "Analyser sa dernière vidéo",
+  "niche": "Analytics",
+  "format": "Screencast",
+  "duree": "50 s",
+  "hook": "Ta dernière vidéo a eu peu de vues ? Regarde d'abord ces trois chiffres.",
+  "scenes": [
+   {
+    "plan": "Écran : statistiques",
+    "voix": "La durée moyenne de visionnage : où les gens quittent-ils ?",
+    "texte": "Durée de visionnage"
+   },
+   {
+    "plan": "Écran : interactions",
+    "voix": "Les enregistrements et partages : le contenu était-il utile ?",
+    "texte": "Saves · partages"
+   },
+   {
+    "plan": "Face caméra",
+    "voix": "Change une seule chose à la fois pour savoir ce qui fonctionne.",
+    "texte": "Un seul changement"
+   }
+  ],
+  "cta": "Commente « ANALYSE » pour la grille."
+ },
+ {
+  "id": 29,
+  "titre": "Réutiliser une idée sur trois plateformes",
+  "niche": "Stratégie",
+  "format": "Voix off + montage",
+  "duree": "45 s",
+  "hook": "Une idée, trois plateformes, zéro copier-coller.",
+  "scenes": [
+   {
+    "plan": "Écran : trois formats",
+    "voix": "TikTok : rythme rapide et sous-titres forts.",
+    "texte": "TikTok"
+   },
+   {
+    "plan": "Suite",
+    "voix": "Reels : image soignée et légende utile.",
+    "texte": "Reels"
+   },
+   {
+    "plan": "Suite",
+    "voix": "Shorts : un titre clair et une boucle visuelle.",
+    "texte": "Shorts"
+   }
+  ],
+  "cta": "Quelle plateforme préfères-tu ?"
+ },
+ {
+  "id": 30,
+  "titre": "Ton plan pour publier cette semaine",
+  "niche": "Plan d'action",
+  "format": "Face caméra",
+  "duree": "45 s",
+  "hook": "Tu peux publier ta première vidéo cette semaine. Voici comment.",
+  "scenes": [
+   {
+    "plan": "Face caméra",
+    "voix": "Aujourd'hui, choisis un sujet et écris un hook.",
+    "texte": "Jour 1 : sujet + hook"
+   },
+   {
+    "plan": "Plan tournage",
+    "voix": "Demain, filme trois prises avec la même lumière.",
+    "texte": "Jour 2 : tournage"
+   },
+   {
+    "plan": "Plan publication",
+    "voix": "Ensuite, monte, sous-titre et publie sans chercher la perfection.",
+    "texte": "Jour 3 : publier"
+   }
+  ],
+  "cta": "Dis-moi quand tu publies, je viendrai voir."
+ }
+]

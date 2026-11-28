@@ -1,0 +1,122 @@
+[
+ {
+  "id": 1,
+  "niche": "Fitness",
+  "titre": "Programme de contenus pour débutants",
+  "prompt": "Tu es un coach sportif pédagogue qui crée du contenu pour TikTok. Mon public : [PUBLIC, ex. débutants en salle de 25-35 ans]. Mon style : [STYLE, ex. simple et encourageant]. Propose 10 idées de vidéos de 30 à 45 secondes sur [THÈME, ex. la première semaine d'entraînement]. Pour chaque idée, donne : un hook de moins de 12 mots, trois points à montrer à l'écran, un appel à l'action. Ne fais aucune promesse de résultat, ne donne aucun conseil médical, et ajoute un rappel à consulter un professionnel quand c'est pertinent."
+ },
+ {
+  "id": 2,
+  "niche": "Cuisine",
+  "titre": "Recettes rapides en vidéo",
+  "prompt": "Agis comme un créateur de contenu culinaire. Public : [PUBLIC, ex. étudiants avec petit budget]. Contraintes : [CONTRAINTES, ex. 20 minutes, 4 ingrédients maximum, un seul feu]. Propose 8 recettes avec, pour chacune : titre accrocheur, liste d'ingrédients, 5 étapes de moins de 12 mots, idée de plan d'ouverture, texte à l'écran et légende de 150 caractères maximum. Signale les allergènes courants."
+ },
+ {
+  "id": 3,
+  "niche": "Beauté et soin",
+  "titre": "Routine de soin pédagogique",
+  "prompt": "Tu es rédacteur pour une chaîne beauté honnête. Type de peau ou de cheveux du public : [TYPE]. Crée un script de 40 secondes sur [SUJET, ex. la routine du soir en trois étapes]. Structure : hook, trois étapes avec ce qu'il faut montrer, conclusion. Évite toute promesse de résultat garanti, les termes médicaux et les comparaisons trompeuses. Ajoute une ligne de mention « contenu non sponsorisé » ou « partenariat » selon [STATUT]."
+ },
+ {
+  "id": 4,
+  "niche": "Voyage",
+  "titre": "Itinéraires courts",
+  "prompt": "Tu es un créateur de contenu voyage. Destination : [DESTINATION]. Durée : [DURÉE]. Budget : [BUDGET]. Je veux 6 vidéos : 3 itinéraires, 2 conseils pratiques, 1 erreur à éviter. Pour chaque vidéo : hook, plan par plan, texte à l'écran et appel à l'action. Indique les informations à vérifier moi-même (horaires, prix, conditions d'entrée) avant de publier."
+ },
+ {
+  "id": 5,
+  "niche": "Finances personnelles",
+  "titre": "Contenus pédagogiques prudents",
+  "prompt": "Tu es un créateur de contenu éducatif sur les finances personnelles. Public : [PUBLIC]. Sujet : [SUJET, ex. suivre ses dépenses]. Rédige 5 scripts de 30 secondes qui expliquent des notions générales sans donner de conseil personnalisé, sans promettre de rendement ni de gain. Ajoute à chaque script un avertissement court (« informations générales, pas un conseil financier ») et une liste des faits que je dois vérifier avant publication."
+ },
+ {
+  "id": 6,
+  "niche": "Immobilier",
+  "titre": "Questions fréquentes des acheteurs",
+  "prompt": "Tu es un agent immobilier qui crée du contenu pédagogique. Zone : [ZONE]. Public : [PUBLIC, ex. primo-accédants]. Liste les 15 questions les plus fréquentes que ce public se pose, puis rédige un script de 40 secondes pour les 5 plus utiles. Mentionne que les règles, taux et démarches changent et doivent être vérifiés auprès de sources officielles. N'invente aucun chiffre."
+ },
+ {
+  "id": 7,
+  "niche": "Études et révisions",
+  "titre": "Méthodes d'apprentissage",
+  "prompt": "Tu es un tuteur qui crée des vidéos courtes. Niveau : [NIVEAU]. Matière : [MATIÈRE]. Propose 8 vidéos montrant une méthode d'apprentissage concrète (fiches, répétition espacée, cartes mentales, etc.). Pour chaque vidéo : hook, démonstration en 3 étapes, exemple avec un vrai extrait de cours que je fournirai : [EXTRAIT], et une question à poser aux spectateurs."
+ },
+ {
+  "id": 8,
+  "niche": "Coaching professionnel",
+  "titre": "Contenu pour candidats en recherche d'emploi",
+  "prompt": "Tu es un coach carrière. Public : [PUBLIC]. Écris 6 scripts de 35 secondes sur [THÈME, ex. répondre à « parlez-moi de vous »]. Pour chacun : hook, exemple de bonne et de mauvaise réponse, texte à l'écran. Utilise des exemples génériques et ne cite aucune entreprise réelle."
+ },
+ {
+  "id": 9,
+  "niche": "E-commerce",
+  "titre": "Présenter un produit honnêtement",
+  "prompt": "Tu es spécialiste du contenu pour boutique en ligne. Produit : [PRODUIT]. Caractéristiques vérifiées : [CARACTÉRISTIQUES]. Public : [PUBLIC]. Crée 5 scripts de 30 secondes (démonstration, avant/après réaliste, question fréquente, erreur d'utilisation, coulisses). N'ajoute aucun avis client inventé ni aucune performance non indiquée dans les caractéristiques fournies."
+ },
+ {
+  "id": 10,
+  "niche": "Restauration locale",
+  "titre": "Contenus pour un restaurant ou un café",
+  "prompt": "Tu es community manager pour un établissement de [TYPE DE LIEU] à [VILLE]. Spécialités : [SPÉCIALITÉS]. Crée un calendrier de 10 idées de vidéos faciles à tourner sur place (coulisses, présentation d'un plat, portrait d'un membre de l'équipe, anecdote). Pour chaque idée : durée, matériel simple, hook, légende. Prévois aussi 3 idées sans visage pour les jours chargés."
+ },
+ {
+  "id": 11,
+  "niche": "Artisanat et DIY",
+  "titre": "Montrer un processus créatif",
+  "prompt": "Tu es un créateur de contenu artisanal. Objet réalisé : [OBJET]. Matériaux : [MATÉRIAUX]. Découpe le processus en 6 plans de tournage avec, pour chacun : ce qu'il faut filmer, durée, texte à l'écran, son d'ambiance à privilégier. Écris ensuite une voix off de 40 secondes et trois idées de hooks."
+ },
+ {
+  "id": 12,
+  "niche": "Jardin et plantes",
+  "titre": "Conseils de saison",
+  "prompt": "Tu es un jardinier amateur qui explique simplement. Région : [RÉGION]. Saison : [SAISON]. Propose 8 vidéos de conseils pratiques avec hook, matériel nécessaire et erreur fréquente. Précise que les conseils dépendent du climat et du sol, et liste les points que je dois vérifier avant de publier."
+ },
+ {
+  "id": 13,
+  "niche": "Bien-être et organisation de vie",
+  "titre": "Routines réalistes",
+  "prompt": "Tu es un créateur de contenu sur les habitudes. Public : [PUBLIC]. Thème : [THÈME]. Écris 6 scripts de 30 secondes sur des routines réalistes, sans promesse de transformation et sans conseil médical. Chaque script contient : hook, trois étapes, texte à l'écran, question finale."
+ },
+ {
+  "id": 14,
+  "niche": "Mode",
+  "titre": "Looks et styling",
+  "prompt": "Tu es styliste pour réseaux sociaux. Pièces disponibles : [LISTE DE VÊTEMENTS]. Saison : [SAISON]. Propose 7 associations de tenues avec, pour chacune : occasion, ordre des plans, texte à l'écran, hook. N'utilise pas de marques non fournies et pas de jugement sur le corps."
+ },
+ {
+  "id": 15,
+  "niche": "Tech et gadgets",
+  "titre": "Tests honnêtes",
+  "prompt": "Tu es un créateur de contenu tech. Produit testé : [PRODUIT]. Mes observations réelles : [OBSERVATIONS]. Rédige un script de 45 secondes équilibré (points forts, limites, pour qui c'est utile) basé uniquement sur mes observations. Ajoute une mention claire si le produit m'a été offert ou prêté : [STATUT]."
+ },
+ {
+  "id": 16,
+  "niche": "Gaming",
+  "titre": "Astuces pour débutants",
+  "prompt": "Tu es un créateur de contenu sur le jeu [NOM DU JEU]. Public : [PUBLIC]. Propose 8 idées de vidéos d'astuces pour débutants avec hook, séquence à montrer, texte à l'écran et question aux commentaires. N'invente pas de mécaniques de jeu : si tu n'es pas sûr, signale-le."
+ },
+ {
+  "id": 17,
+  "niche": "Parentalité",
+  "titre": "Organisation familiale",
+  "prompt": "Tu es un parent créateur de contenu. Thème : [THÈME, ex. organiser les matins]. Écris 5 scripts de 30 secondes basés sur une organisation concrète, avec un ton bienveillant et sans culpabiliser. Ne montre pas de visages d'enfants identifiables dans tes idées de plans : privilégie les mains, les objets et les ambiances."
+ },
+ {
+  "id": 18,
+  "niche": "Animaux de compagnie",
+  "titre": "Conseils pratiques",
+  "prompt": "Tu es un propriétaire d'animal qui partage son expérience. Animal : [ESPÈCE]. Thème : [THÈME]. Propose 6 vidéos avec hook, plans, texte à l'écran et rappel de consulter un vétérinaire pour toute question de santé. N'avance aucune information médicale précise."
+ },
+ {
+  "id": 19,
+  "niche": "Freelance et services",
+  "titre": "Expliquer ses services",
+  "prompt": "Tu es un freelance qui explique son métier au grand public. Métier : [MÉTIER]. Public cible : [PUBLIC]. Crée 6 scripts de 35 secondes : un problème fréquent, une méthode de travail, une erreur de client, une réponse à une objection, un exemple de projet générique, une invitation à prendre contact. N'invente ni client ni résultat chiffré."
+ },
+ {
+  "id": 20,
+  "niche": "Développement de marque personnelle",
+  "titre": "Raconter son histoire",
+  "prompt": "Tu es un coach en storytelling. Voici mon parcours réel : [PARCOURS]. Propose 5 angles de vidéos pour me présenter, avec hook, structure en trois temps (situation, difficulté, apprentissage) et appel à l'action. N'ajoute aucun détail qui ne figure pas dans mon parcours."
+ }
+]

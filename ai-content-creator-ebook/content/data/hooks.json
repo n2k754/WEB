@@ -1,0 +1,302 @@
+[
+ {
+  "id": 1,
+  "niche": "Entrepreneuriat et freelance",
+  "technique": "Question",
+  "hook": "Pourquoi ton premier client ne viendra pas de ton logo ?"
+ },
+ {
+  "id": 2,
+  "niche": "Entrepreneuriat et freelance",
+  "technique": "Erreur",
+  "hook": "L'erreur de débutant qui fait fuir les clients dès le premier message."
+ },
+ {
+  "id": 3,
+  "niche": "Entrepreneuriat et freelance",
+  "technique": "Promesse",
+  "hook": "Voici comment reformuler ton offre en une phrase que tout le monde comprend."
+ },
+ {
+  "id": 4,
+  "niche": "Entrepreneuriat et freelance",
+  "technique": "Mythe",
+  "hook": "Non, tu n'as pas besoin d'un site parfait pour vendre ton premier service."
+ },
+ {
+  "id": 5,
+  "niche": "Entrepreneuriat et freelance",
+  "technique": "Coulisses",
+  "hook": "Je te montre ma méthode pour répondre à un prospect en moins de cinq minutes."
+ },
+ {
+  "id": 6,
+  "niche": "Productivité et études",
+  "technique": "Chiffre",
+  "hook": "Trois réglages sur ton téléphone qui t'aident vraiment à réviser."
+ },
+ {
+  "id": 7,
+  "niche": "Productivité et études",
+  "technique": "Question",
+  "hook": "Tu relis tes cours sans rien retenir ? Essaie ceci à la place."
+ },
+ {
+  "id": 8,
+  "niche": "Productivité et études",
+  "technique": "Avant/après",
+  "hook": "Mon bureau avant et après cette routine de dix minutes."
+ },
+ {
+  "id": 9,
+  "niche": "Productivité et études",
+  "technique": "Mythe",
+  "hook": "Travailler huit heures d'affilée n'est pas la preuve que tu travailles bien."
+ },
+ {
+  "id": 10,
+  "niche": "Productivité et études",
+  "technique": "Promesse",
+  "hook": "Un système simple pour planifier ta semaine en un seul dimanche soir."
+ },
+ {
+  "id": 11,
+  "niche": "Fitness et bien-être",
+  "technique": "Erreur",
+  "hook": "Si ton échauffement ressemble à ça, change-le avant ta prochaine séance."
+ },
+ {
+  "id": 12,
+  "niche": "Fitness et bien-être",
+  "technique": "Débutant",
+  "hook": "Débutant en salle ? Voici l'ordre des exercices que je te conseille de suivre."
+ },
+ {
+  "id": 13,
+  "niche": "Fitness et bien-être",
+  "technique": "Mythe",
+  "hook": "Tu n'as pas besoin de faire des heures de sport pour bouger régulièrement."
+ },
+ {
+  "id": 14,
+  "niche": "Fitness et bien-être",
+  "technique": "Routine",
+  "hook": "Cinq minutes d'étirements le soir : voilà ce que ça change pour moi."
+ },
+ {
+  "id": 15,
+  "niche": "Fitness et bien-être",
+  "technique": "Question",
+  "hook": "Pourquoi tes bonnes résolutions s'arrêtent-elles toujours au bout de deux semaines ?"
+ },
+ {
+  "id": 16,
+  "niche": "Cuisine et alimentation",
+  "technique": "Promesse",
+  "hook": "Un dîner complet en vingt minutes avec trois ingrédients du placard."
+ },
+ {
+  "id": 17,
+  "niche": "Cuisine et alimentation",
+  "technique": "Erreur",
+  "hook": "Tu rates ton riz à chaque fois ? Voici ce que tu fais probablement de travers."
+ },
+ {
+  "id": 18,
+  "niche": "Cuisine et alimentation",
+  "technique": "Astuce",
+  "hook": "Le geste de chef que personne ne t'a montré pour émincer un oignon."
+ },
+ {
+  "id": 19,
+  "niche": "Cuisine et alimentation",
+  "technique": "Budget",
+  "hook": "Je prépare mes repas de la semaine avec un budget serré. Voici le plan."
+ },
+ {
+  "id": 20,
+  "niche": "Cuisine et alimentation",
+  "technique": "Question",
+  "hook": "Et si tu arrêtais de jeter la moitié de ton frigo ?"
+ },
+ {
+  "id": 21,
+  "niche": "Beauté et mode",
+  "technique": "Avant/après",
+  "hook": "Une même tenue, trois façons de la porter selon l'occasion."
+ },
+ {
+  "id": 22,
+  "niche": "Beauté et mode",
+  "technique": "Erreur",
+  "hook": "Cette erreur d'application rend n'importe quel fond de teint moins naturel."
+ },
+ {
+  "id": 23,
+  "niche": "Beauté et mode",
+  "technique": "Capsule",
+  "hook": "Dix pièces, trente tenues : voici comment composer une garde-robe capsule."
+ },
+ {
+  "id": 24,
+  "niche": "Beauté et mode",
+  "technique": "Mythe",
+  "hook": "Non, un produit cher n'est pas forcément mieux adapté à ta peau."
+ },
+ {
+  "id": 25,
+  "niche": "Beauté et mode",
+  "technique": "Tutoriel",
+  "hook": "Le soin du matin que je referais les yeux fermés, étape par étape."
+ },
+ {
+  "id": 26,
+  "niche": "Voyage",
+  "technique": "Plan",
+  "hook": "Un week-end à Lisbonne sans stress : mon itinéraire heure par heure."
+ },
+ {
+  "id": 27,
+  "niche": "Voyage",
+  "technique": "Erreur",
+  "hook": "Trois erreurs de réservation que je ne referai plus jamais."
+ },
+ {
+  "id": 28,
+  "niche": "Voyage",
+  "technique": "Budget",
+  "hook": "Comment j'organise un voyage de dix jours en gardant un budget clair."
+ },
+ {
+  "id": 29,
+  "niche": "Voyage",
+  "technique": "Question",
+  "hook": "Pourquoi les meilleurs souvenirs de voyage viennent rarement du programme prévu ?"
+ },
+ {
+  "id": 30,
+  "niche": "Voyage",
+  "technique": "Astuce",
+  "hook": "Le petit geste qui m'évite de perdre mes documents en voyage."
+ },
+ {
+  "id": 31,
+  "niche": "Finances personnelles",
+  "technique": "Question",
+  "hook": "Sais-tu vraiment où part ton argent à la fin du mois ?"
+ },
+ {
+  "id": 32,
+  "niche": "Finances personnelles",
+  "technique": "Méthode",
+  "hook": "La règle simple que j'utilise pour répartir mon budget sans me prendre la tête."
+ },
+ {
+  "id": 33,
+  "niche": "Finances personnelles",
+  "technique": "Erreur",
+  "hook": "Cette habitude de dépense paraît anodine, mais elle pèse sur ton budget."
+ },
+ {
+  "id": 34,
+  "niche": "Finances personnelles",
+  "technique": "Mythe",
+  "hook": "Non, tu n'as pas besoin d'être expert pour tenir un budget."
+ },
+ {
+  "id": 35,
+  "niche": "Finances personnelles",
+  "technique": "Rappel",
+  "hook": "Informations générales, pas un conseil financier : voici comment démarrer un suivi de dépenses."
+ },
+ {
+  "id": 36,
+  "niche": "Tech et intelligence artificielle",
+  "technique": "Démonstration",
+  "hook": "Je demande à l'IA de réécrire mon texte en trois tons différents. Regarde le résultat."
+ },
+ {
+  "id": 37,
+  "niche": "Tech et intelligence artificielle",
+  "technique": "Erreur",
+  "hook": "Si ton prompt ressemble à ça, l'IA ne peut pas deviner ce que tu veux."
+ },
+ {
+  "id": 38,
+  "niche": "Tech et intelligence artificielle",
+  "technique": "Comparaison",
+  "hook": "Même question posée à deux assistants : voici les différences que j'ai observées."
+ },
+ {
+  "id": 39,
+  "niche": "Tech et intelligence artificielle",
+  "technique": "Question",
+  "hook": "Peux-tu reconnaître un texte écrit par une IA ? Teste-toi avec cet exemple."
+ },
+ {
+  "id": 40,
+  "niche": "Tech et intelligence artificielle",
+  "technique": "Astuce",
+  "hook": "Un seul détail dans ton prompt suffit à rendre la réponse beaucoup plus utile."
+ },
+ {
+  "id": 41,
+  "niche": "Développement personnel",
+  "technique": "Histoire",
+  "hook": "Il y a un an, je n'osais pas parler devant une caméra. Voici ce qui m'a aidé."
+ },
+ {
+  "id": 42,
+  "niche": "Développement personnel",
+  "technique": "Question",
+  "hook": "Qu'est-ce qui te retient vraiment de commencer ce projet ?"
+ },
+ {
+  "id": 43,
+  "niche": "Développement personnel",
+  "technique": "Méthode",
+  "hook": "Ma routine de dix minutes pour clarifier mes priorités chaque matin."
+ },
+ {
+  "id": 44,
+  "niche": "Développement personnel",
+  "technique": "Mythe",
+  "hook": "La motivation ne vient pas avant l'action, elle vient souvent après."
+ },
+ {
+  "id": 45,
+  "niche": "Développement personnel",
+  "technique": "Rappel",
+  "hook": "Un petit pas aujourd'hui vaut mieux qu'un grand plan jamais lancé."
+ },
+ {
+  "id": 46,
+  "niche": "Maison, déco et DIY",
+  "technique": "Avant/après",
+  "hook": "Une pièce de vingt mètres carrés transformée avec un petit budget."
+ },
+ {
+  "id": 47,
+  "niche": "Maison, déco et DIY",
+  "technique": "Erreur",
+  "hook": "Cette erreur d'éclairage change toute l'ambiance de ton salon."
+ },
+ {
+  "id": 48,
+  "niche": "Maison, déco et DIY",
+  "technique": "Tutoriel",
+  "hook": "Je répare cette étagère en quinze minutes avec des outils de base."
+ },
+ {
+  "id": 49,
+  "niche": "Maison, déco et DIY",
+  "technique": "Astuce",
+  "hook": "Le rangement vertical qui m'a fait gagner une étagère entière."
+ },
+ {
+  "id": 50,
+  "niche": "Maison, déco et DIY",
+  "technique": "Question",
+  "hook": "Ton petit espace est-il vraiment trop petit, ou juste mal organisé ?"
+ }
+]

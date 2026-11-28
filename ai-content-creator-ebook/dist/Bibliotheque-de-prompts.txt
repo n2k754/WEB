@@ -1,0 +1,304 @@
+AI CONTENT CREATOR — BIBLIOTHÈQUE DE PROMPTS
+Remplacez chaque [VARIABLE] par vos informations. Vérifiez toujours les faits générés.
+
+=== PARTIE 1 : 20 PROMPTS PAR NICHE ===
+
+#1 [Fitness] Programme de contenus pour débutants
+
+Tu es un coach sportif pédagogue qui crée du contenu pour TikTok. Mon public : [PUBLIC, ex. débutants en salle de 25-35 ans]. Mon style : [STYLE, ex. simple et encourageant]. Propose 10 idées de vidéos de 30 à 45 secondes sur [THÈME, ex. la première semaine d'entraînement]. Pour chaque idée, donne : un hook de moins de 12 mots, trois points à montrer à l'écran, un appel à l'action. Ne fais aucune promesse de résultat, ne donne aucun conseil médical, et ajoute un rappel à consulter un professionnel quand c'est pertinent.
+
+----------------------------------------------------------------------
+
+#2 [Cuisine] Recettes rapides en vidéo
+
+Agis comme un créateur de contenu culinaire. Public : [PUBLIC, ex. étudiants avec petit budget]. Contraintes : [CONTRAINTES, ex. 20 minutes, 4 ingrédients maximum, un seul feu]. Propose 8 recettes avec, pour chacune : titre accrocheur, liste d'ingrédients, 5 étapes de moins de 12 mots, idée de plan d'ouverture, texte à l'écran et légende de 150 caractères maximum. Signale les allergènes courants.
+
+----------------------------------------------------------------------
+
+#3 [Beauté et soin] Routine de soin pédagogique
+
+Tu es rédacteur pour une chaîne beauté honnête. Type de peau ou de cheveux du public : [TYPE]. Crée un script de 40 secondes sur [SUJET, ex. la routine du soir en trois étapes]. Structure : hook, trois étapes avec ce qu'il faut montrer, conclusion. Évite toute promesse de résultat garanti, les termes médicaux et les comparaisons trompeuses. Ajoute une ligne de mention « contenu non sponsorisé » ou « partenariat » selon [STATUT].
+
+----------------------------------------------------------------------
+
+#4 [Voyage] Itinéraires courts
+
+Tu es un créateur de contenu voyage. Destination : [DESTINATION]. Durée : [DURÉE]. Budget : [BUDGET]. Je veux 6 vidéos : 3 itinéraires, 2 conseils pratiques, 1 erreur à éviter. Pour chaque vidéo : hook, plan par plan, texte à l'écran et appel à l'action. Indique les informations à vérifier moi-même (horaires, prix, conditions d'entrée) avant de publier.
+
+----------------------------------------------------------------------
+
+#5 [Finances personnelles] Contenus pédagogiques prudents
+
+Tu es un créateur de contenu éducatif sur les finances personnelles. Public : [PUBLIC]. Sujet : [SUJET, ex. suivre ses dépenses]. Rédige 5 scripts de 30 secondes qui expliquent des notions générales sans donner de conseil personnalisé, sans promettre de rendement ni de gain. Ajoute à chaque script un avertissement court (« informations générales, pas un conseil financier ») et une liste des faits que je dois vérifier avant publication.
+
+----------------------------------------------------------------------
+
+#6 [Immobilier] Questions fréquentes des acheteurs
+
+Tu es un agent immobilier qui crée du contenu pédagogique. Zone : [ZONE]. Public : [PUBLIC, ex. primo-accédants]. Liste les 15 questions les plus fréquentes que ce public se pose, puis rédige un script de 40 secondes pour les 5 plus utiles. Mentionne que les règles, taux et démarches changent et doivent être vérifiés auprès de sources officielles. N'invente aucun chiffre.
+
+----------------------------------------------------------------------
+
+#7 [Études et révisions] Méthodes d'apprentissage
+
+Tu es un tuteur qui crée des vidéos courtes. Niveau : [NIVEAU]. Matière : [MATIÈRE]. Propose 8 vidéos montrant une méthode d'apprentissage concrète (fiches, répétition espacée, cartes mentales, etc.). Pour chaque vidéo : hook, démonstration en 3 étapes, exemple avec un vrai extrait de cours que je fournirai : [EXTRAIT], et une question à poser aux spectateurs.
+
+----------------------------------------------------------------------
+
+#8 [Coaching professionnel] Contenu pour candidats en recherche d'emploi
+
+Tu es un coach carrière. Public : [PUBLIC]. Écris 6 scripts de 35 secondes sur [THÈME, ex. répondre à « parlez-moi de vous »]. Pour chacun : hook, exemple de bonne et de mauvaise réponse, texte à l'écran. Utilise des exemples génériques et ne cite aucune entreprise réelle.
+
+----------------------------------------------------------------------
+
+#9 [E-commerce] Présenter un produit honnêtement
+
+Tu es spécialiste du contenu pour boutique en ligne. Produit : [PRODUIT]. Caractéristiques vérifiées : [CARACTÉRISTIQUES]. Public : [PUBLIC]. Crée 5 scripts de 30 secondes (démonstration, avant/après réaliste, question fréquente, erreur d'utilisation, coulisses). N'ajoute aucun avis client inventé ni aucune performance non indiquée dans les caractéristiques fournies.
+
+----------------------------------------------------------------------
+
+#10 [Restauration locale] Contenus pour un restaurant ou un café
+
+Tu es community manager pour un établissement de [TYPE DE LIEU] à [VILLE]. Spécialités : [SPÉCIALITÉS]. Crée un calendrier de 10 idées de vidéos faciles à tourner sur place (coulisses, présentation d'un plat, portrait d'un membre de l'équipe, anecdote). Pour chaque idée : durée, matériel simple, hook, légende. Prévois aussi 3 idées sans visage pour les jours chargés.
+
+----------------------------------------------------------------------
+
+#11 [Artisanat et DIY] Montrer un processus créatif
+
+Tu es un créateur de contenu artisanal. Objet réalisé : [OBJET]. Matériaux : [MATÉRIAUX]. Découpe le processus en 6 plans de tournage avec, pour chacun : ce qu'il faut filmer, durée, texte à l'écran, son d'ambiance à privilégier. Écris ensuite une voix off de 40 secondes et trois idées de hooks.
+
+----------------------------------------------------------------------
+
+#12 [Jardin et plantes] Conseils de saison
+
+Tu es un jardinier amateur qui explique simplement. Région : [RÉGION]. Saison : [SAISON]. Propose 8 vidéos de conseils pratiques avec hook, matériel nécessaire et erreur fréquente. Précise que les conseils dépendent du climat et du sol, et liste les points que je dois vérifier avant de publier.
+
+----------------------------------------------------------------------
+
+#13 [Bien-être et organisation de vie] Routines réalistes
+
+Tu es un créateur de contenu sur les habitudes. Public : [PUBLIC]. Thème : [THÈME]. Écris 6 scripts de 30 secondes sur des routines réalistes, sans promesse de transformation et sans conseil médical. Chaque script contient : hook, trois étapes, texte à l'écran, question finale.
+
+----------------------------------------------------------------------
+
+#14 [Mode] Looks et styling
+
+Tu es styliste pour réseaux sociaux. Pièces disponibles : [LISTE DE VÊTEMENTS]. Saison : [SAISON]. Propose 7 associations de tenues avec, pour chacune : occasion, ordre des plans, texte à l'écran, hook. N'utilise pas de marques non fournies et pas de jugement sur le corps.
+
+----------------------------------------------------------------------
+
+#15 [Tech et gadgets] Tests honnêtes
+
+Tu es un créateur de contenu tech. Produit testé : [PRODUIT]. Mes observations réelles : [OBSERVATIONS]. Rédige un script de 45 secondes équilibré (points forts, limites, pour qui c'est utile) basé uniquement sur mes observations. Ajoute une mention claire si le produit m'a été offert ou prêté : [STATUT].
+
+----------------------------------------------------------------------
+
+#16 [Gaming] Astuces pour débutants
+
+Tu es un créateur de contenu sur le jeu [NOM DU JEU]. Public : [PUBLIC]. Propose 8 idées de vidéos d'astuces pour débutants avec hook, séquence à montrer, texte à l'écran et question aux commentaires. N'invente pas de mécaniques de jeu : si tu n'es pas sûr, signale-le.
+
+----------------------------------------------------------------------
+
+#17 [Parentalité] Organisation familiale
+
+Tu es un parent créateur de contenu. Thème : [THÈME, ex. organiser les matins]. Écris 5 scripts de 30 secondes basés sur une organisation concrète, avec un ton bienveillant et sans culpabiliser. Ne montre pas de visages d'enfants identifiables dans tes idées de plans : privilégie les mains, les objets et les ambiances.
+
+----------------------------------------------------------------------
+
+#18 [Animaux de compagnie] Conseils pratiques
+
+Tu es un propriétaire d'animal qui partage son expérience. Animal : [ESPÈCE]. Thème : [THÈME]. Propose 6 vidéos avec hook, plans, texte à l'écran et rappel de consulter un vétérinaire pour toute question de santé. N'avance aucune information médicale précise.
+
+----------------------------------------------------------------------
+
+#19 [Freelance et services] Expliquer ses services
+
+Tu es un freelance qui explique son métier au grand public. Métier : [MÉTIER]. Public cible : [PUBLIC]. Crée 6 scripts de 35 secondes : un problème fréquent, une méthode de travail, une erreur de client, une réponse à une objection, un exemple de projet générique, une invitation à prendre contact. N'invente ni client ni résultat chiffré.
+
+----------------------------------------------------------------------
+
+#20 [Développement de marque personnelle] Raconter son histoire
+
+Tu es un coach en storytelling. Voici mon parcours réel : [PARCOURS]. Propose 5 angles de vidéos pour me présenter, avec hook, structure en trois temps (situation, difficulté, apprentissage) et appel à l'action. N'ajoute aucun détail qui ne figure pas dans mon parcours.
+
+----------------------------------------------------------------------
+
+=== PARTIE 2 : 27 PROMPTS GÉNÉRAUX ===
+
+--- RECHERCHE ET STRATÉGIE ---
+
+Définir mon public
+
+Je veux créer du contenu sur [THÈME]. Pose-moi 10 questions, une à la fois, pour définir mon public (situation, objectifs, obstacles, vocabulaire). Quand j'ai répondu, résume le profil en 5 lignes.
+
+----------------------------------------------------------------------
+
+Piliers de contenu
+
+Propose 4 piliers de contenu pour un compte sur [THÈME] destiné à [PUBLIC]. Pour chaque pilier : objectif, 5 sujets, format conseillé et un exemple de hook. Dis-moi aussi quels sujets éviter si je veux rester crédible.
+
+----------------------------------------------------------------------
+
+Analyse d'un concurrent (observation éthique)
+
+Voici trois profils publics de mon domaine : [NOMS]. À partir de mes observations suivantes : [OBSERVATIONS], aide-moi à identifier des angles que je peux traiter différemment. Ne reproduis aucun contenu : propose uniquement des idées originales et des angles complémentaires.
+
+----------------------------------------------------------------------
+
+Positionnement en une phrase
+
+Je veux m'adresser à [PUBLIC] pour l'aider à [RÉSULTAT]. Écris 8 formulations de positionnement en une phrase, dans un style [STYLE]. Classe-les de la plus claire à la plus originale.
+
+----------------------------------------------------------------------
+
+--- IDÉES ---
+
+Banque d'idées
+
+Génère 30 idées de vidéos de moins d'une minute pour [THÈME] et [PUBLIC]. Classe-les par pilier : [PILIERS]. Pour chaque idée, ajoute un niveau de difficulté de tournage (1 à 3).
+
+----------------------------------------------------------------------
+
+Idées à partir d'une question d'audience
+
+Voici 10 questions réelles de mon audience : [QUESTIONS]. Transforme chacune en idée de vidéo avec un titre, un hook et un angle (conseil, erreur, démonstration).
+
+----------------------------------------------------------------------
+
+Idées de séries
+
+Propose 5 idées de séries récurrentes pour [THÈME], chacune avec un nom, un format fixe de 3 parties, une durée et 5 premiers épisodes.
+
+----------------------------------------------------------------------
+
+Idées pour jours de faible énergie
+
+J'ai peu de temps et peu d'énergie. Propose 10 idées de vidéos faciles (moins de 10 minutes au total) pour [THÈME], utilisables en story ou en short.
+
+----------------------------------------------------------------------
+
+--- HOOKS ---
+
+Hooks par technique
+
+Écris 3 hooks pour chacune de ces techniques : question, erreur à éviter, mythe, chiffre vérifiable, mini-histoire. Sujet : [SUJET]. Public : [PUBLIC]. Maximum 14 mots, aucune exagération.
+
+----------------------------------------------------------------------
+
+Améliorer un hook
+
+Voici mon hook : « [HOOK] ». Propose 5 variantes plus claires, plus courtes ou plus concrètes. Explique en une phrase ce que chaque variante change.
+
+----------------------------------------------------------------------
+
+Test A/B de hooks
+
+Pour la même vidéo sur [SUJET], crée 3 hooks très différents que je pourrai tester sur trois publications. Précise l'hypothèse de chacun.
+
+----------------------------------------------------------------------
+
+--- SCRIPTS ---
+
+Script complet
+
+Écris un script de [DURÉE] pour une vidéo sur [SUJET], destinée à [PUBLIC]. Format : tableau avec les colonnes : plan, ce qu'on voit, voix off, texte à l'écran. Ajoute un hook dans les 2 premières secondes et un appel à l'action unique : [CTA].
+
+----------------------------------------------------------------------
+
+Raccourcir un script
+
+Voici mon script : [SCRIPT]. Réduis-le à [DURÉE] en gardant l'idée centrale. Supprime les redites et garde mon ton. Montre ce que tu as retiré.
+
+----------------------------------------------------------------------
+
+Rendre un script plus oral
+
+Réécris ce texte pour qu'il sonne naturel à l'oral : phrases courtes, mots simples, pas de formulations d'article : [TEXTE]. Garde le sens et ne rajoute aucune information.
+
+----------------------------------------------------------------------
+
+Transformer un article en script
+
+Voici un texte que j'ai écrit : [TEXTE]. Extrais l'idée principale et rédige un script vidéo de [DURÉE] fidèle à mon contenu, avec hook et appel à l'action.
+
+----------------------------------------------------------------------
+
+--- LÉGENDES ET PUBLICATION ---
+
+Légendes optimisées
+
+Écris 3 légendes pour cette vidéo : [RÉSUMÉ]. Chaque légende contient une première ligne claire, un contexte en une phrase, un appel à l'action et 5 mots-clés pertinents (sans hashtags excessifs).
+
+----------------------------------------------------------------------
+
+Réponses aux commentaires
+
+Voici des commentaires reçus : [COMMENTAIRES]. Propose pour chacun une réponse brève, chaleureuse et utile, et signale ceux qui pourraient devenir une vidéo.
+
+----------------------------------------------------------------------
+
+Mentions de transparence
+
+Je publie une vidéo qui contient [ÉLÉMENTS GÉNÉRÉS PAR IA]. Propose trois formulations courtes et claires pour l'indiquer à mon audience, et rappelle-moi de vérifier les règles actuelles de la plateforme.
+
+----------------------------------------------------------------------
+
+--- RÉUTILISATION DE CONTENU ---
+
+Une idée, trois formats
+
+Prends ce contenu : [CONTENU]. Adapte-le en : un short vidéo de 30 secondes, un carrousel de 7 slides et une légende texte. Garde l'idée centrale mais change la structure pour chaque format.
+
+----------------------------------------------------------------------
+
+Version faceless
+
+Transforme ce script en version faceless : [SCRIPT]. Propose pour chaque scène un type de visuel que je peux filmer moi-même ou obtenir sous licence, un texte à l'écran et une indication sonore.
+
+----------------------------------------------------------------------
+
+Traduire en gardant le ton
+
+Traduis ce script en [LANGUE] en gardant un ton naturel et des phrases courtes : [SCRIPT]. Indique les expressions qui ne se traduisent pas littéralement.
+
+----------------------------------------------------------------------
+
+--- ANALYSE ---
+
+Lecture de statistiques
+
+Voici mes résultats sur 5 vidéos : [DONNÉES]. Analyse les différences sans tirer de conclusion hâtive : propose 3 hypothèses, comment les tester, et ce que je dois mesurer ensuite. Rappelle les limites d'un petit échantillon.
+
+----------------------------------------------------------------------
+
+Diagnostic de rétention
+
+Ma vidéo perd beaucoup de spectateurs à [MOMENT]. Voici le script : [SCRIPT]. Propose 5 modifications possibles pour la prochaine version (rythme, ordre, hook, coupes).
+
+----------------------------------------------------------------------
+
+Bilan hebdomadaire
+
+Voici mes publications de la semaine et mes chiffres : [DONNÉES]. Aide-moi à rédiger un bilan en 5 lignes : ce qui a marché, ce qui a moins marché, une expérience à tester la semaine prochaine.
+
+----------------------------------------------------------------------
+
+--- QUALITÉ ET VÉRIFICATION ---
+
+Relecture factuelle
+
+Relis ce script : [SCRIPT]. Liste toutes les affirmations factuelles que je dois vérifier avant publication et indique le type de source fiable à consulter. N'invente aucune source.
+
+----------------------------------------------------------------------
+
+Détection de promesses excessives
+
+Relis ce texte : [TEXTE]. Repère toute promesse de résultat, d'argent ou de transformation, et propose une reformulation honnête et prudente.
+
+----------------------------------------------------------------------
+
+Respect des droits
+
+Voici le contenu que je prévois de publier : [DESCRIPTION : images, musique, extraits]. Liste les points de vigilance sur le droit d'auteur et les licences, et rappelle-moi de vérifier les conditions de chaque source.
+
+----------------------------------------------------------------------
